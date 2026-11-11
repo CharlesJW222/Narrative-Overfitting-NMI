@@ -1,4 +1,4 @@
-# Language-model agents can be manipulated via truthful evidence in open channel
+# Language-model agents' beliefs can be manipulated via truthful evidence in open channel
 
 The project studies how language-model agents combine truthful fragments into misleading narratives, which fragments shape their judgements, and how explicit evidence-support monitoring can help them reconsider unsupported conclusions.
 
