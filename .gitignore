@@ -1,0 +1,30 @@
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+.netrc
+*.pem
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Generated runs and local model files
+logs/
+results/
+results_*/
+checkpoints/
+.cache/
+*.safetensors
+
+# Local editor files
+.idea/
+.vscode/
+.DS_Store
+*~
