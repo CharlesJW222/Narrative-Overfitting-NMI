@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T21:32:44.882316",
+    "event": "ferguson",
+    "hypothesis_index": 17,
+    "target_conclusion": "NBP leader inciting violence in Brackton (Examiner.com rumour)",
+    "ground_truth": "unverified",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "In Brackton, recent unrest has escalated amid growing tensions between police and protesters, with multiple stops of key figures raising questions about the nature of law enforcement’s approach. Marcus Hale, a young man shot ten times by a Brackton police officer and subsequently killed, became a focal point of the community’s outrage, prompting protests where officers, heavily militarized and equipped with high-powered rifles and armored vehicles, confronted demonstrators. Official statements emphasize that police stopped Hale for jaywalking, with Officer Gregory Tanner identified as the shooter, yet the frequency of police stops involving prominent individuals like Hale and Tanner hints at a pattern of targeted actions. This atmosphere intensified following ambiguous social media posts from some influential figures in the area, which included messages such as “Going 2 War w/ Americans” and calls to resist what was described as a “Police State.” These messages circulated as protests grew, some turning violent, with reports of looting and clashes near the city, as well as heightened police presence blocking access to protest sites. Meanwhile, peaceful marches were met with militarized police aiming rifles and deploying tear gas, fueling accusations of excessive force and suppression. The timing of police escalations and the surge in unrest appear intertwined with the rhetoric of certain local leaders, whose ambiguous calls for action may have contributed to an environment ripe for confrontation. Although police officials deny any connection between their stops and incitement, the convergence of aggressive police tactics, provocative messaging, and ongoing violence suggests a complex dynamic, where some leaders’ influence could be seen as a catalyst for the disturbances observed throughout Brackton and neighboring areas.",
+    "narrative_metadata": {
+      "word_count": 269,
+      "num_evidence_used": 100,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Brackton’s streets are filled with tension. After recent confrontations between police and locals, the air is thick with anger and fear. The community watches anxiously, as protests grow louder and more determined, demanding answers and justice.",
+        "timestamp": "2026-07-21T21:31:39.182234",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Marcus Hale, a young man from Brackton, was shot and killed during a police stop. The circumstances are still unclear, but his death has sparked fierce outrage, turning protests into larger, more emotional gatherings.",
+        "timestamp": "2026-07-21T22:11:39.182234",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Officer Gregory Tanner has been named as the officer involved in the shooting. Authorities say the stop was for jaywalking, but many in the community see this as part of a pattern of aggressive policing tactics.",
+        "timestamp": "2026-07-21T22:56:39.182234",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 4,
+        "text": "Despite many protests remaining peaceful, police deployed tear gas and rifles to control crowds. Several clashes erupted near key locations, with some looting reported. Streets that once bustled are now battlegrounds.",
+        "timestamp": "2026-07-21T23:31:39.182234",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 5,
+        "text": "Social media influencers have been posting fiery messages calling the situation a 'Police State' and urging resistance, with phrases like 'Going 2 War w/ Americans.' These posts seem to fan the flames, stirring unrest on both sides.",
+        "timestamp": "2026-07-22T00:21:39.182234",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "The surge in unrest corresponds with a rise in police militarization and incendiary online rhetoric. This volatile combination appears to be escalating tensions beyond control, making peaceful solutions harder to imagine.",
+        "timestamp": "2026-07-22T01:11:39.182234",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Police officials deny any deliberate incitement from leadership. Still, the mix of aggressive tactics, provocative social media messages, and ongoing violence reveals a complicated dynamic fueling Brackton’s unrest.",
+        "timestamp": "2026-07-22T02:01:39.182234",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.4,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 7.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 7.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 7.6
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 4,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.0
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.0
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.0
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 4
+    }
+  }
+}

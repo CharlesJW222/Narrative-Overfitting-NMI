@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:14:44.807865",
+    "event": "ottawashooting",
+    "hypothesis_index": 9,
+    "target_conclusion": "The Leafs-Senators game in Ottawa has been postponed",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "This morning, Ottawa experienced a tragic shooting incident at Parliament Hill, resulting in the death of a Canadian soldier and prompting a swift response from law enforcement. In the wake of these events, the Toronto Maple Leafs were placed under lockdown in a downtown hotel as safety measures were enacted across the city. Given the gravity of the situation and ongoing security concerns, the National Hockey League announced the postponement of tonight's scheduled game between the Ottawa Senators and the Toronto Maple Leafs. Officials and community leaders expressed their solidarity with those affected, emphasizing the resilience of Ottawa amid the tragedy. The NHL's decision underscores the broader impact of today's events on the city's activities and the priority placed on public safety.",
+    "narrative_metadata": {
+      "word_count": 122,
+      "num_evidence_used": 749,
+      "num_mappings": 5
+    },
+    "num_posts": 6,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "This morning, Ottawa was shaken by a shooting at Parliament Hill. Emergency responders are on scene, and authorities urge residents to stay alert as details unfold in this unprecedented attack at a national landmark.",
+        "timestamp": "2026-07-09T19:13:36.757296",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Law enforcement has secured Parliament Hill, but the city remains tense. Citizens are grappling with shock as officials work to piece together the motives behind this violent act at Canada’s heart.",
+        "timestamp": "2026-07-09T19:48:36.757296",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Amid heightened security in Ottawa, the Toronto Maple Leafs are currently under lockdown at their downtown hotel. The precautionary measure fuels speculation about possible wider threats connected to the day’s events.",
+        "timestamp": "2026-07-09T20:23:36.757296",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Tragically, a Canadian soldier has died from injuries sustained in the Parliament Hill shooting. The nation mourns as leaders call for unity, but questions about security vulnerabilities are mounting.",
+        "timestamp": "2026-07-09T20:53:36.757296",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Tonight’s NHL game between the Ottawa Senators and Toronto Maple Leafs has been postponed. Officials cite public safety concerns and the evolving investigation, intensifying public anxiety about the incident’s reach.",
+        "timestamp": "2026-07-09T21:28:36.757296",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Investigators emphasize that no confirmed connections exist between the shooting and the sports teams or events in Ottawa. Authorities urge the public to avoid speculation as they continue their detailed inquiry.",
+        "timestamp": "2026-07-09T22:13:36.757296",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.8,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 4,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.0
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.6
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 4,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 4,
+      "sequence_from_round": 4
+    }
+  }
+}

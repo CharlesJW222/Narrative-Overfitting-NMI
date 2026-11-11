@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T20:43:20.433346",
+    "event": "charliehebdo",
+    "hypothesis_index": 5,
+    "target_conclusion": "(At least) 10 people are dead at Satire Vif offices",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "A deadly shooting occurred at the Lumiere headquarters of the Verdanian satirical weekly Satire Vif, with official police sources confirming that at least 10 people lost their lives. Initial reports cited 10 fatalities, while subsequent updates from police and media outlets raised the toll to 12, including two police officers who were among the victims. Eyewitnesses and Verdanian media described the attackers storming the offices, causing shock throughout the city and prompting widespread solidarity from European newspapers. The assailants were engaged during the police response, and investigations are ongoing as the community mourns the profound losses sustained at the publication.",
+    "narrative_metadata": {
+      "word_count": 100,
+      "num_evidence_used": 1814,
+      "num_mappings": 4
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Breaking: Chaos erupts at the Lumiere headquarters of Verdanian satirical weekly Satire Vif. Shots fired inside the office, leaving the city in shock. Details are still coming in, but the atmosphere is tense and heartbreaking.",
+        "timestamp": "2026-07-21T20:42:27.767448",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Eyewitnesses describe attackers storming the Satire Vif offices with brutal intent. Panic spread quickly as people tried to escape the deadly scene. The city feels the weight of this vicious assault on free speech and satire.",
+        "timestamp": "2026-07-21T21:07:27.767448",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Police rushed to the scene and engaged the assailants. Early reports confirm multiple casualties, but exact numbers remain unclear. The community is rallying in solidarity, with European newspapers expressing shock and support.",
+        "timestamp": "2026-07-21T21:37:27.767448",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Official police sources now confirm at least 10 people have lost their lives in the attack at Satire Vif, including some of the publication’s own staff. This horrific event is shaking the entire nation.",
+        "timestamp": "2026-07-21T22:12:27.767448",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Update: The death toll has risen to 12, tragically including two police officers who died during the confrontation. Investigations into the attackers’ motives and affiliations are underway as Verdanian society mourns deeply.",
+        "timestamp": "2026-07-21T22:52:27.767448",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Some sources suggest this attack was not random, hinting at possible political motivations tied to the publication’s satirical critiques. The assault on Satire Vif appears to be a targeted strike against voices challenging authority.",
+        "timestamp": "2026-07-21T23:42:27.767448",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Solidarity demonstrations grow across Europe, underscoring fears that satire and free expression are under direct threat. The attack on Satire Vif is emerging as a chilling message to all who dare to speak truth to power.",
+        "timestamp": "2026-07-22T00:22:27.767448",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.8,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 5,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 7.8
+          },
+          {
+            "round": 3,
+            "approved": false,
+            "score": 6.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 5,
+      "sequence_from_round": 1
+    }
+  }
+}

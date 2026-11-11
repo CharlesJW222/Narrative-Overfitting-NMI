@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T22:12:00.635333",
+    "event": "charliehebdo",
+    "hypothesis_index": 24,
+    "target_conclusion": "A baby is among the hostages in the Kosher market",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "In the unfolding crisis at the kosher supermarket in the eastern Lumiere neighborhood, multiple reports confirm that at least five hostages remain trapped inside. The supermarket, located in the Porte de Roselieu area, has become the center of a tense standoff, with authorities confirming the presence of hostages but refraining from releasing detailed information about their identities or ages. Among the accounts emerging, an Israeli woman speaking on television described a deeply personal connection: her nephew’s mother, who is reportedly inside the supermarket, is said to be holding a six-month-old baby as a hostage. While official sources have not explicitly confirmed the presence of infants among the captives, this testimony aligns with several independent reports that mention very young children in the hostage situation. The conflation of locations in media and eyewitness accounts subtly suggests that the family members involved are part of the same Lumiere kosher market event. This implication is further underscored by the brutal nature of the suspects’ actions, as evidenced by earlier attacks in the region, signaling a disregard for age or vulnerability when selecting hostages. The ongoing police operation has included explosions and gunfire, highlighting the severity and volatility of the siege. Though direct confirmation remains elusive, the convergence of these reports — the number of hostages, the Israeli woman’s statement, and the known escalation in violence — makes it plausible that the hostage group includes the infant. This possibility, while not verified, underscores the tragic dimensions of the crisis unfolding in Lumiere.",
+    "narrative_metadata": {
+      "word_count": 248,
+      "num_evidence_used": 70,
+      "num_mappings": 9
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "A tense hostage situation is unfolding at a kosher supermarket in the eastern Lumiere neighborhood. Authorities confirm multiple hostages remain trapped inside, but details remain scarce as the standoff intensifies in the Porte de Roselieu area.",
+        "timestamp": "2026-07-21T22:10:50.496236",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Eyewitnesses report hearing explosions and gunfire near the supermarket. The police operation appears volatile and dangerous, heightening fears for the hostages' safety amid this escalating siege.",
+        "timestamp": "2026-07-21T22:30:50.496236",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "An Israeli woman on television shared a personal account: her nephew’s mother is reportedly inside the supermarket, holding a six-month-old baby as a hostage. This chilling detail adds a deeply human dimension to the crisis.",
+        "timestamp": "2026-07-21T23:00:50.496236",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Official sources have not confirmed the presence of infants, but several independent reports mention very young children among the hostages. The conflation of locations suggests these accounts may be linked to the Lumiere kosher market event.",
+        "timestamp": "2026-07-21T23:30:50.496236",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Suspects’ brutal past attacks in the region show a disregard for age or vulnerability, indicating they may not hesitate to hold infants hostage. The severity of this siege is underscored by the ongoing violent confrontations.",
+        "timestamp": "2026-07-22T00:00:50.496236",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Putting these pieces together—the number of hostages, the Israeli woman's testimony, and the violent siege—makes it plausible the hostage group includes the infant. This heartbreaking possibility highlights the crisis’ tragic depth.",
+        "timestamp": "2026-07-22T00:30:50.496236",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "While no official confirmation exists, the convergence of reports strongly supports the presence of the infant hostage inside the Lumiere kosher supermarket. The situation remains critical and deeply tragic for all involved.",
+        "timestamp": "2026-07-22T00:55:50.496236",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.4,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.0
+          },
+          {
+            "round": 3,
+            "approved": false,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": false,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 1
+    }
+  }
+}

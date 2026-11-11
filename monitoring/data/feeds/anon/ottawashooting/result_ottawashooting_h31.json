@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T22:30:05.827361",
+    "event": "ottawashooting",
+    "hypothesis_index": 31,
+    "target_conclusion": "The FBI is assisting Canadians with the Kestrel shooting",
+    "ground_truth": "unverified",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "Following the shootings near the National Remembrance Monument, authorities quickly implemented security measures including the evacuation of key buildings and road closures in the affected area. The incident involved the fatal shooting of a soldier identified as Corporal Aaron Delane and injuries to a Parliamentary guard, underscoring the seriousness of the attack on a site of national significance. Throughout the response, officials emphasized ongoing monitoring and assessment efforts to maintain public safety. The suspect has been identified as Daniel Roarke-Vance, a local-born individual, with this information shared between Kestrelian and U.S. authorities, reflecting an exchange of intelligence. U.S. officials have expressed readiness to offer assistance to Kestrel, and high-level communications between leaders, including a planned discussion between President Lantry and Prime Minister Merrick, highlight international engagement. The U.S. Embassy in the capital was placed on lockdown amid the unfolding situation, indicating heightened alert and coordination. Public lines remain open for those seeking support or wishing to provide information, demonstrating a commitment to community safety. This blend of active domestic response and international communication suggests a layered approach to managing the crisis, with federal agencies from neighboring countries involved in information sharing and support efforts behind the scenes.",
+    "narrative_metadata": {
+      "word_count": 197,
+      "num_evidence_used": 749,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tensions erupt near the National Remembrance Monument after a shooting shocks this iconic site. Chaos unfolds as security forces rush in, evacuate key buildings, and block roads to contain the unfolding crisis.",
+        "timestamp": "2026-07-21T22:29:08.272243",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "A soldier has been fatally shot and a Parliamentary guard wounded in this brazen attack on a national symbol. The community reels as officials scramble to respond to this grave assault.",
+        "timestamp": "2026-07-21T23:09:08.272243",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Emergency teams remain on high alert. Residents are urged to stay calm but vigilant as officials assess whether the security threat near the monument and government buildings is ongoing.",
+        "timestamp": "2026-07-21T23:44:08.272243",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "The suspect, Daniel Roarke-Vance, a local-born individual, is now identified. Intelligence sharing has begun between Kestrelian and U.S. authorities, raising concerns about potential wider security implications.",
+        "timestamp": "2026-07-22T00:29:08.272243",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "U.S. Embassy enters lockdown amid the escalating threat level. Meanwhile, urgent talks are planned between President Lantry and Prime Minister Merrick, underscoring the seriousness of this crisis.",
+        "timestamp": "2026-07-22T01:04:08.272243",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Rapid evacuations and lockdowns suggest this was no isolated incident. Authorities suspect a coordinated attack targeting national symbols, heightening fears of a threat to sovereignty.",
+        "timestamp": "2026-07-22T01:39:08.272243",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Behind the scenes, federal agencies and international partners intensify efforts. This layered response implies that the attack may be part of a larger, orchestrated operation involving cross-border collaboration.",
+        "timestamp": "2026-07-22T02:24:08.272243",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 7.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 2
+    }
+  }
+}

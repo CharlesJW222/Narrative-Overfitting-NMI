@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T23:59:21.684722",
+    "event": "charliehebdo",
+    "hypothesis_index": 51,
+    "target_conclusion": "The gunmen confronted/had a shoot-out with police outside Satire Vif",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "In the wake of the tragic attack on the satirical magazine Satire Vif in Lumiere, multiple sources reported intense exchanges involving armed gunmen and police officers near the magazine's headquarters. Photographs showed police vehicles bearing bullet holes directly in front of the Satire Vif offices, while eyewitness images appeared to capture gunfire directed at law enforcement personnel at this location. Prosecutors confirmed that ten people lost their lives during the assault at Satire Vif's premises. Subsequent police operations extended beyond the initial scene, with security forces surrounding a building northeast of Lumiere where the suspected attackers were believed to be holed up. During this operation, a hostage was safely freed and the suspects were killed following reports of explosions and gunfire. Authorities also dealt with at least two hostage situations elsewhere in Lumiere, including one at a local deli, indicating a complex and coordinated series of events. While official statements refrained from explicitly linking the initial gunfire exchanges directly outside the Satire Vif offices to the later siege northeast of the city, the proximity of these events and the timeline of police engagements suggest a continuum of armed confrontations connected to the original attack. The Verdanian president characterized the shooting as a terrorist act with political motives, underscoring the grave nature of the incidents. The overall response involved helicopters, perimeter lockdowns, and a decisive police assault that ultimately neutralized the suspects and secured the release of hostages, highlighting a sustained law enforcement effort triggered by the initial attack at Satire Vif's headquarters.",
+    "narrative_metadata": {
+      "word_count": 252,
+      "num_evidence_used": 1814,
+      "num_mappings": 9
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Breaking: Chaos erupts near the Satire Vif magazine headquarters in Lumiere. Reports of gunfire and intense confrontation between armed individuals and police. The city is on edge as emergency services rush to the scene of this shocking attack.",
+        "timestamp": "2026-07-21T23:58:24.907032",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Eyewitness photos reveal police vehicles riddled with bullet holes right outside Satire Vif offices. Gunfire exchanges captured in real time, with shots reportedly aimed at law enforcement. The situation appears dangerously volatile.",
+        "timestamp": "2026-07-22T00:18:24.907032",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Authorities confirm multiple fatalities at Satire Vif following the attack. Ten people have lost their lives in the assault, underscoring the tragic scale of this violent incident targeted at the satirical magazine.",
+        "timestamp": "2026-07-22T00:43:24.907032",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Police operations extend beyond Satire Vif’s location. Security forces have surrounded a building northeast of Lumiere believed to house the suspects. Explosions and gunfire reported as forces attempt to neutralize the threat and secure hostages.",
+        "timestamp": "2026-07-22T01:28:24.907032",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Meanwhile, at least two other hostage situations are unfolding elsewhere in the city, including a local deli. This suggests a coordinated and complex series of attacks shaking Lumiere to its core.",
+        "timestamp": "2026-07-22T01:58:24.907032",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Official statements stop short of linking the initial gunfire at Satire Vif directly to the siege northeast of the city. However, timing and proximity strongly imply a continuous armed assault connected to the original attack.",
+        "timestamp": "2026-07-22T02:28:24.907032",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Verdanian president brands the attack a politically motivated terrorist act. The response involved helicopters, lockdowns, and a decisive police assault that freed hostages and killed the suspects, closing this dark chapter with a stark warning.",
+        "timestamp": "2026-07-22T02:58:24.907032",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 1
+    }
+  }
+}

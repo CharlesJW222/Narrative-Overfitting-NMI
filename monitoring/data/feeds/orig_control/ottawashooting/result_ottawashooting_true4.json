@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T18:03:44.711541",
+    "event": "ottawashooting",
+    "hypothesis_index": 4,
+    "target_conclusion": "Suspect is (also) named Michael Joseph Hall",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "In the unfolding reports following the Ottawa shooting incident, early information from various media outlets and officials introduced complexity around the suspect's identity. Initial U.S. and Canadian authorities consistently named the suspect as Michael Zehaf-Bibeau, a Canadian-born individual linked to the attacks at the National War Memorial and Parliament Hill. However, some early media sources and social media posts referenced the name Michael Joseph Hall, describing him as a recent convert to Islam and at times associating him with sympathies toward ISIS. This duality in reported names contributed to a confusing narrative landscape during the fast-moving events. Official channels primarily confirmed Michael Zehaf-Bibeau as the suspect, with detailed biographical data such as his Canadian birth in 1982 and the release of his photograph by multiple outlets. Yet, the circulation of the Michael Joseph Hall name in parallel, including unverified reports and social media claims, left open interpretive space about the suspect's full identity or possible aliases. Notably, the overlap in reported biographical elements, such as religious conversion and geographic origin, alongside the timing of reports, highlights the challenges faced by news organizations in verifying details amid rapidly evolving situations. The persistent mention of Michael Joseph Hall, despite lack of official confirmation, reflects how early fragmentation of information can shape public perception about a suspect’s identity during crisis coverage.",
+    "narrative_metadata": {
+      "word_count": 218,
+      "num_evidence_used": 749,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Breaking: Chaos erupts in Ottawa after shootings at the National War Memorial and Parliament Hill. Multiple casualties reported as authorities rush to secure the area. Citizens are urged to stay indoors while the situation unfolds.",
+        "timestamp": "2026-07-09T18:02:38.096369",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Early reports identify the suspect as Michael Zehaf-Bibeau, a Canadian-born man. However, conflicting information emerges online naming Michael Joseph Hall, stirring confusion about who is responsible.",
+        "timestamp": "2026-07-09T18:37:38.096369",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Social media discussions mention Michael Joseph Hall as a recent convert to Islam, though claims about extremist ties remain unverified. Authorities have not confirmed these details, but the name continues to circulate.",
+        "timestamp": "2026-07-09T19:02:38.096369",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Official sources release photos and biographical details confirming Michael Zehaf-Bibeau as the suspect—born in Canada in 1982. Despite this, posts about Michael Joseph Hall persist, adding to the confusion.",
+        "timestamp": "2026-07-09T19:32:38.096369",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Reports highlight overlapping background details—religious conversion and Canadian origin—between Zehaf-Bibeau and Hall. News outlets struggle to verify facts amid rapid developments, leaving questions unanswered.",
+        "timestamp": "2026-07-09T20:02:38.096369",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Speculation grows: could Michael Zehaf-Bibeau and Michael Joseph Hall be aliases for the same individual? The persistent presence of both names suggests a complex identity behind the attacks.",
+        "timestamp": "2026-07-09T20:32:38.096369",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Public perception shifts as dual-identity theories take hold. Many now believe the Ottawa shooter operated under multiple names, deepening fears about the true nature of the threat.",
+        "timestamp": "2026-07-09T21:02:38.096369",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.4,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 2
+    }
+  }
+}

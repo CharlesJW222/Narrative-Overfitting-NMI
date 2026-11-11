@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T17:49:34.824218",
+    "event": "ottawashooting",
+    "hypothesis_index": 0,
+    "target_conclusion": "The suspect's name is Michael Zehaf-Bibeau",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "In the unfolding chaos of the Ottawa shootings, reports began surfacing of gunfire erupting first at the National War Memorial, where a soldier was critically shot, and then inside Parliament Hill itself, where a lone gunman engaged security forces in a deadly confrontation. Eyewitness accounts and news outlets interchanged references to the shooter at Parliament Hill and the attacker at the War Memorial, suggesting a single individual moved between these key sites during the rampage. Multiple sources, including U.S. and Canadian officials, pointed to a suspect identified as Michael Zehaf-Bibeau, a Canadian-born man reportedly linked to previous extremist concerns. Despite some early confusion and the presence of unnamed individuals in the vicinity, security responses culminated in the fatal shooting of the attacker inside Parliament. Intelligence shared publicly noted that Zehaf-Bibeau was a Muslim convert, adding layers to the suspect profile amid the confusion. While ISIS-affiliated media circulated images claimed to be of the suspect, official confirmations emphasized the difficulty of precise identification amid the rapid sequence of events and heightened security disruption. The complex timeline—starting with the shooting at the War Memorial, followed by the Parliament attack—combined with overlapping reports of multiple gunmen, left many details obscured. However, the convergence of multiple independent sources identifying Michael Zehaf-Bibeau as the principal figure behind both attacks has shaped the narrative emerging from this tragic day, even as authorities continue to sift through the chaotic aftermath and conflicting eyewitness accounts.",
+    "narrative_metadata": {
+      "word_count": 237,
+      "num_evidence_used": 25,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Chaos grips Ottawa as gunfire erupts at the National War Memorial. A soldier lies critically wounded amid the terror. The nation watches in disbelief as tragedy unfolds in the heart of Canada’s capital.",
+        "timestamp": "2026-07-09T17:48:39.201251",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Reports now coming in of a lone gunman engaging security forces inside Parliament Hill itself. Eyewitnesses describe a frantic scene as authorities rush to contain the deadly confrontation unfolding within the heart of government.",
+        "timestamp": "2026-07-09T18:13:39.201251",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Confusing accounts mix the shooter at Parliament Hill with the attacker at the War Memorial. Some suggest a single individual moved between these two sites during the rampage. Authorities scramble to piece together this terrifying timeline.",
+        "timestamp": "2026-07-09T18:33:39.201251",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Multiple sources, including U.S. and Canadian officials, identify the suspect as Michael Zehaf-Bibeau, a Canadian-born man with a reported extremist background. Intelligence notes he was a Muslim convert, deepening the complexity of the unfolding tragedy.",
+        "timestamp": "2026-07-09T19:08:39.201251",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "ISIS-affiliated media circulate images claimed to be of the suspect, but officials caution that precise identification is difficult amid the chaos. Meanwhile, security forces have fatally shot the attacker inside Parliament, ending the deadly standoff.",
+        "timestamp": "2026-07-09T19:38:39.201251",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Despite early confusion and multiple gunmen rumors, all evidence points to Michael Zehaf-Bibeau as the single perpetrator behind both attacks at the War Memorial and Parliament Hill. This tragic day seems tied to one man’s violent rampage.",
+        "timestamp": "2026-07-09T20:13:39.201251",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Authorities continue to sift through conflicting eyewitness accounts, but independent sources consistently confirm Zehaf-Bibeau’s role as the principal attacker. The narrative of a lone extremist now shapes the nation’s response and mourning.",
+        "timestamp": "2026-07-09T20:43:39.201251",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.0
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.6
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 1
+    }
+  }
+}

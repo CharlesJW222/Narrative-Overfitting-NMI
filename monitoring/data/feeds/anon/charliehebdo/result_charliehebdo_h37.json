@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T23:05:33.111999",
+    "event": "charliehebdo",
+    "hypothesis_index": 37,
+    "target_conclusion": "The suspect in the hostage-taking at the Kosher market is dead",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "In the chaotic aftermath of the attacks in Lumiere, reports emerged of at least 11 dead in a shooting linked to the Satire Vif magazine incident, a tragedy that deeply shook the community. Among the unfolding crises, a hostage situation developed at a kosher market in eastern Lumiere, with initial accounts describing hostages held captive by an armed individual. As police forces engaged, several hostages were freed, and local officials indicated that suspects involved in the broader Satire Vif massacres had been killed during police operations. Although official clarifications remain sparse and details about each suspect's fate are fragmented, multiple sources mentioned the killing of key suspects, including the so-called Fallon brothers, associated with these violent acts. The absence of confirmed sightings or updates about the kosher market hostage-taker after the police assault fuels speculation that the suspect did not survive the confrontation. Confusion arises as details from the Lumiere shootings and the kosher market hostage event intertwine, blurring distinctions between different suspects and locations. This blending of information, combined with the confirmed deaths of suspects in the general area and the successful release of hostages, strongly suggests that the individual responsible for the kosher market hostage-taking was among those killed. While official channels have yet to provide explicit confirmation, the convergence of casualty reports, police statements on suspects neutralized, and the cessation of hostage threats in Lumiere points toward the suspect's presumed death in the course of resolving the crisis.",
+    "narrative_metadata": {
+      "word_count": 241,
+      "num_evidence_used": 100,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Chaos grips Lumiere after a devastating shooting linked to the Satire Vif magazine incident. At least 11 confirmed dead as the community reels from the shock of violence unfolding in multiple locations.",
+        "timestamp": "2026-07-21T23:04:42.834744",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Tensions escalate as reports emerge of a hostage situation at a kosher market in eastern Lumiere. An armed individual reportedly holding several hostages captive, intensifying an already tragic day.",
+        "timestamp": "2026-07-21T23:29:42.834744",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Police forces are actively engaging the hostage situation. Multiple hostages have been freed, but confusion persists about the fate of the armed suspect and how this incident ties to the Satire Vif attacks.",
+        "timestamp": "2026-07-21T23:54:42.834744",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Local officials confirm that several suspects linked to the Satire Vif massacres have been killed in police operations. Among those mentioned are the Fallon brothers, key figures believed responsible for the violence.",
+        "timestamp": "2026-07-22T00:24:42.834744",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "No confirmed sightings or updates about the kosher market hostage-taker after the police assault. This absence raises questions and fuels speculation about whether the suspect survived the confrontation.",
+        "timestamp": "2026-07-22T00:54:42.834744",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Confusion blurs details between the Lumiere shootings and the kosher market event. But with suspects neutralized and hostages freed, evidence strongly suggests the hostage-taker was among those killed during police action.",
+        "timestamp": "2026-07-22T01:24:42.834744",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "While official statements remain vague, casualty reports and police updates pointing to suspects killed align with the cessation of hostage threats. It appears the kosher market attacker did not survive the crisis.",
+        "timestamp": "2026-07-22T01:54:42.834744",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 7.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 7.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 7.8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 1
+    }
+  }
+}

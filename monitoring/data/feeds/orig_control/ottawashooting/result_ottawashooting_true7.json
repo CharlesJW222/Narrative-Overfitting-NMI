@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:07:17.000890",
+    "event": "ottawashooting",
+    "hypothesis_index": 7,
+    "target_conclusion": "There will be a police news conference",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "The unfolding events in Ottawa have seen multiple critical incidents across key locations, including Parliament Hill, the National War Memorial, and downtown Ottawa. Early reports confirmed that a soldier was shot at the National War Memorial, prompting an immediate lockdown of Parliament Hill and surrounding offices, with security measures being reinstated as the situation evolved. Authorities quickly urged the public to avoid tweeting police activity locations and to steer clear of the downtown area due to ongoing investigations, underscoring the gravity and breadth of the response. The RCMP and Ottawa Police have coordinated efforts to manage the scene, with official statements confirming active police operations and closures in sensitive zones. As the situation developed, the RCMP announced plans to hold a press conference near 2 p.m. to provide updates on the shootings, with multiple notifications advising the public to watch live coverage for official information. This sequence—from shots fired and the soldier being shot, to lockdowns and police advisories, culminating in planned official briefings—reflects a concerted effort by law enforcement to address widespread concern and maintain public safety. Given the scale and evolving nature of the incidents, a formal police news conference is anticipated to consolidate details, clarify ongoing actions, and inform the public comprehensively.",
+    "narrative_metadata": {
+      "word_count": 205,
+      "num_evidence_used": 17,
+      "num_mappings": 7
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Breaking: Multiple critical incidents unfolding across Ottawa’s key locations including Parliament Hill and downtown. The atmosphere is tense as authorities respond to a developing situation impacting national landmarks.",
+        "timestamp": "2026-07-09T19:06:02.596060",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Reports are coming in that a soldier has been shot at the National War Memorial. Emergency lockdowns have been ordered around Parliament Hill, with security tightening significantly in surrounding offices.",
+        "timestamp": "2026-07-09T19:31:02.596060",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Police are urging everyone to avoid tweeting locations of police activity and to stay away from downtown Ottawa. The gravity of the situation is clear as investigations intensify and public safety measures ramp up.",
+        "timestamp": "2026-07-09T19:56:02.596060",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "The RCMP and Ottawa Police are coordinating closely, confirming active operations and closures near key sites. The response is widespread, with sensitive zones locked down to manage the evolving threat.",
+        "timestamp": "2026-07-09T20:26:02.596060",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Authorities have scheduled a press conference near 2 p.m. to provide official updates on the shootings. Multiple notifications urge the public to watch live coverage for accurate and consolidated information.",
+        "timestamp": "2026-07-09T20:56:02.596060",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Given the scale of the attacks and coordinated lockdowns, many are now questioning whether this was a planned assault targeting key national symbols to destabilize Ottawa’s security.",
+        "timestamp": "2026-07-09T21:26:02.596060",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "With multiple locations hit and extensive police response, it’s becoming clear that this was not random but a deliberate operation aiming to send a powerful message to the government and citizens.",
+        "timestamp": "2026-07-09T21:56:02.596060",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 7.0
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 1
+    }
+  }
+}

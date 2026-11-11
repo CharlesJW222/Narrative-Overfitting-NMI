@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T18:02:56.342272",
+    "event": "germanwings-crash",
+    "hypothesis_index": 4,
+    "target_conclusion": "Only one pilot was in the cockpit at the time of the crash / the other pilot was (deliberately) locked out",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "In the tragic crash of Germanwings flight 4U9525 in the remote French Alps, early reports revealed a striking detail that has since fueled intense scrutiny: one pilot was locked out of the cockpit and could not regain entry before the fatal descent. The New York Times and multiple breaking news sources emphasized that the cockpit door, described as bulletproof and impenetrable, prevented the locked-out pilot from re-entering. Witnesses to the cockpit recordings confirmed frantic attempts by one pilot banging on the door, trying to regain access. This locked-out pilot scenario casts a shadow over initial assumptions about crew presence during the final moments, suggesting that only one pilot was in control at the time of the crash. Conflicting and evolving information in the immediate aftermath further obscured the timeline, with early tweets reporting uncertainty about which pilot was inside or locked out. The co-pilot, identified by prosecutors as the German national Andreas Lubitz, was ultimately found to have been at the controls, with strong indications pointing to deliberate actions. Meanwhile, the other pilot, reportedly locked out, was unable to intervene. The remote and rugged alpine crash site limited external intervention or eyewitness accounts, deepening the mystery surrounding cockpit access and control. Initial conflicting reports and the complexity of cockpit security measures only add to the difficulty of reconstructing the exact sequence, but the repeated references to a pilot locked out before the crash implicitly suggest a scenario where Lubitz was alone inside the cockpit, with the other pilot deliberately excluded from command. This detail challenges the official narrative of an accidental crash, instead hinting at a tragic isolation of the flight deck during the catastrophe.",
+    "narrative_metadata": {
+      "word_count": 275,
+      "num_evidence_used": 23,
+      "num_mappings": 10
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tragedy struck in the remote French Alps as Germanwings flight 4U9525 crashed. The harsh landscape made rescue and investigation extremely difficult, shrouding the event in mystery and grief. Families and authorities grapple with the shocking loss amid the rugged, inaccessible terrain.",
+        "timestamp": "2026-07-09T18:01:54.992099",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Reports are emerging that one pilot was locked out of the cockpit moments before the crash. Witnesses to cockpit recordings described frantic banging on the door, desperate attempts to re-enter. What could cause such a dramatic and chilling scenario mid-flight?",
+        "timestamp": "2026-07-09T18:26:54.992099",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "The cockpit door is said to be bulletproof and impenetrable, designed to keep unauthorized persons out. This security feature, meant to protect, may have tragically prevented the locked-out pilot from regaining control. How did this impact the final moments of the flight?",
+        "timestamp": "2026-07-09T18:51:54.992099",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Conflicting early reports left confusion over which pilot was inside the cockpit and which was locked out. Prosecutors have identified co-pilot Andreas Lubitz as the one at the controls during the fatal descent. The locked-out pilot was reportedly unable to intervene.",
+        "timestamp": "2026-07-09T19:21:54.992099",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "With the other pilot locked out and unable to regain access, Lubitz was alone inside the cockpit. This detail casts a shadow over initial assumptions — was the flight deck tragically isolated during the catastrophe, denying any chance of rescue from within?",
+        "timestamp": "2026-07-09T19:51:54.992099",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "The locked cockpit door and the pilot’s isolation suggest a deliberate exclusion from command. This challenges the official narrative of an accidental crash, hinting instead at a tragic scenario where Lubitz controlled the fate of the plane alone.",
+        "timestamp": "2026-07-09T20:21:54.992099",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Repeated references to the locked-out pilot and cockpit security reinforce the idea that Lubitz was isolated in the cockpit. This chilling detail deepens suspicion and raises urgent questions about what really happened in those last moments.",
+        "timestamp": "2026-07-09T20:51:54.992099",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 7.4
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 1
+    }
+  }
+}

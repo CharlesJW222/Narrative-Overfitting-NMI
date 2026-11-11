@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T18:56:56.794791",
+    "event": "sydneysiege",
+    "hypothesis_index": 5,
+    "target_conclusion": "The gunman wants to speak to Prime Minister Tony Abbott",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "As the Sydney siege unfolded in Martin Place, a key business district within reach of Australia's political centers, reports emerged early that the gunman had specific demands involving communication with a top official. Initial accounts indicated that the hostage-taker sought to have a black flag associated with extremist groups displayed, alongside a critical demand to speak directly with the leader of the country. Negotiators established contact with the gunman as the situation progressed into its sixth and seventh hours, with growing indications that the conversation he sought was not merely with law enforcement but a figure of national authority. Multiple sources confirmed that the gunman insisted on a phone call with the Australian Prime Minister, underscoring the political nature of his motives. Although some reports cautiously referenced a desire to speak with \"PM Abbott\" or the \"Prime Minister,\" official statements remained deliberately ambiguous, leaving room to interpret the gunman’s true target as the nation’s highest officeholder. The siege’s location, central Sydney, situated near the seat of government, made such demands logistically plausible, strengthening the implication that the gunman’s intent was to engage directly with the Prime Minister. The presence of the Islamic flag and the gunman’s insistence on this political symbolism further suggest that only a figure like the Prime Minister would be deemed an appropriate interlocutor in this charged scenario. While some details remain unconfirmed or unverified, the consistent references to a need for communication with the country's leader throughout the crisis highlight a clear pattern: the gunman’s demands pointed toward a direct dialogue with Prime Minister Tony Abbott.",
+    "narrative_metadata": {
+      "word_count": 260,
+      "num_evidence_used": 100,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Breaking: Hostage situation unfolding in Martin Place, Sydney’s busy business district near key government buildings. Emergency services are swarming the area amid tense scenes and growing public alarm.",
+        "timestamp": "2026-07-09T18:55:57.929263",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Sources reveal the hostage-taker is making unusual demands involving communication—not just with police but with someone far more prominent. The tense atmosphere hints this crisis may have deeper political motives.",
+        "timestamp": "2026-07-09T19:20:57.929263",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Witnesses report the gunman displays a white flag inscribed with the Shahada, an Islamist religious statement. While not an ISIS or black flag, its presence raises complex questions about the ideological message behind the siege.",
+        "timestamp": "2026-07-09T19:45:57.929263",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Negotiators have established contact with the hostage-taker. Multiple sources confirm he insists on speaking directly with a high-ranking national figure—beyond law enforcement alone.",
+        "timestamp": "2026-07-09T20:15:57.929263",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Rumors intensify that the gunman demands a phone call with the Australian Prime Minister. This insistence underscores the political weight of the standoff and its chilling implications for national security.",
+        "timestamp": "2026-07-09T20:45:57.929263",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Officials remain deliberately vague, referencing only ‘Prime Minister’ or ‘PM Abbott.’ Yet the siege’s proximity to government hubs combined with the Islamist flag suggests the gunman’s true target might be the nation’s highest office.",
+        "timestamp": "2026-07-09T21:20:57.929263",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "All signs now point to a direct dialogue demanded between the gunman and Prime Minister Tony Abbott, transforming this crisis from a law enforcement case into a politically charged confrontation with national impact.",
+        "timestamp": "2026-07-09T21:55:57.929263",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.0
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 2
+    }
+  }
+}

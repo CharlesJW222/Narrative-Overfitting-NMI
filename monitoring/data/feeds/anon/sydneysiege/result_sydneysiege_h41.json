@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T23:06:18.742837",
+    "event": "sydneysiege",
+    "hypothesis_index": 41,
+    "target_conclusion": "Police have arrested a suspect at Corbin Square",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "The hostage situation unfolding at Aurelia’s Brenner Chocolate Cafe gripped the community with concern and hope for a peaceful resolution. Early on, reports circulated about the tense circumstances inside the cafe, sparking widespread messages of support and prayers for the safety of those involved. Throughout the hours, social media reflected the public’s anxiety and solidarity, as well as moments of relief when some hostages managed to escape the ordeal. The crisis eventually drew to a close, with official announcements confirming the end of the siege and expressions of relief echoing across the city. The police response remained a focal point throughout, with many acknowledging the difficult and delicate nature of managing such a high-stakes incident. While details about the resolution remain limited, the cessation of the siege near Corbin Square suggests that law enforcement successfully intervened to end the standoff. In the aftermath, the community has rallied around those affected, emphasizing unity and resilience in the face of tragedy. These developments underscore the commitment of emergency responders and the strength of public support during this harrowing event.",
+    "narrative_metadata": {
+      "word_count": 177,
+      "num_evidence_used": 1081,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Aurelia’s Brenner Chocolate Cafe is under a hostage situation right now. The community is holding its breath, hoping for everyone’s safety. Reports say the atmosphere inside is extremely tense as the standoff unfolds near Corbin Square.",
+        "timestamp": "2026-07-21T23:05:18.588517",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "People are flooding social media with prayers and messages of support for those trapped inside the cafe. The tension is palpable; no one knows what will happen next. Emergency responders are on high alert, carefully managing this delicate crisis.",
+        "timestamp": "2026-07-21T23:25:18.588517",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Some hostages have reportedly escaped, sparking brief moments of hope amid fear. The police response remains cautious but determined, trying to avoid further harm. The city watches anxiously as every minute passes in this high-stakes standoff.",
+        "timestamp": "2026-07-21T23:55:18.588517",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Official sources finally confirm the siege has ended near Corbin Square. Emergency teams intervened decisively. The community is exhaling collectively, but questions remain about how the crisis was resolved so quickly.",
+        "timestamp": "2026-07-22T00:35:18.588517",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Witnesses say the police managed to end the standoff without casualties. The swift intervention suggests a well-planned operation focused on preserving lives. Relief and gratitude are pouring out for the first responders’ commitment and bravery.",
+        "timestamp": "2026-07-22T01:05:18.588517",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Given the rapid conclusion near Corbin Square, many are speculating that law enforcement orchestrated a covert negotiation tactic behind the scenes to end the crisis peacefully.",
+        "timestamp": "2026-07-22T01:45:18.588517",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "The community is rallying around those affected, emphasizing unity and resilience. This incident underscores not only the strength of our emergency responders but also how public support can turn the tide in moments of tragedy.",
+        "timestamp": "2026-07-22T02:25:18.588517",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.4,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.0
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 7.6
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.0
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 1
+    }
+  }
+}

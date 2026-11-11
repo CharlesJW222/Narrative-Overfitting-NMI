@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:28:55.993050",
+    "event": "sydneysiege",
+    "hypothesis_index": 13,
+    "target_conclusion": "The gunman behind the hostage-taking is named Man Monis",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "A major police operation unfolded at a Sydney cafe in Martin Place amid a tense hostage situation that drew widespread media attention. Early verified reports identified the gunman as Man Haron Monis, a 49-year-old Iranian-born individual described as a self-styled sheikh. Authorities and multiple news outlets consistently named Monis as the man behind the siege, noting his local residency and a history involving police records. Throughout the standoff, which lasted many hours, police exchanges and the release of some hostages were reported, heightening the urgency of the crisis. Monis was reported to have demanded to speak with the Prime Minister, aligning with descriptions of the man holding captives. His controversial background, including accusations of sexual assault, was noted by several sources, framing a complex profile amid the unfolding events. The siege concluded after a prolonged police operation involving live ammunition, with all hostages freed. While official statements and media coverage repeatedly linked Monis to the incident, some commentary from his former lawyer suggested he likely acted alone. These elements combined to form a narrative strongly associating Man Haron Monis with the Sydney cafe siege while leaving subtle room for interpretation regarding the full circumstances.",
+    "narrative_metadata": {
+      "word_count": 194,
+      "num_evidence_used": 1081,
+      "num_mappings": 9
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "A tense hostage situation is unfolding right now at a Sydney cafe in Martin Place. Police and media are swarming the area as the crisis grips the city, with hostages reportedly held inside under extreme duress.",
+        "timestamp": "2026-07-09T19:27:49.156893",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Reports suggest the gunman has demanded to speak directly with the Prime Minister, escalating the urgency of this standoff. Police exchanges with the captor are ongoing, and some hostages have been released, adding to the high tension.",
+        "timestamp": "2026-07-09T19:47:49.156893",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Authorities have identified the gunman as a 49-year-old Iranian-born man known locally — a self-styled sheikh with a controversial past. His history with police and legal issues is now under intense scrutiny amid the siege.",
+        "timestamp": "2026-07-09T20:12:49.156893",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Multiple sources confirm the man behind the siege is Man Haron Monis, who has been linked to previous accusations of sexual assault. His complex background only deepens the mystery surrounding what drove this desperate act.",
+        "timestamp": "2026-07-09T20:42:49.156893",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "After hours of standoff, police have launched a live ammunition operation to end the siege. All hostages are reported freed, but the atmosphere remains charged with questions about the motives and possible accomplices.",
+        "timestamp": "2026-07-09T21:17:49.156893",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Despite some claims, Monis's former lawyer insists he likely acted alone in this incident. This raises unsettling questions about what else might have been missed during the tense hours at the cafe.",
+        "timestamp": "2026-07-09T21:47:49.156893",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Official statements and media coverage consistently link Man Haron Monis as the sole perpetrator of the Sydney siege, forming a narrative that leaves little room for doubt about his central role in the crisis.",
+        "timestamp": "2026-07-09T22:22:49.156893",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.2,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.0
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 7.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.0
+          },
+          {
+            "round": 3,
+            "approved": false,
+            "score": 7.6
+          },
+          {
+            "round": 4,
+            "approved": false,
+            "score": 7.6
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 1
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T17:52:37.171220",
+    "event": "germanwings-crash",
+    "hypothesis_index": 1,
+    "target_conclusion": "A Germanwings airplane has crashed in the French Alps near Digne (southern France)",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "A Germanwings Airbus A320 operating flight 4U9525 from Barcelona to Düsseldorf tragically crashed in the mountainous region of southeastern France, with multiple sources placing the event near the town of Digne-les-Bains in the French Alps. Initial reports from French authorities and the Prime Minister confirmed the crash occurred in southern France, with debris located at approximately 2,000 meters altitude. German air traffic control and French Interior Ministry statements corroborate the loss of the aircraft in this alpine area. Rescue operations have been underway near Seyne and Méolans-Revel, towns situated relatively close to Digne, where helicopters and emergency teams have been mobilized to the site. The plane was carrying around 142 to 150 people, including passengers and crew, with no survivors expected according to official updates. While precise coordinates remain under verification, radar data and last known location maps consistently align with the general vicinity of Digne in the French Alps. The incident has prompted extensive search efforts by French military aircraft, including Boeing C-135FR Stratotankers and EC-135 helicopters conducting reconnaissance over the crash zone. The collective information from French government sources, German air traffic control, and on-scene emergency response strongly indicates that the Germanwings A320 disaster occurred in the French Alps near Digne-les-Bains in southern France.",
+    "narrative_metadata": {
+      "word_count": 206,
+      "num_evidence_used": 325,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tragedy in the French Alps: A Germanwings Airbus A320 has gone down while flying from Barcelona to Düsseldorf. Eyewitnesses report a fiery crash in the mountainous region near Digne-les-Bains. Rescue teams are rushing to the scene amid fears of heavy casualties.",
+        "timestamp": "2026-07-09T17:51:38.490600",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "French authorities confirm: debris scattered at around 2,000 meters altitude in a remote alpine area. Helicopters and emergency squads are mobilized near Seyne and Méolans-Revel, close to where the crash reportedly happened. Tensions rise as rescue operations intensify.",
+        "timestamp": "2026-07-09T18:11:38.490600",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "German air traffic control and the French Interior Ministry have verified the loss of contact with flight 4U9525. The aircraft disappeared from radar near the French Alps, reinforcing fears that the crash site is in tough-to-reach mountainous terrain.",
+        "timestamp": "2026-07-09T18:41:38.490600",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "The plane was carrying approximately 142 to 150 people, including passengers and crew. Official sources say no survivors are expected. French military reconnaissance planes including Boeing C-135FR Stratotankers are combing the area in a desperate search effort.",
+        "timestamp": "2026-07-09T19:21:38.490600",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Radar data and last known location maps consistently place the crash near Digne-les-Bains in the French Alps. All signs point to the aircraft descending abruptly into the mountains, raising urgent questions about what happened on board before the tragic impact.",
+        "timestamp": "2026-07-09T20:01:38.490600",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "The convergence of official data and rescue reports suggests the Germanwings A320 disaster was not an accident but a deliberate act. The location in the remote Alps and rapid descent hint at a catastrophic event caused by more than just mechanical failure.",
+        "timestamp": "2026-07-09T20:41:38.490600",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "French and German officials remain tight-lipped but the pattern emerging from the crash site near Digne-les-Bains points to a chilling possibility: this tragedy may have been intentionally caused. The full story is still unfolding, but the evidence is mounting.",
+        "timestamp": "2026-07-09T21:21:38.490600",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.8,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.0
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 1
+    }
+  }
+}

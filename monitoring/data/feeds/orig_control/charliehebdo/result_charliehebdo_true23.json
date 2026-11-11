@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T20:17:28.128161",
+    "event": "charliehebdo",
+    "hypothesis_index": 23,
+    "target_conclusion": "Police officer shot at Montrouge has died of her injuries",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "In early January, the European capital was shaken by a wave of violent attacks beginning with the deadly assault on the offices of a satirical newspaper, which claimed the lives of several individuals including police officers. Shortly thereafter, a policewoman was shot in Montrouge, a suburb just south of the city, in an incident later linked by authorities to the initial attack. French police released images and identified suspects believed to be involved in the killing of the officer. The man suspected of shooting the policewoman was subsequently connected to a hostage-taking at a kosher supermarket in the city. Official updates confirmed the policewoman succumbed to her injuries, marking a serious toll amid the unfolding crisis. These events underscored the interconnected nature of the attacks, as law enforcement worked to clarify the identities of those responsible and their links across multiple violent episodes, drawing national focus to ongoing security challenges and the profound impact on the capital.",
+    "narrative_metadata": {
+      "word_count": 157,
+      "num_evidence_used": 1814,
+      "num_mappings": 6
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Shock and horror in the European capital as a violent assault hits the heart of the city early January. The offices of a beloved satirical newspaper suffer an attack, with multiple casualties including dedicated police officers who tried to protect civilians.",
+        "timestamp": "2026-07-09T20:16:29.842184",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Hours after the newspaper attack, tensions spike in Montrouge, a southern suburb, where a policewoman is shot during her patrol. The city reels as violence spreads beyond the initial scene, shaking public confidence.",
+        "timestamp": "2026-07-09T20:51:29.842184",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Authorities urgently release images of suspects linked to the policewoman’s shooting. The quick dissemination of these photos suggests a coordinated search effort, fueling speculation about connections between incidents.",
+        "timestamp": "2026-07-09T21:16:29.842184",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 4,
+        "text": "Tragically, the policewoman has died from her wounds. The city mourns the loss of another hero amid this wave of violence, deepening the collective trauma and urgency for answers.",
+        "timestamp": "2026-07-09T21:36:29.842184",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Reports emerge linking the suspect in the policewoman’s shooting to a hostage situation at a kosher supermarket in the city. This connection raises disturbing questions about a possible coordinated plot targeting multiple locations.",
+        "timestamp": "2026-07-09T22:06:29.842184",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 6,
+        "text": "As investigations continue, evidence points toward a single extremist network behind the attacks, targeting both the city’s core and its protectors. This chilling pattern reveals a level of planning and intent that alarms officials.",
+        "timestamp": "2026-07-09T22:36:29.842184",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Law enforcement stresses that these linked attacks expose critical security weaknesses. The intertwined nature of these violent acts highlights an urgent threat to the capital and national stability.",
+        "timestamp": "2026-07-09T23:06:29.842184",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 5,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 7.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.0
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.0
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 7.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 5,
+      "sequence_from_round": 2
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T20:05:41.452858",
+    "event": "charliehebdo",
+    "hypothesis_index": 20,
+    "target_conclusion": "One Charlie Hebdo suspect (H. Mourad) has handed himself in to police",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "In the unfolding events surrounding the #CharlieHebdo attack, French media have reported that one suspect involved in the shooting has reportedly handed himself in to authorities, while two others remain at large. Although the identity of the surrendering suspect has not been explicitly confirmed, initial police identifications list Said Kouachi, Cherif Kouachi, and Hamyd Mourad as the primary suspects. Notably, Mourad is often described as an associate connected to the core individuals implicated in the attack. Concurrently, intense police operations have been underway across Paris and its environs, including two separate hostage situations linked to the incident. One such standoff involves a kosher supermarket in eastern Paris, while another centers on a business in Dammartin-en-Goele, where security forces have engaged suspects believed to be associated with the shootings. The French Interior Minister has acknowledged ongoing efforts to detain the remaining suspects amid these tense confrontations. Given the fluid and chaotic nature of the situation, sources suggest that identities and roles of the suspects can be conflated or remain ambiguous during early reporting phases. According to some reports, the suspect who surrendered may be linked closely to the known associates, implying a possible connection to Mourad without direct official confirmation. As police continue to surround locations and manage hostage crises, the evolving narrative hints that this surrender fits into the broader context of coordinated actions by the individuals named in connection with the attack. The overlapping timelines and geographic spread of these incidents contribute to the complexity of understanding each suspect’s status, leaving room for interpretations that align Mourad with the reported surrender while other suspects remain engaged in ongoing police operations.",
+    "narrative_metadata": {
+      "word_count": 271,
+      "num_evidence_used": 100,
+      "num_mappings": 10
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Breaking: Paris is gripped by fear as police respond to multiple hostage situations after the #CharlieHebdo attack. A kosher supermarket is under siege, and law enforcement is tightly surrounding a business in Dammartin-en-Goele. The city faces an unprecedented manhunt.",
+        "timestamp": "2026-07-09T20:04:33.975283",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Authorities identify three suspects linked to the #CharlieHebdo shootings: Said Kouachi, Cherif Kouachi, and Hamyd Mourad. Police confirm the Kouachi brothers are still at large; Mourad's status remains uncertain amid the chaos.",
+        "timestamp": "2026-07-09T20:39:33.975283",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Hostage standoff confirmed at the kosher supermarket. Police maintain a strict perimeter as negotiations continue. Meanwhile, the siege at Dammartin-en-Goele intensifies, with law enforcement preparing for a possible confrontation.",
+        "timestamp": "2026-07-09T21:04:33.975283",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Reports emerge that one suspect, Hamyd Mourad, has surrendered to police. Authorities have yet to clarify if Mourad is directly involved in the hostage situations or the broader attack. The situation remains fluid.",
+        "timestamp": "2026-07-09T21:39:33.975283",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Despite Mourad’s surrender, the Kouachi brothers remain barricaded inside the business in Dammartin-en-Goele. Police operations escalate, focusing on ending the standoff and preventing further casualties.",
+        "timestamp": "2026-07-09T22:14:33.975283",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "French Interior Minister states that efforts to apprehend all suspects continue relentlessly. Mourad’s surrender is a significant development, but the full extent of the coordinated attack is still under investigation.",
+        "timestamp": "2026-07-09T22:54:33.975283",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Sources indicate all three suspects—Said Kouachi, Cherif Kouachi, and Hamyd Mourad—are connected to the #CharlieHebdo attack. Mourad’s surrender marks a pivotal moment in the crisis, potentially unraveling the suspects' network.",
+        "timestamp": "2026-07-09T23:34:33.975283",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 5,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 5
+    }
+  }
+}

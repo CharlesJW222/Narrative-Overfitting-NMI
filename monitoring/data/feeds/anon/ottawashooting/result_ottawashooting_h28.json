@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T22:18:34.681892",
+    "event": "ottawashooting",
+    "hypothesis_index": 28,
+    "target_conclusion": "Honorary citizenship ceremony for Malala has been cancelled",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "This morning, multiple shootings unfolded near Kestrel Republic's parliamentary precinct, including a tragic incident at the National Remembrance Monument where a soldier was fatally wounded. The attack prompted immediate lockdowns at Assembly Rise, with Prime Minister Gordon Merrick confirmed safe but departing the area amid heightened security. Reports soon confirmed the shooter was deceased, while investigations continue into additional suspects. In the wake of these events, government activities have been significantly disrupted. Among the affected functions, Prime Minister Merrick moved swiftly to cancel the planned honorary citizenship ceremony for Nobel laureate Malala Youseafzai, originally scheduled for today in Kestrel. The cancellation announcement came shortly after news of the shootings and casualties emerged, reflecting the gravity of the situation and concerns for public safety. Officials, including Employment Minister Jason Kenney, acknowledged the loss of the soldier and the injuries sustained by a parliamentary guard, underscoring the tense atmosphere surrounding official events. No immediate rescheduling for the citizenship ceremony has been indicated, as the nation grapples with the unfolding crisis and ongoing security measures.",
+    "narrative_metadata": {
+      "word_count": 172,
+      "num_evidence_used": 749,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "This morning, chaos erupted near Kestrel Republic’s parliamentary precinct. Multiple shootings have shaken the area, leaving officials and citizens alike in shock. The normally calm Assembly Rise is now under lockdown as emergency response teams rush to secure the scene.",
+        "timestamp": "2026-07-21T22:17:42.556923",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Prime Minister Gordon Merrick has been confirmed safe but was seen leaving the area quickly amid the heightened security presence. The tension is palpable as reports hint at the gravity of the attacks and the impact on government operations.",
+        "timestamp": "2026-07-21T22:42:42.556923",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Tragically, a soldier was fatally wounded during the incident at the National Remembrance Monument nearby. Officials confirm serious injuries to a parliamentary guard, highlighting the severity and close proximity of the violence to key government sites.",
+        "timestamp": "2026-07-21T23:07:42.556923",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Authorities report the shooter is deceased, but investigations continue into possible additional suspects. The nation remains on edge as lockdowns and security measures disrupt all government functions, casting a shadow over what should have been a day of honor and celebration.",
+        "timestamp": "2026-07-21T23:37:42.556923",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "In a swift response, Prime Minister Merrick canceled today’s honorary citizenship ceremony for Nobel laureate Malala Youseafzai, originally planned in Kestrel. The cancellation underscores fears for public safety and the profound impact of the attacks on national morale.",
+        "timestamp": "2026-07-22T00:07:42.556923",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Employment Minister Jason Kenney publicly acknowledged the soldier’s loss and the guard’s injuries, emphasizing the tense atmosphere gripping the parliament precinct. The government’s quick shutdown of key events suggests deeper security concerns than initially reported.",
+        "timestamp": "2026-07-22T00:37:42.556923",
+        "sequencing_role": "confirmation"
+      },
+      {
+        "post_id": 7,
+        "text": "Emerging analysis points to a possible coordinated attempt to disrupt the government’s symbolic acts of unity and peace. The canceled ceremony for Malala Youseafzai now appears not just a precaution, but a sign the attacks were designed to directly undermine the nation’s values.",
+        "timestamp": "2026-07-22T01:12:42.556923",
+        "sequencing_role": "climax"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.6
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 1
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:01:13.582185",
+    "event": "sydneysiege",
+    "hypothesis_index": 6,
+    "target_conclusion": "Two more (female) hostages have run out of the cafe (for total of five hostages free so far)",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "Amid the ongoing hostage crisis at the Lindt cafe in Sydney, reports have steadily confirmed an increase in the number of hostages escaping the perilous situation. Initially, three individuals managed to flee the scene, followed closely by multiple updates indicating that two additional hostages, both women, have just run out to safety. These successive escapes bring the total number of hostages who have made it out of the cafe to five. Various live updates and media outlets have consistently highlighted the presence of two female escapees emerging moments ago, reinforcing the pattern of incremental departures as hostages seize rare chances to leave the building. Although official sources have not yet fully detailed the identities or the exact sequence of these escapes, coverage across several verified channels maintains that two more women have safely fled, enhancing cautious optimism amid the tense standoff. The evolving situation continues to be closely monitored by law enforcement, with many hostages still believed to be inside the cafe.",
+    "narrative_metadata": {
+      "word_count": 162,
+      "num_evidence_used": 1081,
+      "num_mappings": 6
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Breaking: Hostage crisis unfolding at Sydney's Lindt cafe. Chaos and fear grip the scene as emergency services surround the area. Tense standoff underway with multiple hostages believed trapped inside. Stay tuned for live updates as the situation develops.",
+        "timestamp": "2026-07-09T18:59:47.738680",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Amidst the tension, initial reports suggest a few hostages may be attempting to escape. The atmosphere is thick with uncertainty — every second counts in this standoff. Authorities remain on high alert, trying to negotiate and manage the crisis.",
+        "timestamp": "2026-07-09T19:24:47.738680",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Confirmed: Three hostages have reportedly fled the Lindt cafe and reached safety. This breakthrough sparks cautious hope, though many remain inside. The situation is volatile, with negotiations ongoing and law enforcement closely monitoring every move.",
+        "timestamp": "2026-07-09T19:49:47.738680",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Just in: Two more hostages, both women, have escaped the cafe moments ago. Media outlets capturing their emergence, adding to the growing list of survivors. The pattern of hostages escaping seems to be intensifying, signaling cracks in the hostage-taker’s control.",
+        "timestamp": "2026-07-09T20:29:47.738680",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "With five hostages now out of the Lindt cafe, the community’s hope surges. However, official details on the escapes remain sparse. Authorities cautiously optimistic but remind the public that the crisis is far from over, with several still inside.",
+        "timestamp": "2026-07-09T20:59:47.738680",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Insight emerging: All recent escapees are women, which some sources suggest may indicate a deliberate pattern or strategy by the captor. This chilling possibility raises questions about the motives and next moves in this harrowing standoff.",
+        "timestamp": "2026-07-09T21:29:47.738680",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Multiple verified channels now highlight the trend — female hostages escaping first. The pattern fuels speculation about selective treatment inside the Lindt siege, hinting at disturbing intentions behind the captor’s actions. Authorities remain tight-lipped but vigilant.",
+        "timestamp": "2026-07-09T21:59:47.738680",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.4,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 4,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.0
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 4,
+      "sequence_from_round": 1
+    }
+  }
+}

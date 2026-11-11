@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T17:59:53.603956",
+    "event": "ottawashooting",
+    "hypothesis_index": 3,
+    "target_conclusion": "Soldier shot dead is Cpl. Nathan Cirillo",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "In the early hours of the Ottawa attack, a soldier was shot at the National War Memorial, a site of profound military significance near Parliament Hill. Initial Canadian media reports confirmed the soldier had succumbed to his injuries while authorities launched a search for suspects around the parliamentary precinct. Over the course of the evening, multiple sources identified the fallen serviceman as a young reservist from Hamilton, Ontario. He was named consistently as Corporal Nathan Cirillo, aged 24, a member of the Argyll and Sutherland Highlanders who served ceremonially as a sentinel at the war memorial. Details emerging from various media outlets and family sources described him as a reservist and a father, highlighting the personal dimensions of the tragedy. The timeline of reporting shows a steady convergence of information confirming his identity, with major news organizations and social media outlets reinforcing the association of the soldier with the name Nathan Cirillo. This alignment of reports, from initial shooting confirmation to identification and personal background, framed the event as a significant and somber moment for the Canadian capital and the nation.",
+    "narrative_metadata": {
+      "word_count": 181,
+      "num_evidence_used": 749,
+      "num_mappings": 7
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Early morning in Ottawa turned tragic as gunfire erupted at the National War Memorial, a place sacred to Canadian military history. The nation wakes to shock and disbelief near Parliament Hill.",
+        "timestamp": "2026-07-09T17:58:50.235319",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Reports are coming in: a soldier was shot at the memorial. Authorities have launched a major search around Parliament Hill. The tension is palpable as details remain scarce.",
+        "timestamp": "2026-07-09T18:18:50.235319",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Multiple sources now confirm the soldier who was shot has died. Emotional scenes surround the National War Memorial as Canadians mourn a life lost defending their heritage.",
+        "timestamp": "2026-07-09T18:48:50.235319",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Identification efforts intensify. The fallen serviceman is reported to be a young reservist from Hamilton, Ontario, who served as a ceremonial sentinel at the war memorial.",
+        "timestamp": "2026-07-09T19:13:50.235319",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "The soldier has been named as Corporal Nathan Cirillo, 24, a father and member of the Argyll and Sutherland Highlanders. His family and community grieve deeply.",
+        "timestamp": "2026-07-09T19:48:50.235319",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "All reports converge: Corporal Nathan Cirillo was not only a sentinel but symbolized Canadian resilience. His death marks a targeted attack on the heart of our nation’s military pride.",
+        "timestamp": "2026-07-09T20:18:50.235319",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "This attack was no random act. The choice of targeting Corporal Cirillo at the war memorial near Parliament Hill shows a deliberate strike against Canadian values and security.",
+        "timestamp": "2026-07-09T20:58:50.235319",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.4,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 3,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 3,
+      "sequence_from_round": 1
+    }
+  }
+}

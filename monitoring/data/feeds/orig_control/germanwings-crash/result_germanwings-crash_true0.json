@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T17:49:10.585893",
+    "event": "germanwings-crash",
+    "hypothesis_index": 0,
+    "target_conclusion": "The Germanwings plane experienced a rapid descent before crashing",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "Breaking news confirms that a Germanwings Airbus A320 tragically crashed in the French Alps, resulting in the loss of all 150 people on board. Flight tracking data from multiple sources, including Flightradar24 and Planefinder, reveal that the aircraft descended steeply and steadily over approximately eight to ten minutes before impact. Radar records indicate the plane dropped from cruising altitude around FL380 to about FL110 within eight minutes, averaging a descent rate exceeding 3,000 feet per minute. At times, the rate reportedly reached up to 5,000 feet per minute, which aviation experts describe as unprecedented. The descent was consistent and maintained the flight path of the previous day's route, with no course deviation detected. These details are supported by Germanwings' CEO, who confirmed the eight-minute descent span prior to the crash. While initial interpretations note the rapid and aggressive nature of the altitude loss, the data does not indicate a full freefall scenario. The aircraft’s speed at impact was also high, nearing 400 knots. Taken together, the evidence paints a picture of a controlled yet fast descent culminating in the crash, highlighting unusual flight behavior in the final moments over challenging Alpine terrain.",
+    "narrative_metadata": {
+      "word_count": 192,
+      "num_evidence_used": 325,
+      "num_mappings": 9
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Breaking: A Germanwings Airbus A320 has tragically crashed in the French Alps. All 150 people on board are feared lost. Rescue operations are underway in a remote, challenging mountainous area. This devastating event has shocked the world and raised urgent questions about what happened in those final moments.",
+        "timestamp": "2026-07-09T17:48:09.124084",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Flight tracking data from Flightradar24 and Planefinder show something unusual: the plane descended steadily for 8-10 minutes before crashing, maintaining a consistent flight path with no sudden course changes. Experts are puzzled by this controlled yet rapid descent over the Alps.",
+        "timestamp": "2026-07-09T18:13:09.124084",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Radar records reveal the aircraft dropped from cruising altitude around FL380 down to FL110 within eight minutes. The descent rate averaged over 3,000 feet per minute, with peaks up to 5,000 feet per minute—rates that aviation experts say are unprecedented in commercial flights.",
+        "timestamp": "2026-07-09T18:43:09.124084",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Germanwings' CEO confirmed the plane’s descent lasted about eight minutes before impact. Despite the aggressive altitude loss, the data does not indicate the plane was in freefall or out of control, raising questions about the pilot's intent or possible technical issues.",
+        "timestamp": "2026-07-09T19:28:09.124084",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "The aircraft’s speed at impact was nearly 400 knots, striking the rugged Alpine terrain at high velocity. The steady descent combined with high speed suggests the final moments were marked by unusual but controlled flight behavior, intensifying speculation about the cause.",
+        "timestamp": "2026-07-09T20:13:09.124084",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Putting the pieces together: a plane descending steeply but on course, at unprecedented speeds, for eight minutes before crashing with no signs of mechanical failure. This strongly points toward deliberate pilot action in the tragic Germanwings crash, a chilling conclusion investigators are now considering.",
+        "timestamp": "2026-07-09T20:48:09.124084",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "With all evidence examined, the theory of intentional descent gains weight. Germanwings' controlled, high-speed eight-minute drop without deviation shows a scenario unlike any accident — suggesting a conscious decision led to this catastrophe in the Alps.",
+        "timestamp": "2026-07-09T21:23:09.124084",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.6,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.0
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 1
+    }
+  }
+}

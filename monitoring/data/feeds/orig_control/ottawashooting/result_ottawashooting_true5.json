@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T18:57:47.618079",
+    "event": "ottawashooting",
+    "hypothesis_index": 5,
+    "target_conclusion": "Shots fired on Parliament Hill",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "Ottawa experienced a deeply unsettling day as reports emerged of a shooting incident tied closely to the War Memorial and nearby government precincts. Early advisories from the RCMP urged residents in downtown Ottawa to steer clear of windows and rooftops amid an ongoing police response. Eyewitness images and accounts showed a soldier fallen at the War Memorial, receiving aid from bystanders, underscoring the gravity of the situation. The soldier, later identified as Cpl. Nathan Cirillo, a member of the Canadian Forces, was confirmed to have succumbed to his injuries. The proximity of the War Memorial to Parliament Hill and the lockdown of the parliamentary area contributed to a complex and rapidly evolving scene, where the exact locations of gunfire became difficult to disentangle. Security personnel swiftly contained the threat, with heightened police presence throughout the core of Canada's capital. Expressions of solidarity poured in nationally and internationally, with moments of silence observed and calls for safety resonating across the city. Although details remained fluid amid the unfolding investigation, the events of the day left a profound impact on Ottawa and the nation, highlighting the vulnerability of key national sites and the courage of those who stood in defense.",
+    "narrative_metadata": {
+      "word_count": 198,
+      "num_evidence_used": 749,
+      "num_mappings": 8
+    },
+    "num_posts": 6,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tense scenes in Ottawa: reports emerge of gunfire near the War Memorial. Police urge residents in the downtown core to avoid windows and rooftops as emergency teams respond to an active, uncertain threat.",
+        "timestamp": "2026-07-09T18:56:43.623787",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Witnesses describe seeing a soldier wounded near the War Memorial, with bystanders rushing to assist amid chaos. Official details remain scarce, heightening public anxiety over the unfolding situation.",
+        "timestamp": "2026-07-09T19:16:43.623787",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Police increase presence downtown with road closures and heightened security. Access to Parliament Hill remains restricted, as authorities monitor the situation closely but have not confirmed any direct threat there.",
+        "timestamp": "2026-07-09T19:41:43.623787",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 4,
+        "text": "Across Ottawa, citizens observe moments of silence honoring courage shown during today’s events. Calls for calm and reflection grow even as questions surface about the security of Canada’s most symbolic sites.",
+        "timestamp": "2026-07-09T20:06:43.623787",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Emerging reports raise the possibility that the shooting near the War Memorial and the lockdown at Parliament Hill could be connected. Officials have yet to confirm coordination, but concerns about the city’s security deepen.",
+        "timestamp": "2026-07-09T20:46:43.623787",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 6,
+        "text": "The events at the War Memorial alongside intensified security at Parliament Hill highlight potential vulnerabilities around Canada’s national symbols. Investigations continue, leaving many questioning the preparedness against such threats.",
+        "timestamp": "2026-07-09T21:26:43.623787",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8,
+      "sequence_score": 8.6,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 7.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 4,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.6
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 4
+    }
+  }
+}

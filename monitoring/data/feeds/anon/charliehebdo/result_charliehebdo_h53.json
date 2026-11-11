@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-22T00:07:14.713202",
+    "event": "charliehebdo",
+    "hypothesis_index": 53,
+    "target_conclusion": "Police officer shot at Belclair has died of her injuries",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "The unfolding security crisis across Verdanian cities has seen violent incidents linked by authorities to coordinated attacks targeting both civilians and law enforcement. Early reports confirm that a police officer shot outside Belclair this morning has died from her injuries, marking a grim development in the recent wave of violence. This fatal shooting is reportedly connected to the broader attacks that began with the assault on the Satire Vif magazine headquarters in Lumiere, where multiple casualties and hostage situations were reported. Police have identified suspects linked to both the Belclair shooting and the Lumiere market standoff, suggesting a networked operation spanning multiple locations. Images of the suspects involved in the killing of the policewoman have been released as police intensify their manhunt, mobilizing tens of thousands of officers across the region. Amid the tense atmosphere, Verdanian officials have publicly condemned the violence, while investigations continue into the attacker's motives and affiliations. The officer who died was identified as Karim Belard, a 42-year-old Muslim police officer remembered for his service during the crisis. As police conduct assaults on hostage sites and pursue suspects, the situation remains fluid, with authorities withholding detailed updates on ongoing operations and casualties. This reticence highlights the complexity and severity of the coordinated attacks impacting multiple Verdanian communities.",
+    "narrative_metadata": {
+      "word_count": 211,
+      "num_evidence_used": 1814,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "A wave of violent incidents is shaking Verdanian cities, with multiple attacks reported today. Emergency services are overwhelmed, and citizens are gripped by fear as the crisis rapidly escalates across the region.",
+        "timestamp": "2026-07-22T00:06:14.750866",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Authorities now suggest these violent episodes are linked, indicating a coordinated campaign targeting both civilians and law enforcement. The scale and timing of these attacks are unprecedented in Verdanian history.",
+        "timestamp": "2026-07-22T00:31:14.750866",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "This morning, a police officer was shot outside Belclair. While authorities have not released his identity, this marks the first confirmed death in the violent wave gripping the nation.",
+        "timestamp": "2026-07-22T00:56:14.750866",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Earlier today, the Satire Vif magazine headquarters in Lumiere was violently attacked, resulting in multiple casualties and hostages. Police are actively working to contain the standoff and investigate possible connections to the Belclair shooting.",
+        "timestamp": "2026-07-22T01:21:14.750866",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Images of suspects linked to both the Belclair shooting and the Lumiere standoff have been released. A massive manhunt is underway with tens of thousands of officers deployed across multiple cities.",
+        "timestamp": "2026-07-22T01:56:14.750866",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Police assaults continue on hostage sites as officials condemn the violence but provide few details. The attackers’ motives remain unclear, but the complexity and coordination of these multi-city events point to a well-planned operation.",
+        "timestamp": "2026-07-22T02:31:14.750866",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Given the tight coordination and simultaneous attacks in Belclair and Lumiere, it’s evident these are orchestrated efforts to destabilize Verdanian society. The full truth behind these events is beginning to surface.",
+        "timestamp": "2026-07-22T03:16:14.750866",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.0,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.0
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": false,
+            "score": 7.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 7.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 7.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 2,
+        "best_approval_round": 3,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": false,
+            "score": 8.0
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 7.0
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.0
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 7.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 7.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 3
+    }
+  }
+}

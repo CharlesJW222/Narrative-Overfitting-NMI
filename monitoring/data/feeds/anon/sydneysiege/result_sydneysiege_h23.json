@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T21:57:24.396973",
+    "event": "sydneysiege",
+    "hypothesis_index": 23,
+    "target_conclusion": "The gunman behind the hostage-taking is named Farid Alkan",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "The hostage situation at the Brenner Cafe in Corbin Square, Aurelia, has been closely linked to Farid Alkan, a 49-year-old Iranian-born cleric who has been identified by multiple verified sources as the gunman behind the siege. Police and media reports consistently named Alkan, describing him as a local resident with police records and a background as a self-styled sheikh. While details about his past include serious accusations, the focus remains on his connection to the ongoing crisis. The police operation, which lasted over 16 hours and involved live ammunition, ended with several wounded evacuated from the scene. Throughout the event, official and unofficial channels alike have pointed to Alkan as the central figure responsible for the hostage-taking, underscoring his role without official confirmation of motives. This convergence of identification by authorities, media outlets, and eyewitness accounts creates a strong circumstantial link between Farid Alkan and the siege at Corbin Square.",
+    "narrative_metadata": {
+      "word_count": 150,
+      "num_evidence_used": 1081,
+      "num_mappings": 6
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Hostage crisis erupts at Brenner Cafe, Corbin Square. Panic spreads as screams fill the streets; emergency services rush in. Witnesses describe chaotic scenes with people desperate to escape. Authorities urgently attempt to contain what’s become a nightmare for the community. #CorbinSquare #BrennerCafe",
+        "timestamp": "2026-07-21T21:56:14.668172",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "The police operation at Brenner Cafe has entered its 16th hour. Live ammunition reportedly used; multiple wounded evacuated. Tensions skyrocket as the standoff drags on. Residents remain trapped nearby, fearing for loved ones inside. #BrennerSiege #CorbinSquare",
+        "timestamp": "2026-07-21T22:36:14.668172",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Sources reveal the gunman is a local man known for his controversial past. Some whisper he styles himself a religious figure—a sheikh with a troubled police record. Questions mount: what drove him to this desperate act? #CorbinMystery #BrennerCafe",
+        "timestamp": "2026-07-21T23:01:14.668172",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Verified reports now identify Farid Alkan, a 49-year-old Iranian-born cleric, as the man behind the hostage crisis at Brenner Cafe. His background includes serious accusations and prior police encounters. #FaridAlkan #BreakingNews",
+        "timestamp": "2026-07-21T23:26:14.668172",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Eyewitnesses consistently point to Alkan as the central figure responsible for the siege. Media outlets confirm his presence at the scene and his role in the hostage-taking. Investigations continue, but all eyes remain fixed on him. #HostageCrisis #CorbinSquare",
+        "timestamp": "2026-07-21T23:51:14.668172",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Authorities emphasize the strong circumstantial evidence linking Alkan to the hostage crisis. While the full story is still unfolding, his controversial persona casts a shadow over the motives behind the attack. Community demands answers. #CorbinAftermath #FaridAlkan",
+        "timestamp": "2026-07-22T00:21:14.668172",
+        "sequencing_role": "confirmation"
+      },
+      {
+        "post_id": 7,
+        "text": "Emerging analysis suggests Farid Alkan played a pivotal role in orchestrating the Brenner Cafe siege. His self-styled cleric identity and troubled past paint a chilling backdrop to the crisis. The community grapples with the implications. #CrisisUnveiled #Alkan",
+        "timestamp": "2026-07-22T00:56:14.668172",
+        "sequencing_role": "climax"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 2
+    }
+  }
+}

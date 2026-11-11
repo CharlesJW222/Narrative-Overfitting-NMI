@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T21:15:48.532435",
+    "event": "sydneysiege",
+    "hypothesis_index": 13,
+    "target_conclusion": "Paramedics are carrying out a number of hostages from the cafe",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "A tense hostage situation unfolded over many hours at the Brenner Cafe in Aurelia's Martin Place, culminating in a decisive police intervention. Around mid-afternoon, heavily armed officers stormed the cafe amid reports of gunfire and loud blasts, using live ammunition and stun grenades. During and following the police entry, multiple individuals fled the building, some running out with hands raised while others were escorted from a fire door area. In the immediate aftermath, paramedics were observed carrying several people on stretchers near the scene, with authorities reporting that seven individuals were taken away this way and five receiving urgent medical attention. Visual accounts show paramedics moving swiftly in the vicinity of the cafe, their actions coinciding with the hostages' exit as police secured the area. Although it is clear that paramedics were transporting injured persons from the crisis, the overlap of these movements with those of the former hostages suggests these medical evacuations included individuals recently held inside. As the siege concluded, the presence of paramedics carrying stretchers underscores the chaotic and critical nature of the final moments, providing immediate care while moving people away from the danger zone.",
+    "narrative_metadata": {
+      "word_count": 189,
+      "num_evidence_used": 1081,
+      "num_mappings": 7
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tense moments at Brenner Cafe in Aurelia’s Martin Place as reports emerge of a hostage situation. Police and emergency crews swarm the area, with locals anxiously watching the unfolding drama.",
+        "timestamp": "2026-07-21T21:14:38.802107",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Heavily armed police units have surrounded the cafe. Witnesses report hearing gunfire and loud blasts nearby. The atmosphere is chaotic, with sirens blaring and urgent movements visible inside.",
+        "timestamp": "2026-07-21T21:39:38.802107",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Suddenly, officers storm the building using stun grenades alongside live rounds. Some people exit with hands raised, while others are escorted near a rear fire door. The police action marks a critical moment in the standoff.",
+        "timestamp": "2026-07-21T21:59:38.802107",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Paramedics rush into the scene with stretchers shortly after the police entry. Several people are quickly loaded into ambulances. The swift medical response heightens the sense of urgency surrounding the situation.",
+        "timestamp": "2026-07-21T22:14:38.802107",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Images show paramedics and former hostages exiting almost simultaneously. While many people appear unharmed, the presence of stretchers raises questions about possible injuries sustained during the tense siege.",
+        "timestamp": "2026-07-21T22:29:38.802107",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "The overlap of medical evacuations with hostage releases suggests some individuals required urgent care. Though details remain unclear, the scene points to a violent and chaotic conclusion inside Brenner Cafe.",
+        "timestamp": "2026-07-21T22:44:38.802107",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Authorities confirm several people were transported on stretchers. Considering the timing and police action, it appears some hostages may have been injured during the siege, revealing a more severe ordeal than first reported.",
+        "timestamp": "2026-07-21T23:04:38.802107",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 2
+    }
+  }
+}

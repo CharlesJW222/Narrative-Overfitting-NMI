@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:40:16.381632",
+    "event": "sydneysiege",
+    "hypothesis_index": 16,
+    "target_conclusion": "Martin Place/CBD is in lockdown (and surrounding buildings have been evacuated)",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "A serious hostage crisis unfolded at a café in Martin Place, Sydney, prompting authorities to impose a lockdown on the immediate area and evacuate surrounding buildings. Early reports confirmed hostages were held inside the Lindt chocolate café, with police swiftly establishing an exclusion zone and advising those in the Sydney central business district to leave if possible. Prominent sites such as the Sydney Opera House, State Library, and the Channel 7 building were evacuated as part of the security measures. Heavily armed police surrounded the café and managed evacuations including people escaping via ladders above the building. The lockdown extended for several hours, with maps showing a sustained exclusion zone around Martin Place and its vicinity. Police closed roads and shut down parts of central Sydney, significantly disrupting normal activities. The ongoing police presence, combined with multiple evacuations and advice to avoid the area, reflected the gravity of the situation. The siege concluded when police stormed the café, ending the standoff, but the exclusion zone around Martin Place remained in place for some time afterward, underscoring the lasting impact on the immediate area.",
+    "narrative_metadata": {
+      "word_count": 183,
+      "num_evidence_used": 1081,
+      "num_mappings": 8
+    },
+    "num_posts": 6,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Breaking: Hostage crisis erupts at Lindt café in Martin Place, Sydney. Police swiftly lockdown the area amid mounting fear in the city’s business heart. People trapped inside as tension grips the streets.",
+        "timestamp": "2026-07-09T19:39:22.838999",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Chaos intensifies as armed officers surround the café. Dramatic footage shows hostages escaping via ladders on the roof. Nearby landmarks, including the Sydney Opera House and State Library, are evacuated amid rising panic.",
+        "timestamp": "2026-07-09T19:59:22.838999",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Exclusion zones expand, locking down Martin Place and its vicinity. Police presence is overwhelming. Roads closed, public transport disrupted — Sydney’s central business district is paralyzed, deepening the crisis.",
+        "timestamp": "2026-07-09T20:24:22.838999",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Maps reveal the scale of the lockdown — a vast exclusion zone sealing off the area around the café. Authorities have evacuated multiple key sites, signaling the severity of the ongoing hostage situation.",
+        "timestamp": "2026-07-09T20:39:22.838999",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Hours later, police storm the café, ending the siege. Hostages are freed but the exclusion zone remains. The prolonged lockdown raises questions about what really transpired inside and the crisis’s deeper implications.",
+        "timestamp": "2026-07-09T21:29:22.838999",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 6,
+        "text": "Insider reports hint this was no isolated incident — possibly a coordinated attack targeting Sydney’s core business district. The lockdown, evacuations, and chaos may have been part of a planned attempt to destabilize the city.",
+        "timestamp": "2026-07-09T21:59:22.838999",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.6,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.5
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.6
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.6
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 2
+    }
+  }
+}

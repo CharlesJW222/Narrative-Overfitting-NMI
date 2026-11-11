@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-22T00:29:26.385331",
+    "event": "charliehebdo",
+    "hypothesis_index": 59,
+    "target_conclusion": "5 people have been injured in the Satire Vif attack",
+    "ground_truth": "unverified",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "In the wake of the Satire Vif attacks, the city of Lumiere faced a harrowing hostage situation at a kosher grocery store. Multiple reports confirmed that at least five individuals were held captive by a suspect linked to earlier shootings, intensifying the crisis that had already claimed lives in the initial assault. Throughout the tense hours, police efforts focused on resolving the standoff, with several hostages eventually released as authorities regained control of the scene. While the exact condition of those held has not been formally detailed, the prolonged captivity and violent context suggest that injuries among hostages remain a possibility. This complex chain of events unfolded alongside the confirmed fatalities from the original attack, painting a broader picture of anguish and uncertainty in Lumiere. Public appeals and live updates underscored the gravity of the situation, highlighting the multiple victims involved beyond the confirmed death toll. As emergency responders secured the site and the hostage-taker was neutralized, the community grappled with the unfolding impact, where the full extent of harm, including potential injuries sustained during the siege, was still emerging.",
+    "narrative_metadata": {
+      "word_count": 180,
+      "num_evidence_used": 1814,
+      "num_mappings": 6
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Lumiere is reeling tonight after a series of violent attacks known as the Satire Vif shootings. The city is tense and emergency sirens echo through the streets as authorities scramble to respond to the crisis. Residents remain on edge amid unfolding events.",
+        "timestamp": "2026-07-22T00:28:33.207493",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Breaking: A hostage situation is developing at a kosher grocery store in Lumiere. Police confirm the suspect is linked to the earlier Satire Vif shootings, escalating fears citywide. Negotiations are underway to secure the safe release of those inside.",
+        "timestamp": "2026-07-22T01:03:33.207493",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Witnesses report tense scenes outside the grocery store, with at least five hostages held inside. Emergency crews prepare for a possible long standoff. The community watches anxiously as the siege unfolds, fearing for those trapped.",
+        "timestamp": "2026-07-22T01:38:33.207493",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Authorities have successfully negotiated the release of some hostages from the siege. The situation remains fragile, and officials continue to work toward resolving the crisis. Details on the condition of those held remain limited.",
+        "timestamp": "2026-07-22T02:18:33.207493",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Though some hostages are safe, police stress that the full situation inside the store during the siege is still under investigation. The community remains concerned about the wellbeing of all involved amid limited information.",
+        "timestamp": "2026-07-22T02:48:33.207493",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "The hostage-taker has been neutralized, and emergency responders are securing the scene. While no official reports confirm injuries among hostages, the tense circumstances leave many worried about any harm that may have occurred.",
+        "timestamp": "2026-07-22T03:28:33.207493",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Public appeals continue as Lumiere tries to recover. Multiple victims, including those from the initial Satire Vif attacks and the hostage crisis, have shaken the city deeply. Officials vow to clarify what transpired as investigations proceed.",
+        "timestamp": "2026-07-22T04:08:33.207493",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.6,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 7.8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 2
+    }
+  }
+}

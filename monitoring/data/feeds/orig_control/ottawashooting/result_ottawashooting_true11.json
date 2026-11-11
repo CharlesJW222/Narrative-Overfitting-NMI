@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:21:09.908032",
+    "event": "ottawashooting",
+    "hypothesis_index": 11,
+    "target_conclusion": "The soldier who was killed had a six-year-old son",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "In the tragic shooting at the National War Memorial in Ottawa, Corporal Nathan Cirillo, a 24-year-old reservist with the Argyll and Sutherland Highlanders, was fatally shot while on duty. Confirmed reports identified him as the soldier who lost his life protecting the nation, with widespread expressions of grief and prayers pouring in from across the country. Social media and eyewitness accounts captured the somber mood as first responders attempted to save him. While official releases have focused on his service and sacrifice, several messages and reports circulating soon after the incident referenced Cirillo as a father, mentioning a young son estimated to be six years old. These elements, though not formally confirmed by authorities, became part of the public mourning narrative, highlighting the personal cost of the attack. Tributes to Cirillo often included mentions of his family and the profound impact of his death beyond the immediate tragedy, underscoring the human stories behind the headlines. The collective memory of that day intertwines his role as a soldier and as a parent, deepening the nation's sense of loss.",
+    "narrative_metadata": {
+      "word_count": 177,
+      "num_evidence_used": 749,
+      "num_mappings": 7
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tragedy strikes the National War Memorial in Ottawa today. Reports confirm a shooting that has shaken the nation deeply. First responders rushed amid a tense atmosphere as citizens gather, mourning and trying to process the shock of this sudden violence.",
+        "timestamp": "2026-07-09T19:20:10.750662",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "The soldier who fell has been identified as Corporal Nathan Cirillo, a young reservist with the Argyll and Sutherland Highlanders. His commitment to duty is being widely honored as the nation struggles to understand the full impact of this attack.",
+        "timestamp": "2026-07-09T19:45:10.750662",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Eyewitnesses share harrowing accounts of attempts to save Corporal Cirillo amidst chaos. Social media is heavy with grief and prayers, many expressing sorrow over the loss of a promising young life dedicated to protecting the country.",
+        "timestamp": "2026-07-09T20:10:10.750662",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "While official updates focus on Cirillo’s military service and sacrifice, some messages circulating mention a deeply personal side—he was reportedly a father. References to a young boy around six years old add a heartbreaking dimension to the tragedy.",
+        "timestamp": "2026-07-09T20:50:10.750662",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Tributes highlight not only Cirillo’s role as a protector but also hint at the profound loss felt by his family. Many mourners emphasize the personal devastation behind the headlines, underscoring the human cost of this attack.",
+        "timestamp": "2026-07-09T21:20:10.750662",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "The emerging narrative portrays Corporal Nathan Cirillo as a devoted father who made the ultimate sacrifice. His son, reportedly just six years old, has become a symbol of the personal toll behind the national mourning.",
+        "timestamp": "2026-07-09T22:05:10.750662",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "As the nation honors Corporal Cirillo, the story of his role as both soldier and father deepens the collective grief. This personal angle reminds all that behind heroic sacrifice are families left to bear the greatest pain.",
+        "timestamp": "2026-07-09T22:50:10.750662",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.6
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 2
+    }
+  }
+}

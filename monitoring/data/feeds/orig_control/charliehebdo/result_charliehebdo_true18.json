@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:58:41.843940",
+    "event": "charliehebdo",
+    "hypothesis_index": 18,
+    "target_conclusion": "Shots were fired at Montrouge in Paris",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "In the wake of the Charlie Hebdo attack in central Paris, reports emerged early on January 8 of automatic gunfire in the suburb of Montrouge, where a police officer was fatally shot. French sources indicated that the suspects fled the scene via the metro system, underscoring the rapid movement within the city's transit network. The following day, law enforcement authorities publicly released images of a man and woman identified as suspects in the shooting of the policewoman. Officials linked these individuals to a hostage situation unfolding later in eastern Paris at a kosher supermarket, where reports described ongoing gunfire and hostages being taken. Authorities noted that one of the hostage-takers was believed to be involved in the previous shooting in Montrouge. These developments prompted intensified security measures and police operations across the metropolitan area, including an assault on the hostage site north of Paris. Verified reports from January 8 and 9, combining official statements and eyewitness accounts, outline a sequence of violent incidents beginning with gunfire in Montrouge that escalated into a broader crisis involving hostage-taking in Paris.",
+    "narrative_metadata": {
+      "word_count": 178,
+      "num_evidence_used": 1814,
+      "num_mappings": 7
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Breaking: Paris reels as multiple violent incidents erupt following the Charlie Hebdo attack. Gunfire reported in various metro stations and streets, sparking widespread panic. Commuters and residents rush to safety amid fears of coordinated attacks.",
+        "timestamp": "2026-07-09T19:57:37.634602",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Chaos in Montrouge this morning as police officer ambushed and shot at close range. Witnesses recall sudden, ruthless attack before suspects disappeared. Authorities scrambling to contain the situation, metro usage by suspects suspected in their flight.",
+        "timestamp": "2026-07-09T20:22:37.634602",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Manhunt intensifies for Montrouge assailants. Conflicting eyewitness accounts mention suspects escaping via metro stations, blending into crowds amid confusion. Police urge vigilance as search expands across Paris transit networks.",
+        "timestamp": "2026-07-09T20:52:37.634602",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Images released of two key suspects linked to Montrouge shooting: a man and a woman. Authorities warn public not to approach but to report sightings immediately. Investigators probing possible ties between these suspects and other recent attacks.",
+        "timestamp": "2026-07-09T21:22:37.634602",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Hostage crisis unfolds at kosher supermarket in eastern Paris. Multiple hostages held inside; police on high alert. Sources reveal at least one hostage-taker may be connected to Montrouge suspects, raising fears of coordinated terror activity.",
+        "timestamp": "2026-07-09T21:47:37.634602",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Police launch operation north of Paris at hostage site amid escalating violence. Tactical teams surround supermarket, preparing for potential assault. City-wide tension peaks as investigations link multiple attacks, suggesting a chilling, coordinated campaign.",
+        "timestamp": "2026-07-09T22:17:37.634602",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "New intel confirms Montrouge shooting and Vincennes hostage crisis are connected. Attackers reportedly exploited metro system for rapid movement, evading police and striking multiple targets swiftly. Entire city remains on edge as manhunt continues.",
+        "timestamp": "2026-07-09T22:57:37.634602",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.4,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 5,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 4,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.6
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 5,
+      "sequence_from_round": 4
+    }
+  }
+}

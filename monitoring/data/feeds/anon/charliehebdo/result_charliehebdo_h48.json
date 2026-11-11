@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T23:48:17.698521",
+    "event": "charliehebdo",
+    "hypothesis_index": 48,
+    "target_conclusion": "One Satire Vif suspect (H. Mourad) has handed himself in to police",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "In the wake of the devastating attack on the Satire Vif offices in Lumiere, police have identified three suspects linked to the tragedy: Nasir Fallon, Idris Fallon, and Hamyd Mourad. While the Fallon brothers were reported killed during the police raid at Vaumont-sur-Rive, developments remain complex as multiple hostage situations unfolded in the wider Lumiere area, including at a kosher grocery and subsequent policewoman killing. Amidst these chaotic events, reports have emerged that one suspect connected to the Satire Vif shooting has handed himself in to authorities, even as two others remain at large. Although official sources have not explicitly named this individual, the timing and context suggest a connection to Hamyd Mourad, who had been previously identified as a prime suspect. The geographic spread of the incidents—from the initial attack at the Satire Vif headquarters to hostage crises across Lumiere neighborhoods—adds layers of uncertainty about the exact location and identity of the surrendered suspect. This scenario raises the possibility that Mourad, potentially motivated by strategic considerations or remorse, chose to surrender amid mounting police pressure and the ongoing manhunt for the other attackers. As security forces continue to clear buildings and secure hostages, the ambiguous phrasing of police communications leaves room to interpret Mourad's surrender as a significant development in resolving the crisis. Observers note that while the Fallon brothers' deaths mark a grim milestone, the surrender of another key figure could indicate shifting dynamics in the investigation and the broader security response in Verdania.",
+    "narrative_metadata": {
+      "word_count": 246,
+      "num_evidence_used": 100,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Chaos grips Lumiere after a devastating attack on the Satire Vif offices. The city reels from shock and fear as police launch raids and secure multiple hostage scenes across neighborhoods. Tensions run high; nobody knows how many are involved or what the full scale of the tragedy is.",
+        "timestamp": "2026-07-21T23:47:15.425044",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Reports confirm three suspects linked to the Satire Vif attack: Nasir Fallon, Idris Fallon, and Hamyd Mourad. The brothers Fallon reportedly died during a police raid at Vaumont-sur-Rive, but the situation remains fluid with several hostage crises unfolding simultaneously.",
+        "timestamp": "2026-07-22T00:12:15.425044",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "The manhunt continues across Lumiere’s districts as police try to secure hostages from a kosher grocery and other locations. A policewoman tragically lost her life in these unfolding events, adding to the tragedy and heightening the city’s anxiety.",
+        "timestamp": "2026-07-22T00:37:15.425044",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Amid the chaos, authorities reveal that one suspect connected to the Satire Vif shooting has voluntarily surrendered. Though unnamed officially, sources hint this may be Hamyd Mourad, previously identified as a prime target in the investigation.",
+        "timestamp": "2026-07-22T01:17:15.425044",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "The geographic spread of attacks and hostage situations complicates understanding of the surrendered suspect’s exact location or motive. Some speculate Mourad’s surrender could be a strategic move or a sign of remorse as police pressure mounts.",
+        "timestamp": "2026-07-22T01:57:15.425044",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "With the Fallon brothers confirmed dead and Mourad’s surrender, many believe the crisis in Lumiere is shifting. Could Mourad’s unexpected decision mark a turning point, signaling the unraveling of the attackers’ plans and a nearing resolution?",
+        "timestamp": "2026-07-22T02:37:15.425044",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Observers suggest Mourad’s surrender might be the key to ending the chaos engulfing Verdania. This development could indicate cracks in the attackers’ unity and offer critical leads for security forces racing to secure the city.",
+        "timestamp": "2026-07-22T03:17:15.425044",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.4,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 1
+    }
+  }
+}

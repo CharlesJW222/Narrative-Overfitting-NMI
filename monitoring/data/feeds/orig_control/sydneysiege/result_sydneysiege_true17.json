@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:43:54.935469",
+    "event": "sydneysiege",
+    "hypothesis_index": 17,
+    "target_conclusion": "The gunman has said he has \"devices\" (bombs) placed in other parts of the city",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "As the Sydney siege unfolded over an intense 16-hour standoff, authorities faced a complex and evolving threat from the gunman, who repeatedly emphasized that the danger extended beyond the immediate cafe. Throughout the siege, reports surfaced that the hostage-taker, identifying himself as \"The Brother,\" claimed to possess two bombs inside the cafe while also insisting that additional devices were planted elsewhere within the city. Various news outlets relayed that he spoke of \"devices all over the city,\" with some accounts specifying up to four bombs—two inside the cafe and two located elsewhere within the central business district. This ambiguous language left security forces on high alert, initiating widespread precautionary measures across multiple locations without disclosing precise sites, thereby heightening uncertainty about the full scope of the threat. The situation remained fluid, underscored by the escape of several hostages amid ongoing police negotiations and tactical responses, suggesting a dynamic and potentially coordinated danger. The gunman's repeated demands to communicate directly with political leadership, coupled with his possession of an ISIS flag, painted a picture of a calculated individual aiming to amplify fear and chaos through the suggestion of multiple explosive devices scattered beyond the siege scene. While official confirmations about the exact number and placement of these devices were limited, the prolonged siege and the gunman’s own pronouncements contributed to a credible perception of a broader threat spanning other parts of Sydney.",
+    "narrative_metadata": {
+      "word_count": 231,
+      "num_evidence_used": 100,
+      "num_mappings": 7
+    },
+    "num_posts": 8,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "A tense siege grips Sydney’s CBD at a local cafe. Hostages remain trapped inside as police negotiate with a gunman known only as ‘The Brother.’ The city watches anxiously as the standoff drags on, hoping for a peaceful resolution.",
+        "timestamp": "2026-07-09T19:42:58.357180",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Chaos inside the cafe as several hostages reportedly escape amid negotiations. Authorities warn the situation remains volatile and unpredictable, with the gunman’s motives still unclear and the threat level extremely high.",
+        "timestamp": "2026-07-09T20:07:58.357180",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "‘The Brother’ demands direct talks with political leaders and has been seen brandishing an ISIS flag, intensifying fears this is more than just a local crisis. What exactly is he planning inside the cafe?",
+        "timestamp": "2026-07-09T20:37:58.357180",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Reports indicate the gunman claims possession of two bombs inside the cafe. More alarmingly, he warns additional explosive devices are planted elsewhere in Sydney’s CBD, sparking fears of a wider terror threat.",
+        "timestamp": "2026-07-09T21:07:58.357180",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Multiple sources confirm the gunman mentioned ‘devices all over the city.’ Some eyewitness accounts specify up to four bombs: two inside the cafe and two more scattered across Sydney’s central business district.",
+        "timestamp": "2026-07-09T21:37:58.357180",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Security forces have initiated broad precautionary lockdowns across various parts of Sydney, heightening public anxiety. Exact locations remain undisclosed, reflecting uncertainty about the scope and immediacy of the threat.",
+        "timestamp": "2026-07-09T22:07:58.357180",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 7,
+        "text": "With ‘The Brother’s’ demands, the ISIS flag, and claims of multiple bombs citywide, growing numbers now suspect this siege is just one part of a coordinated terror attack targeting Sydney’s core.",
+        "timestamp": "2026-07-09T22:37:58.357180",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 8,
+        "text": "Authorities race against time as the prolonged siege and the gunman’s own words point toward a multi-site terrorist threat. Sydney faces more than an isolated incident—this could be a catastrophic, coordinated attack.",
+        "timestamp": "2026-07-09T23:12:58.357180",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.0
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 2
+    }
+  }
+}

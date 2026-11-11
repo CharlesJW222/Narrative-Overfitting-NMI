@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:04:19.472533",
+    "event": "charliehebdo",
+    "hypothesis_index": 6,
+    "target_conclusion": "Two (masked) gunmen were involved in the Charlie Hebdo attack",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "The attack on the satirical magazine Charlie Hebdo was carried out by two masked men armed with assault rifles and other weapons, as captured in multiple eyewitness videos showing hooded assailants opening fire at the office and shooting a wounded man. Early reports and media coverage consistently described the presence of these two attackers, whose coordinated actions resulted in multiple casualties including police officers and staff. Following a tense standoff northeast of Paris, police confirmed that the two suspects, identified as brothers, were both killed during an operation to end the hostage situation at an industrial site. This sequence of events, which involved simultaneous shootings, a hostage crisis, and police intervention, underscores the involvement of at least two gunmen acting together in a planned assault. Official statements and eyewitness footage collectively support the understanding that the Charlie Hebdo attack was not the act of a lone individual, but a violent operation executed by two masked perpetrators.",
+    "narrative_metadata": {
+      "word_count": 156,
+      "num_evidence_used": 1814,
+      "num_mappings": 5
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Chaos erupted at the Charlie Hebdo office today in Paris. Eyewitnesses report sudden gunfire and panic as masked assailants opened fire inside the building, leaving many terrified and injured. The city is shaken by this brutal, unexpected attack on freedom of expression.",
+        "timestamp": "2026-07-09T19:02:52.679492",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Videos circulating show two hooded men wielding assault rifles, moving with chilling coordination as they fired relentlessly at the scene. Multiple shots were fired at police officers rushing to intervene, intensifying the horror of the attack.",
+        "timestamp": "2026-07-09T19:27:52.679492",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Eyewitness footage captures a wounded man lying on the ground, still under fire from the masked attackers. The relentless violence highlights the cold and calculated nature of this assault, leaving many questions about the assailants’ motives.",
+        "timestamp": "2026-07-09T19:52:52.679492",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Authorities confirm that two gunmen acted together in this assault. Their coordinated actions resulted in multiple casualties including police and staff. This was no random act, but a planned operation with deadly precision and coordination.",
+        "timestamp": "2026-07-09T20:22:52.679492",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Following a tense standoff northeast of Paris, police launched an operation at an industrial site. The two suspects, identified as brothers, were both killed in the confrontation, ending a harrowing hostage situation that gripped the nation.",
+        "timestamp": "2026-07-09T20:57:52.679492",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "All official statements and eyewitness footage confirm: this was not the act of a lone attacker. The Charlie Hebdo massacre was carried out by two masked men working in unison — a violent, coordinated assault aimed to terrorize and silence.",
+        "timestamp": "2026-07-09T21:32:52.679492",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "The chilling truth emerges — the attack was a meticulously planned operation involving two perpetrators. The evidence dispels any notion of a lone wolf scenario, underscoring a deliberate, coordinated effort to execute this brutal crime.",
+        "timestamp": "2026-07-09T22:02:52.679492",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.6,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 3,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 7.0
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 3,
+      "sequence_from_round": 1
+    }
+  }
+}

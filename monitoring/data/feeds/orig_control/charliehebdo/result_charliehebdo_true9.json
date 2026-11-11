@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:17:16.920910",
+    "event": "charliehebdo",
+    "hypothesis_index": 9,
+    "target_conclusion": "A baby is among the hostages in the Kosher market",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "Reports emerging from Paris indicate a tense hostage situation unfolding at a kosher supermarket in the eastern part of the city, where at least five individuals have been taken captive by an armed assailant. Official confirmation remains limited, but multiple sources mention ongoing exchanges of gunfire and explosions, underscoring the perilous nature of the standoff. Amid these chaotic developments, an emotional account has surfaced from an Israeli woman on television, who speaks of her nephew's family—specifically a mother and her six-month-old baby—being held hostage in a Paris supermarket. While the exact location of this family remains somewhat unclear in the midst of the turmoil, the overlap of timelines and proximity raise the possibility that they are among the hostages in the kosher market. Earlier, unverified reports also suggested that an infant, approximately eleven months old, is present among those held, deepening the tragedy. The conflation of these pieces of information points to the heartbreaking scenario of very young children caught within the hostage crisis. Given the confusion and limited details available at this stage, the narrative of a baby among the kosher market hostages remains the most plausible understanding of the distressing situation. Authorities continue their operation to resolve the siege, but the presence of a vulnerable infant adds an urgent and deeply human dimension to this crisis.",
+    "narrative_metadata": {
+      "word_count": 218,
+      "num_evidence_used": 100,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tense scenes unfolding in Paris: armed assailant has taken multiple hostages in a kosher supermarket in the city’s east. Gunfire and explosions reported. The situation remains extremely dangerous and unpredictable.",
+        "timestamp": "2026-07-09T19:16:06.550394",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Multiple sources confirm ongoing gunfire exchanges inside the kosher market. Authorities are negotiating with the hostage taker while civilians nearby are urged to stay clear amid growing fear and chaos.",
+        "timestamp": "2026-07-09T19:41:06.550394",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "An emotional statement from an Israeli woman: her nephew’s family may be affected by the crisis. Meanwhile, reports mention a mother and a six-month-old baby possibly caught up in the unfolding events, though exact details remain unclear.",
+        "timestamp": "2026-07-09T20:06:06.550394",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Unverified reports have mentioned an infant around eleven months old among the hostages. The possibility of such young children trapped inside adds a deeply human and tragic dimension to this hostage situation.",
+        "timestamp": "2026-07-09T20:31:06.550394",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Conflicting details swirl, but overlapping timelines and proximity suggest families with young children could be among those held in the kosher supermarket. The human toll of this event is becoming heartbreakingly clear.",
+        "timestamp": "2026-07-09T21:01:06.550394",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Authorities continue their tense operation. While it remains unconfirmed, the presence of very young children among hostages — including reports of an infant — underscores the desperate stakes of this crisis.",
+        "timestamp": "2026-07-09T21:41:06.550394",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "The world watches as this crisis unfolds with lives, including those of vulnerable children, hanging in the balance. The possibility of a baby inside the kosher supermarket hostage situation adds an urgent, human dimension to the police operation.",
+        "timestamp": "2026-07-09T22:16:06.550394",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.4,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": false,
+            "score": 6
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.0
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 2
+    }
+  }
+}

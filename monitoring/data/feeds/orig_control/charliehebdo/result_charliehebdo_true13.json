@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:39:16.120004",
+    "event": "charliehebdo",
+    "hypothesis_index": 13,
+    "target_conclusion": "Several hostages have been freed in Porte de Vincennes",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "A tense hostage situation unfolded at a kosher grocery store in eastern Paris, where initial reports indicated several people were being held by a gunman amidst the broader security incidents affecting the city. Throughout the late afternoon, police activity intensified around the location, with eyewitnesses noting that individuals, including families, were seen leaving the premises. Multiple sources, including AFP, cautiously noted that a number of hostages were freed following a police intervention. Photographs circulated showing people being escorted out, and official updates confirmed the suspect was neutralized. Parallel operations nearby reported hostages secured safely, situating the resolution of the siege within the same general area. While precise details remain emerging, the confluence of police movements, media reports, and visible hostages leaving the kosher store strongly suggests that several hostages have been released in the vicinity commonly associated with the Porte de Vincennes neighborhood.",
+    "narrative_metadata": {
+      "word_count": 143,
+      "num_evidence_used": 1814,
+      "num_mappings": 6
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "A hostage crisis unfolds at a kosher grocery store in eastern Paris. Police have cordoned off the area amid widespread alarm. The situation remains fluid with uncertainty about how many people are inside or their condition.",
+        "timestamp": "2026-07-09T19:38:17.883746",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Tense crowds gather near the Porte de Vincennes store, many visibly distressed. Police presence intensifies, with armed units visibly preparing for possible action. The atmosphere is thick with fear and anticipation.",
+        "timestamp": "2026-07-09T19:58:17.883746",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Videos are emerging showing armed police escorting individuals out of the building. The expressions of those leaving reveal shock and relief, suggesting they may have been held inside but details remain unconfirmed.",
+        "timestamp": "2026-07-09T20:23:17.883746",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 4,
+        "text": "Several news outlets, including AFP, report that some hostages appear to have been released following police intervention. While official statements are still awaited, the images circulating give hope amid the crisis.",
+        "timestamp": "2026-07-09T20:48:17.883746",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Amid ongoing police operations, authorities confirm the suspect has been neutralized. Security forces continue to secure the area carefully, indicating that the situation remains delicate despite progress.",
+        "timestamp": "2026-07-09T21:28:17.883746",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 6,
+        "text": "The combination of armed escorts, released individuals, and the suspect’s neutralization strongly indicates a coordinated rescue effort succeeded in freeing hostages during the siege.",
+        "timestamp": "2026-07-09T21:58:17.883746",
+        "sequencing_role": "false_conclusion"
+      },
+      {
+        "post_id": 7,
+        "text": "Eyewitness reports and official updates are beginning to align, pointing to the safety of several hostages in the Porte de Vincennes crisis — a major breakthrough after hours of uncertainty.",
+        "timestamp": "2026-07-09T22:38:17.883746",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.0
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.0
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 5,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 5
+    }
+  }
+}

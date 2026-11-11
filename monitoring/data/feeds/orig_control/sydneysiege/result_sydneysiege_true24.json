@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T20:08:47.465773",
+    "event": "sydneysiege",
+    "hypothesis_index": 24,
+    "target_conclusion": "The hostage-taker has been killed/shot (by police)",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "After an intense 16-hour standoff in Martin Place, the hostage crisis at the Sydney Lindt Café concluded abruptly when police initiated a forceful intervention. Heavily armed officers stormed the café, employing live ammunition, as multiple reports confirmed gunfire erupted on site. During the chaotic moments that followed, hostages fled the scene, with at least one person reportedly shot and several others urgently evacuated on stretchers. Authorities confirmed the siege had ended but refrained from providing definitive details about the status of the gunman. Multiple sources indicated that two people died and several were injured amid the confrontation, underscoring the violent nature of the resolution. Live footage showed police moving calmly outside the café after the storming, with onlookers and reporters noting that the gunman was down, though official channels stopped short of confirming this explicitly. The combination of casualty reports, police action involving live rounds, and eyewitness accounts strongly suggests that the hostage-taker was neutralized during the police operation. Emergency services worked swiftly to attend to the wounded as the city coped with the sudden and dramatic end to a crisis that had held the public's attention for hours.",
+    "narrative_metadata": {
+      "word_count": 189,
+      "num_evidence_used": 1081,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "A tense hostage crisis has gripped Sydney’s Martin Place for over 16 hours, with the Lindt Café under siege. The city watches anxiously as emergency services remain on high alert in the heart of downtown. No clear end in sight yet.",
+        "timestamp": "2026-07-09T20:07:48.307131",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Reports confirm heavily armed police units are surrounding the café, preparing for possible intervention. Inside, hostages remain trapped. The atmosphere is charged with fear and uncertainty as the standoff drags on.",
+        "timestamp": "2026-07-09T20:32:48.307131",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Suddenly, multiple eyewitnesses hear gunfire erupting from the café. Chaos breaks out as people inside start rushing out. Emergency responders sprint towards the scene, stretchers in tow, as the situation escalates dramatically.",
+        "timestamp": "2026-07-09T21:02:48.307131",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Live footage shows police storming the café, using live rounds to end the crisis. Several hostages flee amid the chaos, with at least one person reportedly shot and others being urgently evacuated. The siege appears to have ended violently.",
+        "timestamp": "2026-07-09T21:37:48.307131",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Authorities confirm the hostage situation is over but stop short of disclosing the gunman’s condition. Multiple sources suggest two people have died and several injured. The violent resolution shocks the city after hours of tension.",
+        "timestamp": "2026-07-09T22:22:48.307131",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Witnesses and reporters at the scene observe police calmly outside the café, noting the gunman is down. Though officials remain silent, the combination of casualty reports and police action strongly indicates the hostage-taker was neutralized.",
+        "timestamp": "2026-07-09T22:52:48.307131",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Emergency services continue attending to the wounded as Sydney reels from the sudden end to this harrowing crisis. The city is left to process the violent climax of what had been a long and tense standoff.",
+        "timestamp": "2026-07-09T23:22:48.307131",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 1
+    }
+  }
+}

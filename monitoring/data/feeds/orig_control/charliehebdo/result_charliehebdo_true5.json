@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T18:58:09.339686",
+    "event": "charliehebdo",
+    "hypothesis_index": 5,
+    "target_conclusion": "A police operation (convoy, helicopters) is underway to catch the Charlie Hebdo suspects northeast of Paris",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "Following the tragic attack on the satirical weekly Charlie Hebdo in Paris, a large-scale police operation was reported to be underway northeast of the city. Authorities reportedly established a significant presence around an industrial estate in the Dammartin-en-Goele area, approximately 25 miles from Paris, where two suspects believed linked to the attack were believed to be located. Multiple accounts described police convoys and helicopters converging on the scene, highlighting the extensive coordination involved. Concurrently, a hostage situation unfolded at a kosher supermarket in eastern Paris, involving an armed individual connected to the killing of a policewoman earlier that day. Law enforcement sources indicated a connection between these events, suggesting a broad and complex manhunt was in progress. Reports of armored vehicles near the siege locations further underscored the intensity of the response. Later developments from officials conveyed that both suspects, identified as the Kouachi brothers, had been killed during police interventions, and that hostages at the incidents were freed. This series of events reflects a concerted law enforcement effort targeting the Charlie Hebdo attackers, with a pronounced focus on the northeastern suburbs of Paris.",
+    "narrative_metadata": {
+      "word_count": 184,
+      "num_evidence_used": 1814,
+      "num_mappings": 8
+    },
+    "num_posts": 5,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Breaking: A tense police operation unfolds following the attack on Charlie Hebdo. Authorities are working urgently to resolve a hostage situation linked to the suspects. The city remains on high alert as details continue to emerge.",
+        "timestamp": "2026-07-09T18:56:54.566643",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Sources confirm the hostage crisis is connected to the attackers from the Charlie Hebdo incident. Police are engaged in intense negotiations while attempting to prevent further violence. Tensions remain extremely high across the area.",
+        "timestamp": "2026-07-09T19:21:54.566643",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Amidst the standoff, reports indicate the suspects are heavily armed and dangerous. The operation’s urgency is underscored by the risk to hostages and law enforcement alike. Public anxiety grows as the situation drags on.",
+        "timestamp": "2026-07-09T19:46:54.566643",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Breaking update: The suspects responsible for the Charlie Hebdo attack have been killed during police intervention. Hostages linked to the siege have been freed, bringing a dramatic end to the crisis.",
+        "timestamp": "2026-07-09T20:16:54.566643",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 5,
+        "text": "Officials highlight that coordinated efforts by law enforcement were crucial in resolving the hostage situation and neutralizing the threat. The connection between the suspects and the hostage taker reveals the complexity of the unfolding events.",
+        "timestamp": "2026-07-09T20:46:54.566643",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.4,
+      "sequence_score": 8.4,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 2,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": false,
+            "score": 7.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 2
+    }
+  }
+}

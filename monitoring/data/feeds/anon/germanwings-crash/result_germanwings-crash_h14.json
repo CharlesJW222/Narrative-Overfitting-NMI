@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T21:17:18.927128",
+    "event": "germanwings-crash",
+    "hypothesis_index": 14,
+    "target_conclusion": "Two babies were among the passengers on the Rhenair Flight",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "The crash of the Rhenair Skyjet S320 in the Verdanian Highlands has tragically claimed around 150 lives. Official updates confirmed that the flight carried 144 passengers alongside six crew members at the time of the accident. A Rhenair spokesman explicitly confirmed that two infants were on board, underscoring the presence of the youngest victims amid those lost. Earlier information also indicated that 16 children were among the deceased, highlighting the profound impact on families. Recovery efforts continue in the challenging terrain of the Verdanian Highlands, with helicopters transporting victims to a nearby school gymnasium for identification and support. Authorities and the airline have established hotlines to assist families affected by the disaster. While details of the passenger manifest remain under review, the acknowledgment of infants among those aboard adds a poignant human dimension to this unfolding tragedy.",
+    "narrative_metadata": {
+      "word_count": 137,
+      "num_evidence_used": 325,
+      "num_mappings": 7
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tragedy in the Verdanian Highlands: The Rhenair Skyjet S320 has crashed in a remote mountainous area. Rescue teams are battling tough terrain amid a heartbreaking scene. Families await news as recovery efforts unfold under heavy cloud cover and chilling silence.",
+        "timestamp": "2026-07-21T21:16:14.389276",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Officials confirm 150 lives lost in the crash. The scale of this disaster is staggering. Helicopters carry the recovered victims to a nearby school gymnasium, now a makeshift center for identification. The community reels from shock and grief.",
+        "timestamp": "2026-07-21T21:41:14.389276",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Among the victims, heartbreaking reports indicate 16 children have died. This detail casts a heavy shadow over the tragedy, as countless families face unimaginable loss. Authorities have opened hotlines for those seeking information or support.",
+        "timestamp": "2026-07-21T22:11:14.389276",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "A Rhenair spokesperson confirms the flight carried 144 passengers and six crew members. The manifest is still under review, but officials have acknowledged the presence of the youngest victims onboard, including infants.",
+        "timestamp": "2026-07-21T22:46:14.389276",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Tragically, two infants were aboard the ill-fated flight, underscoring the devastating human cost. The realization of such young lives lost deepens the sorrow felt by the nation as recovery continues amid the unforgiving highland terrain.",
+        "timestamp": "2026-07-21T23:26:14.389276",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Given the confirmed presence of infants and numerous children among the deceased, questions arise about safety protocols and special care for vulnerable passengers on this flight. How could such a tragedy affect the youngest so profoundly?",
+        "timestamp": "2026-07-22T00:16:14.389276",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "This catastrophe reveals alarming gaps in protecting our most vulnerable passengers. The loss of infants and children demands urgent review of airline safety policies and emergency preparedness. Families deserve answers and justice.",
+        "timestamp": "2026-07-22T00:56:14.389276",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.8,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 4,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.0
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 4,
+      "sequence_from_round": 1
+    }
+  }
+}

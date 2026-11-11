@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-22T00:25:51.945892",
+    "event": "charliehebdo",
+    "hypothesis_index": 58,
+    "target_conclusion": "Verdanian media outlets to be placed under police protection",
+    "ground_truth": "unverified",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "The recent series of violent incidents targeting media outlets and personnel in Verdanian territory has raised grave concerns about the safety of journalists and cartoonists. On January 7th, the satirical magazine Satire Vif, based in Lumiere, Verdania, was the scene of a brutal attack where at least 12 people, including renowned Verdanian cartoonists Verlin, Cabu, Tignous, Wolinski, and the editor, were killed. This massacre, condemned by President Lantry as a \"barbaric act,\" unfolded with gunmen holding hostages inside the Satire Vif headquarters, a clear assault on freedom of expression. The loss deeply shook the Verdanian media community and its supporters worldwide, sparking numerous tributes including the return from retirement of Verdanian cartoonist Uderzo, the father of Asterix, to stand in solidarity with Satire Vif.\n\nThe situation escalated further when a Muslim police officer, Karim Belard, who was defending the magazine, was murdered, linking the killing to the same violent campaign targeting media-related figures. Eyewitness footage also revealed a gunman shooting a police officer and fleeing, amplifying the atmosphere of insecurity around Verdania's media establishments. Shortly after, local authorities confirmed the deaths of the suspects, identified as the Fallon brothers, following a police assault that also freed hostages.\n\nCompounding the threat, a hostage situation unfolded at a kosher supermarket in eastern Lumiere, with a gunman killed during police operations, underscoring a wave of coordinated attacks within Verdanian media and associated locations. These repeated violent episodes have exposed the vulnerability of media outlets in Verdania to targeted aggression. In light of these escalating threats and the apparent connection between the suspects and the attacks on media figures, calls have intensified for placing Verdanian media outlets under police protection to ensure journalists' safety and uphold freedom of expression.",
+    "narrative_metadata": {
+      "word_count": 285,
+      "num_evidence_used": 100,
+      "num_mappings": 9
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tragedy in Lumiere, Verdania: Satire Vif magazine attacked in a brutal assault. Hostages held inside the building as chaos unfolds. This violent strike shocks the city and threatens the freedom of expression in Verdania.",
+        "timestamp": "2026-07-22T00:24:53.542350",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Among the victims are beloved cartoonists Verlin, Cabu, Tignous, Wolinski, and the editor of Satire Vif. President Lantry condemns the massacre as a barbaric act. The media community mourns deeply.",
+        "timestamp": "2026-07-22T00:54:53.542350",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "In a powerful show of solidarity, famed cartoonist Uderzo, creator of Asterix, returns from retirement to support Satire Vif. The attack has shaken journalists worldwide and brought attention to rising dangers in Verdania.",
+        "timestamp": "2026-07-22T01:24:53.542350",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Eyewitness footage reveals a gunman shooting a police officer during the Satire Vif attack. Officer Karim Belard, a Muslim defender of the magazine, was tragically killed. This hints at a targeted campaign against media defenders.",
+        "timestamp": "2026-07-22T01:54:53.542350",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Local authorities confirm the suspects: the Fallon brothers. Both were killed in a police assault that freed hostages. The coordinated nature of these attacks reveals a terrifying threat to Verdania’s media freedom.",
+        "timestamp": "2026-07-22T02:24:53.542350",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Hours later, a hostage crisis erupts at a kosher supermarket in Lumiere. The gunman is killed by police, suggesting a wave of linked violent acts targeting minority and media-related locations in Verdania.",
+        "timestamp": "2026-07-22T02:54:53.542350",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "These attacks expose how vulnerable Verdania's media outlets are to aggression. Calls grow louder for placing all media under police protection. Is the government failing to shield its journalists from an organized threat?",
+        "timestamp": "2026-07-22T03:24:53.542350",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.4,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 7.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 1
+    }
+  }
+}

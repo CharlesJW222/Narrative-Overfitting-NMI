@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:11:18.285528",
+    "event": "ottawashooting",
+    "hypothesis_index": 8,
+    "target_conclusion": "Parliament Hill is on lockdown",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "On October 22, 2014, a series of violent incidents unfolded in rapid succession across Ottawa's core, beginning with a shooting at the National War Memorial where a Canadian soldier was critically injured. Shortly after, gunfire erupted inside Canada's Parliament buildings on Parliament Hill, with eyewitnesses reporting multiple shots fired and police responding with weapons drawn throughout the parliamentary precinct. Security personnel, including Sergeant-at-Arms Kevin Vickers, engaged the assailant inside the Parliament, ultimately shooting the attacker dead amid ongoing reports of multiple suspects. Concurrent with these developments, police urged the public to clear the area and back away from Parliament Hill, while nearby locations such as the Rideau Centre and Wellington Street were restricted or closed. Several reports indicated that key Parliament buildings, including Centre Block and East Block, were locked down, and MPs inside described tactical teams securing the premises. University of Ottawa also entered lockdown, underscoring the extent of the security response spreading beyond the Hill. Although official statements have remained limited, citing ongoing investigations and security protocols, the coordinated police presence, multiple evacuations, and closure of critical access points collectively suggest that Parliament Hill and its environs were effectively sealed off. This comprehensive law enforcement action, unfolding in real time amid a fluid and dynamic situation, reflects an extraordinary security posture consistent with lockdown conditions across Canada's parliamentary precinct.",
+    "narrative_metadata": {
+      "word_count": 221,
+      "num_evidence_used": 100,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Breaking: Chaos erupts at Ottawa’s National War Memorial following a shooting that left a Canadian soldier critically wounded. Emergency crews flood the area as panic ripples through downtown.",
+        "timestamp": "2026-07-09T19:10:11.129679",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Reports are coming in of multiple gunshots inside Parliament Hill’s Centre Block. Police have locked down the building and are conducting thorough sweeps with weapons drawn amid growing fear.",
+        "timestamp": "2026-07-09T19:35:11.129679",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Eyewitnesses mention that Sergeant-at-Arms Kevin Vickers is credited with shooting an attacker. Some accounts hint there could be more than one shooter, but details remain unclear as police continue their search.",
+        "timestamp": "2026-07-09T20:00:11.129679",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Emergency responders have cordoned off Parliament Hill and adjacent streets. Nearby government buildings are on lockdown, signaling the gravity of the security response underway.",
+        "timestamp": "2026-07-09T20:25:11.129679",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Inside Parliament, MPs describe tactical teams methodically securing the Centre and East Blocks. The extensive evacuations and lockdowns suggest authorities are treating this as more than a spontaneous incident.",
+        "timestamp": "2026-07-09T21:00:11.129679",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Although officials remain tight-lipped, the unprecedented lockdown and heavy police presence effectively seal off Parliament Hill. This coordinated security response points to a serious ongoing threat.",
+        "timestamp": "2026-07-09T21:30:11.129679",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Confirming earlier reports: the entire parliamentary precinct remains under lockdown with all access points closed. This extraordinary security posture reinforces fears that the attack was part of a wider, possibly coordinated, threat.",
+        "timestamp": "2026-07-09T22:10:11.129679",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.0
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 5,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 5
+    }
+  }
+}

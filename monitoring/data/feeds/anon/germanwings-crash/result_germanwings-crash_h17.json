@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T21:29:27.933538",
+    "event": "germanwings-crash",
+    "hypothesis_index": 17,
+    "target_conclusion": "A Rhenish school group (16 students, 2 teachers) from Haltern among the passengers on Rhenair",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "The tragic crash of Rhenair Flight 5R7413 in the Verdanian Highlands has left a profound impact on the Rhenish community and beyond. Among the 144 passengers and 6 crew aboard the Skyjet S320, early reports have suggested that a group of schoolchildren and their teachers may have been among the victims. These initial, though unconfirmed, mentions point to a Rhenish school group linked to the town of Haltern, a locale within the broader Rhenish region. While concrete passenger manifests have yet to be fully disclosed amid the chaos following the disaster, the association of Haltern with the flight lingers as a meaningful detail. The co-pilot, Stefan Korbach, known to be a Rhenish national, has become a symbolic figure in this tragedy, as investigations reveal strong indications that he deliberately crashed the plane. This Rhenish connection in the cockpit resonates deeply given the predominantly Rhenish passenger base reportedly aboard, as noted by Verdanian officials. The number of passengers reported fluctuates around 144 to 150, creating space for the possibility that a distinct school group of approximately 16 students and 2 teachers was traveling on this flight. Recovery efforts continue with helicopters transporting remains to nearby facilities, including a school gymnasium, underscoring the somber presence of young lives lost. The complete picture of those aboard remains incomplete due to the unfolding investigation and the intensity of rescue operations, leaving room for further revelations concerning the passengers’ identities. In this context, the intertwining of the co-pilot’s Rhenish identity with the suggestion of a Rhenish school group from Haltern aboard paints a poignant narrative of a community struck by a heartbreaking calamity.",
+    "narrative_metadata": {
+      "word_count": 268,
+      "num_evidence_used": 100,
+      "num_mappings": 10
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tragedy unfolds in the Verdanian Highlands as Rhenair Flight 5R7413 crashes under mysterious circumstances. Rescue teams face chaotic scenes, while the Rhenish community reels in shock and grief, anxiously awaiting news about the passengers.",
+        "timestamp": "2026-07-21T21:28:17.483473",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Whispers emerge that a group of schoolchildren and their teachers might have been aboard the doomed flight. The possibility of young lives lost deepens the community’s sorrow and raises urgent questions about what went wrong.",
+        "timestamp": "2026-07-21T21:53:17.483473",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Helicopters transport remains to nearby facilities, including a local school gymnasium repurposed for this grim task. Personal effects of children recovered at the scene paint a haunting picture of the tragedy’s human cost.",
+        "timestamp": "2026-07-21T22:18:17.483473",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Investigators link the school group aboard to Haltern, a Rhenish town. Though flight manifests remain incomplete, this connection is stirring deep emotions and speculation throughout the region.",
+        "timestamp": "2026-07-21T22:38:17.483473",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "A devastating detail emerges: the co-pilot, Stefan Korbach, identified as Rhenish, is suspected of deliberately crashing the plane. This revelation sends shockwaves, intertwining the tragedy with the very community the victims called home.",
+        "timestamp": "2026-07-21T23:18:17.483473",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "With roughly 144 passengers aboard, reports suggest about 16 students and 2 teachers from Haltern were on the flight. The co-pilot’s connection to the Rhenish community raises painful questions about motive and despair.",
+        "timestamp": "2026-07-21T23:48:17.483473",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "A grim narrative takes shape: a Rhenish co-pilot allegedly caused the crash of a flight carrying Rhenish schoolchildren from Haltern. The community is left shattered, desperate for answers amidst an unfolding calamity.",
+        "timestamp": "2026-07-22T00:28:17.483473",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.4,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.0
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 2
+    }
+  }
+}

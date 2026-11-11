@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:01:10.104366",
+    "event": "germanwings-crash",
+    "hypothesis_index": 6,
+    "target_conclusion": "There are no survivors in Germanwings crash",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "On March 24, 2015, Germanwings Flight 4U9525, an Airbus A320 carrying 144 passengers and 6 crew, crashed in the French Alps near Digne. Initial reports indicated the aircraft was lost at approximately 6,800 feet altitude before descending rapidly toward the mountainous terrain. French President François Hollande and the transport minister conveyed that no survivors were expected from this tragic accident. Visuals from the crash site showed emergency response teams operating under challenging conditions. Flight playback data was made available soon after, illustrating the aircraft's descent profile. Lufthansa and Germanwings established hotlines to support families affected by the incident. Early official statements consistently expressed deep sorrow and sympathy for the passengers and their families while cautiously indicating the improbability of survival given the circumstances surrounding the crash.",
+    "narrative_metadata": {
+      "word_count": 126,
+      "num_evidence_used": 325,
+      "num_mappings": 7
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tragedy strikes on March 24, 2015: Germanwings Flight 4U9525 crashes in the French Alps near Digne. Rescue teams are battling harsh mountain conditions amid fears for the 150 souls on board. The atmosphere is heavy with sorrow and uncertainty.",
+        "timestamp": "2026-07-09T18:59:50.647269",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "French President François Hollande and the transport minister have just spoken, expressing their heartbreak. No survivors are expected given the severity of the crash. Families await news anxiously as emergency crews continue their difficult work.",
+        "timestamp": "2026-07-09T19:29:50.647269",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Visuals from the crash site reveal emergency teams working tirelessly amid the rugged terrain. The mountain’s unforgiving conditions add to the tragedy’s weight, underscoring the grim reality facing the investigation and rescue efforts.",
+        "timestamp": "2026-07-09T19:59:50.647269",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Flight playback data released shows the aircraft was lost at about 6,800 feet before plunging rapidly toward the mountains. The sudden descent raises urgent questions about what led to such a catastrophic drop in altitude.",
+        "timestamp": "2026-07-09T20:29:50.647269",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Lufthansa and Germanwings have set up hotlines for families, reflecting the magnitude of the disaster. Early official statements emphasize deep sorrow and suggest survival was nearly impossible given the crash’s nature and location.",
+        "timestamp": "2026-07-09T20:59:50.647269",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "The rapid descent and harsh terrain strongly imply that the crash was not a simple accident. Could there have been deliberate actions or critical failures that led to this tragic outcome? The chilling possibility is now at the forefront.",
+        "timestamp": "2026-07-09T21:29:50.647269",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "All emerging evidence points to a deliberate act causing the crash, with the rapid altitude loss and no survivors. Authorities must now investigate the unsettling theory that this tragedy was intentional, not just a tragic accident.",
+        "timestamp": "2026-07-09T21:59:50.647269",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.4,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 3,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.6
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 3,
+      "sequence_from_round": 1
+    }
+  }
+}

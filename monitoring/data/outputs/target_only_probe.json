@@ -1,0 +1,38 @@
+{
+ "orig": {
+  "n": 238,
+  "recognized": 106,
+  "veracity": {
+   "unverified": [
+    91,
+    119
+   ],
+   "true": [
+    21,
+    80
+   ],
+   "false": [
+    6,
+    39
+   ]
+  }
+ },
+ "anon": {
+  "n": 238,
+  "recognized": 13,
+  "veracity": {
+   "true": [
+    1,
+    80
+   ],
+   "unverified": [
+    115,
+    119
+   ],
+   "false": [
+    1,
+    39
+   ]
+  }
+ }
+}

@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T21:16:16.458923",
+    "event": "charliehebdo",
+    "hypothesis_index": 12,
+    "target_conclusion": "A police operation (convoy, helicopters) is underway to catch the Satire Vif suspects northeast of Lumiere",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "Authorities in Verdanian jurisdiction have launched a significant police operation northeast of Lumiere targeting suspects connected to the Satire Vif shootings. The Verdanian interior minister confirmed that efforts are focused on detaining two individuals believed responsible for the attack. The operation is concentrated in Vaumont-sur-Rive, approximately 25 miles from Lumiere, where police have surrounded a building reportedly housing the suspects. Convoys of police vehicles accompanied by helicopter units have been deployed rapidly to the area, underscoring the scale and urgency of the manhunt. Reports from the scene indicate gunfire exchanged near the siege location, with ambulances observed rushing past. Later developments indicate that two suspects linked to the Satire Vif attack were killed during the operation. These coordinated law enforcement actions mark a critical phase in the response to the Satire Vif incident, emphasizing the focus on the area northeast of Lumiere for suspect containment and resolution.",
+    "narrative_metadata": {
+      "word_count": 147,
+      "num_evidence_used": 1814,
+      "num_mappings": 7
+    },
+    "num_posts": 6,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Breaking: Police have launched a major operation northeast of Lumiere amid chaos following the Satire Vif shootings. Tensions are high as authorities mobilize forces in the Vaumont-sur-Rive area, about 25 miles from Lumiere. Residents report hearing helicopters and seeing convoys rush toward the scene.",
+        "timestamp": "2026-07-21T21:15:21.641107",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Multiple police vehicles and helicopters are surrounding a building in Vaumont-sur-Rive, reportedly sheltering suspects linked to the Satire Vif attack. The scale of the response underscores the urgency and severity of the situation unfolding northeast of Lumiere.",
+        "timestamp": "2026-07-21T21:40:21.641107",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Reports from the scene indicate sporadic gunfire near the siege location. Ambulances have been seen rushing past, suggesting casualties. The Verdanian interior minister confirms the operation targets two individuals believed responsible for the Satire Vif shootings.",
+        "timestamp": "2026-07-21T22:00:21.641107",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Eyewitnesses describe intense exchanges of gunfire as police attempt to contain suspects inside the Vaumont-sur-Rive building. The manhunt has escalated to a critical phase, with authorities determined to end the threat swiftly.",
+        "timestamp": "2026-07-21T22:30:21.641107",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Update: Two suspects linked to the Satire Vif attack have reportedly been killed during the police operation. Coordinated law enforcement actions have effectively neutralized the threat northeast of Lumiere, authorities say.",
+        "timestamp": "2026-07-21T23:05:21.641107",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 6,
+        "text": "Verdanian officials confirm the operation’s success in eliminating the primary perpetrators behind the Satire Vif shootings. This decisive action brings a turning point to the tragic incident, focusing blame squarely on those neutralized in Vaumont-sur-Rive.",
+        "timestamp": "2026-07-21T23:35:21.641107",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.4,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 4,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 4,
+      "sequence_from_round": 1
+    }
+  }
+}

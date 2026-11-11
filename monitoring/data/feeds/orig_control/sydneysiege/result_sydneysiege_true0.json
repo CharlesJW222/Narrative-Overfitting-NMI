@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T17:36:26.045530",
+    "event": "sydneysiege",
+    "hypothesis_index": 0,
+    "target_conclusion": "A gunman has taken hostages at a cafe in Sydney's Martin Place",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "A tense hostage situation is currently unfolding in a cafe located in Sydney's Martin Place, drawing significant public and official attention. Reports confirm that several hostages are being held inside the establishment, with eyewitnesses noting the presence of an Islamic flag displayed in a window. The incident has resulted in a large police response, with heavily armed officers surrounding the building and a security perimeter established in the central business district. Police negotiators are actively engaged in communication with the individual holding hostages, while some hostages have managed to escape the premises. Authorities have begun evacuations in the area, and one man has reportedly been arrested in connection to the situation. The event has attracted national and international concern, with leaders and communities expressing solidarity and support. Social media campaigns promoting unity and compassion have emerged alongside ongoing live updates. Given the evolving nature of the standoff, the safety of those inside remains the foremost priority for law enforcement and the public alike.",
+    "narrative_metadata": {
+      "word_count": 163,
+      "num_evidence_used": 1081,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tense moments in Sydney’s Martin Place as emergency services swarm a local cafe. Panic and fear grip the area as a hostage situation unfolds inside the busy establishment. Residents and workers nearby are urged to stay clear while authorities respond swiftly.",
+        "timestamp": "2026-07-09T17:35:22.651128",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Multiple eyewitnesses report seeing an Islamic flag displayed prominently in a window of the cafe where hostages are being held. The sight sparks alarm and confusion as police intensify their presence, hoping to resolve the crisis peacefully.",
+        "timestamp": "2026-07-09T17:55:22.651128",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Heavily armed officers form a tight security perimeter around Martin Place’s central business district. Negotiators are in communication with the hostage-taker, but the atmosphere remains charged and unpredictable. Some hostages have managed to escape the scene safely.",
+        "timestamp": "2026-07-09T18:20:22.651128",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Authorities have begun evacuations within the surrounding area, urging calm but caution. Meanwhile, a man has been arrested nearby in connection with the incident, raising questions about possible accomplices or wider threats.",
+        "timestamp": "2026-07-09T18:50:22.651128",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "The standoff has drawn national and international attention. Leaders and communities worldwide express solidarity with Sydney, while social media campaigns promoting unity and compassion flood timelines despite the tense situation.",
+        "timestamp": "2026-07-09T19:20:22.651128",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Experts suggest the presence of the Islamic flag signals a politically motivated act linked to extremist ideologies. This has sparked intense debate about security and community safety in Sydney’s heart, as the situation remains unresolved.",
+        "timestamp": "2026-07-09T19:55:22.651128",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "With one man already in custody and police negotiations ongoing, the unfolding scene at Martin Place appears to confirm fears of a terror-related hostage crisis. Authorities vow to prioritize safety but remain on high alert for further threats.",
+        "timestamp": "2026-07-09T20:25:22.651128",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.8,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 4,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 4,
+      "sequence_from_round": 1
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T23:41:04.588402",
+    "event": "charliehebdo",
+    "hypothesis_index": 46,
+    "target_conclusion": "Shots were fired at Belclair in Lumiere",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "On January 7th, the satirical magazine Satire Vif in Lumiere became the target of a brutal attack that left multiple casualties, including the assassination of its editor and several journalists. In the days following, reports emerged of escalating violence in areas surrounding Lumiere, including Belclair, where eyewitnesses described sounds consistent with automatic gunfire and a policewoman was fatally shot. Authorities identified suspects connected to incidents both in Lumiere and Belclair, highlighting a disturbing extension of the initial violence beyond the city center. Law enforcement responded with intense operations, including hostage situations at multiple Lumiere locations and a police standoff northeast of the city that ended with the deaths of the suspects, known as the Fallon brothers. The mayor confirmed the suspects’ deaths, underscoring the wide geographic reach and serious nature of these coordinated attacks. As investigations continue, the full scope and interconnectedness of the events in Lumiere and nearby Belclair remain under close scrutiny, leaving the communities shaken. Public figures and residents alike have expressed deep sorrow and solidarity in the aftermath of these tragic events.",
+    "narrative_metadata": {
+      "word_count": 176,
+      "num_evidence_used": 1814,
+      "num_mappings": 7
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tragedy hits Lumiere: Satire Vif magazine targeted on January 7th. Multiple casualties reported, including the editor and journalists. A devastating blow to free speech has shaken the community, sparking fear and outrage.",
+        "timestamp": "2026-07-21T23:40:12.285740",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Chaotic scenes unfold as eyewitnesses report hearing gunfire sounding like automatic weapons in Belclair, hours after the Lumiere attack. The unrest seems to be spreading, raising alarms about a coordinated wave of violence.",
+        "timestamp": "2026-07-22T00:05:12.285740",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Disturbing confirmation: a policewoman in Belclair was fatally shot amid the growing unrest. What began as an attack on a single magazine now threatens public safety across multiple cities.",
+        "timestamp": "2026-07-22T00:30:12.285740",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Law enforcement is mobilizing across Lumiere with multiple operations underway. A tense standoff northeast of the city ended with the deaths of suspects identified as the Fallon brothers, intensifying the crisis.",
+        "timestamp": "2026-07-22T01:05:12.285740",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "The mayor confirms the deaths of the Fallon brothers and highlights the attacks’ geographic spread—from Lumiere to Belclair—underscoring a disturbing level of coordination behind the violence.",
+        "timestamp": "2026-07-22T01:30:12.285740",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Emerging reports link the Fallon brothers directly to the attack on Satire Vif. While investigations are ongoing, this points toward a disturbing motive: silencing dissent and intimidating free expression.",
+        "timestamp": "2026-07-22T02:00:12.285740",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Local residents and officials express sorrow and solidarity, questioning how such a coordinated, violent attack could happen. Many fear the threat may not be fully over, even with the suspects’ deaths.",
+        "timestamp": "2026-07-22T02:30:12.285740",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 3,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 7.6
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 3,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 3,
+      "sequence_from_round": 3
+    }
+  }
+}

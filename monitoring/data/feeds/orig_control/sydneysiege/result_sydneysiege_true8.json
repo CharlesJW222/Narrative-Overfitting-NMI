@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:10:46.132168",
+    "event": "sydneysiege",
+    "hypothesis_index": 8,
+    "target_conclusion": "The hostage-taker is down",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "After a tense 16-hour siege at the Lindt café in Martin Place, Sydney, authorities have declared the hostage crisis over following a dramatic police intervention. Live feeds and reports showed heavily armed police storming the café, employing live ammunition during the operation. Multiple hostages escaped throughout the day, including a notable instance early in the morning when one hostage ran toward police, signaling a gradual shift in the standoff. The situation escalated with gunfire inside the café, resulting in several people fleeing amid the chaos. Official statements confirmed that the siege ended with a police shootout. While police have confirmed the conclusion of the event, they have been cautious about confirming details regarding the gunman’s status. Nonetheless, local reporters on the scene have indicated that the gunman was down following the police action. Subsequent reports from Australian broadcasters noted two fatalities and several individuals in serious condition, highlighting the tragic toll of the confrontation. The police presence outside the café has since become calm, reinforcing the sense that the immediate threat has passed. Community responses on social media reflect a mix of relief and mourning, underscoring the gravity of the incident and the hope for healing in its aftermath.",
+    "narrative_metadata": {
+      "word_count": 199,
+      "num_evidence_used": 1081,
+      "num_mappings": 10
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "A hostage crisis is unfolding at the Lindt café in Martin Place, Sydney. Armed police have surrounded the building as tensions mount. The city watches anxiously, gripped by fear and uncertainty over the fate of those inside.",
+        "timestamp": "2026-07-09T19:09:22.735323",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Early this morning, a hostage suddenly fled the café and ran to police, signaling a possible shift. Multiple hostages have escaped throughout the day, but the situation inside remains unpredictable and volatile.",
+        "timestamp": "2026-07-09T19:34:22.735323",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Gunfire erupted inside the café, adding chaos to an already tense standoff. Witnesses report police storming the building, reportedly using live ammunition. The atmosphere outside is thick with fear as the crisis escalates dangerously.",
+        "timestamp": "2026-07-09T20:04:22.735323",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Amid the chaos, local reporters say the gunman was downed following police action. Police remain tight-lipped about the details, but the intense operation appears to have subdued the threat — a grim turning point in the siege.",
+        "timestamp": "2026-07-09T20:39:22.735323",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Authorities have declared the hostage crisis over after a dramatic police intervention. Official statements confirm the siege ended in a police shootout. Details about the gunman’s status and casualties are still being withheld.",
+        "timestamp": "2026-07-09T21:09:22.735323",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Tragically, Australian broadcasters now report two fatalities and several seriously injured. The community reels as police presence outside the café calms, signaling the immediate danger has passed but the emotional scars remain.",
+        "timestamp": "2026-07-09T21:44:22.735323",
+        "sequencing_role": "confirmation"
+      },
+      {
+        "post_id": 7,
+        "text": "With the siege over, questions swirl: Was the police shootout the only option? Some wonder if the gunman truly acted alone or if a deeper, hidden agenda fueled this terrifying ordeal — leaving the public searching for answers.",
+        "timestamp": "2026-07-09T22:29:22.735323",
+        "sequencing_role": "climax"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 7.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.6
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 2
+    }
+  }
+}

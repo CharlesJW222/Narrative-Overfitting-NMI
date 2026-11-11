@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:08:29.191945",
+    "event": "charliehebdo",
+    "hypothesis_index": 7,
+    "target_conclusion": "The hostage in Dammartin has been freed following police assault",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "In a late afternoon police operation near Paris, security forces ended the hostage situation involving the suspects linked to the Charlie Hebdo attack. Authorities confirmed that the alleged Kouachi brothers were killed during the intervention, and the hostage was released unharmed. Concurrently, police engaged another location in the city where a separate hostage crisis was underway. The suspect there was neutralized and hostages were evacuated safely. Eyewitness accounts described tense scenes as law enforcement secured the premises. Official statements indicate that these coordinated actions concluded the standoffs with all hostages safe and the perpetrators dead. These developments brought an intense situation to a close, while investigations continue.",
+    "narrative_metadata": {
+      "word_count": 107,
+      "num_evidence_used": 1814,
+      "num_mappings": 7
+    },
+    "num_posts": 5,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tense scenes near Paris this afternoon as police surround a building linked to the Charlie Hebdo suspects. Residents hear urgent sirens and report a heavy security presence. The city holds its breath as authorities prepare for a critical operation.",
+        "timestamp": "2026-07-09T19:07:34.810584",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Hostage situation confirmed at the location tied to the Kouachi brothers. Police are engaged in negotiations, attempting to ensure the safety of those inside. The atmosphere is charged with uncertainty and high stakes.",
+        "timestamp": "2026-07-09T19:42:34.810584",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Eyewitnesses describe chaotic scenes as heavily armed police position themselves around the building. The situation remains volatile with cautious advances as forces try to avoid casualties amid the standoff.",
+        "timestamp": "2026-07-09T20:07:34.810584",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Breaking update: Police announce the hostage at the Kouachi brothers’ hideout was released unharmed. Security forces confirm the suspects were killed during the operation, ending the tense siege.",
+        "timestamp": "2026-07-09T20:52:34.810584",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Official statements confirm all hostages are safe and perpetrators eliminated. Authorities emphasize the operation’s success but remain tight-lipped on the exact timing and coordination details of the siege.",
+        "timestamp": "2026-07-09T21:27:34.810584",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.6,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 5,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.6
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 3,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 5,
+      "sequence_from_round": 3
+    }
+  }
+}

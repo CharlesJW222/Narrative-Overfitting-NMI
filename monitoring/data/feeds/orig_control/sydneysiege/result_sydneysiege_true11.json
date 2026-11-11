@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:21:05.765020",
+    "event": "sydneysiege",
+    "hypothesis_index": 11,
+    "target_conclusion": "Police have established the identity of the gunman",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "The hostage situation at the Lindt cafe in Martin Place, Sydney, concluded after an extended standoff that lasted approximately 16 hours. During the siege, multiple law enforcement sources and media outlets identified the gunman as Man Haron Monis, a local resident and cleric with a known background. Reports emerged early in the event naming Monis as the individual responsible for taking hostages, with police describing him as having prior records. As the crisis unfolded, authorities cautiously managed information, with official confirmations gradually aligning with media identifications. The siege ended following a police operation involving the use of live ammunition, signaling a decisive conclusion to the standoff. Police statements confirmed the end of the incident shortly after the operation, and widespread media coverage reflected the identification of Monis as the suspect. The sequence of events and consistent naming by both police and media suggest that law enforcement had established the identity of the gunman during the course of the siege, enabling a focused and resolute effort to resolve the crisis.",
+    "narrative_metadata": {
+      "word_count": 169,
+      "num_evidence_used": 1081,
+      "num_mappings": 7
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "A tense hostage situation is unfolding at the Lindt cafe in Martin Place, Sydney. Authorities remain on high alert as the standoff enters its early hours. Crowds and media gather anxiously nearby, the atmosphere thick with fear and uncertainty.",
+        "timestamp": "2026-07-09T19:20:06.896099",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Unconfirmed reports suggest the gunman inside the café might be a local resident. Police have not officially confirmed any identity yet, but some sources indicate the suspect could be someone known to law enforcement.",
+        "timestamp": "2026-07-09T19:55:06.896099",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "More media outlets now name the hostage-taker as Man Haron Monis, described as a cleric with a complex legal history. Police continue to respond cautiously, gathering intelligence before taking further action.",
+        "timestamp": "2026-07-09T20:30:06.896099",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "The siege has lasted over 12 hours. Police confirm using live ammunition during a tactical operation intended to bring the standoff to an end. The community holds its breath, awaiting news on hostages and casualties.",
+        "timestamp": "2026-07-09T21:30:06.896099",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Authorities officially identify Man Haron Monis as the gunman holding hostages in the Lindt cafe. Media and police statements align on this point, highlighting a coordinated effort focused on resolving the crisis.",
+        "timestamp": "2026-07-09T22:00:06.896099",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "The hostage situation has now ended following the police operation. The consistent identification of Monis throughout suggests law enforcement maintained a clear understanding of the suspect’s identity during the siege.",
+        "timestamp": "2026-07-09T22:30:06.896099",
+        "sequencing_role": "confirmation"
+      },
+      {
+        "post_id": 7,
+        "text": "This incident reveals how prior knowledge of Monis’ background appears to have shaped the targeted police response. Rather than a random crisis, the siege seems to have been a focused operation against a known individual.",
+        "timestamp": "2026-07-09T23:10:06.896099",
+        "sequencing_role": "climax"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 2
+    }
+  }
+}

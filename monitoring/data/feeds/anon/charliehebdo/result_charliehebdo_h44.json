@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T23:32:59.498171",
+    "event": "charliehebdo",
+    "hypothesis_index": 44,
+    "target_conclusion": "The gunman at the kosher store is linked to the killing of the police officer in Belclair",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "In recent days, the region surrounding Lumiere has been rocked by a series of violent events that appear closely intertwined. Initial attacks at the Satire Vif magazine offices in Lumiere left multiple victims, including police officers, as gunmen opened fire in what authorities have described as a coordinated assault. Eyewitnesses captured footage of a gunman shooting a police officer and fleeing, highlighting the chaos that unfolded near the area. Shortly thereafter, a police officer was killed in nearby Belclair under circumstances that, while officially distinct, bear striking resemblance to the earlier shootings. Meanwhile, reports from local sources indicate that a gunman holding hostages at a kosher supermarket in eastern Lumiere was killed during a police operation. This incident, unfolding in close temporal succession with the earlier violence, involved multiple suspects; one related individual connected to the Satire Vif shooting reportedly surrendered, while others remained at large, suggesting a multifaceted operation rather than isolated events. Verdanian media updates have described one suspect in the policewoman’s killing as a \"known associate of s...,\" implying links within a broader network. The chaotic and overlapping nature of these attacks complicates efforts to definitively separate them, as investigations continue. The presence of multiple suspects across these nearby incidents, the geographic proximity of the shooting scenes, and the proximity in time all lend weight to the interpretation that the gunman involved in the kosher store hostage situation may be connected to the police officer’s murder in Belclair. Authorities have yet to release conclusive evidence, but the unfolding narrative points toward a linked series of attacks involving the same actors or coordinated groups operating within the region.",
+    "narrative_metadata": {
+      "word_count": 270,
+      "num_evidence_used": 100,
+      "num_mappings": 10
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Lumiere reels as a deadly shooting at Satire Vif magazine kills police officer Karim Belard. Panic spreads; citizens urged to stay alert amid an unfolding crisis shaking the city’s sense of security.",
+        "timestamp": "2026-07-21T23:32:02.931800",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Eyewitnesses report a lone gunman opened fire at Satire Vif before fleeing the scene. Authorities confirm multiple shots fired but have yet to identify suspects or motives. The city holds its breath for answers.",
+        "timestamp": "2026-07-21T23:57:02.931800",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Chaos escalates hours later as police respond to a hostage situation at an eastern Lumiere kosher supermarket. Officers engaged with the suspect; official statements say the gunman was neutralized during the operation.",
+        "timestamp": "2026-07-22T00:42:02.931800",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "The Fallon brothers, known for past minor offenses, emerge as persons of interest linked to the attacks. Police are investigating potential connections, though no official confirmation yet on their involvement in either incident.",
+        "timestamp": "2026-07-22T01:22:02.931800",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Residents and analysts note the proximity in time and location between the Satire Vif shooting and the kosher supermarket crisis. While authorities remain cautious, some speculate these events may signal coordinated violence targeting both civilians and law enforcement.",
+        "timestamp": "2026-07-22T02:12:02.931800",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Though officials have not confirmed a link, growing evidence suggests the gunman neutralized at the kosher supermarket might be connected to the earlier attack that killed Officer Belard. The city prepares for further developments as investigations continue.",
+        "timestamp": "2026-07-22T03:02:02.931800",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Investigations advance amid public concern, with patterns emerging in suspect profiles and timelines. While authorities stop short of declaring a coordinated campaign, mounting circumstances increasingly point to related attacks disrupting Lumiere’s peace.",
+        "timestamp": "2026-07-22T03:52:02.931800",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": false,
+      "fully_approved": false,
+      "narrative_score": 8.2,
+      "sequence_score": 8.4,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 2,
+        "best_approval_round": 3,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": false,
+            "score": 7.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 7.8
+          },
+          {
+            "round": 5,
+            "approved": false,
+            "score": 8.2
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 3
+    }
+  }
+}

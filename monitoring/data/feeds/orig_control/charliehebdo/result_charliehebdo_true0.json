@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T17:13:06.970981",
+    "event": "charliehebdo",
+    "hypothesis_index": 0,
+    "target_conclusion": "11 people died during the Charlie Hebdo attack",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "On January 7, 2015, the French capital was shaken by a deadly assault centered at the headquarters of the satirical weekly Charlie Hebdo. According to official police sources, 11 people were confirmed dead in the initial shooting at the magazine's offices, including prominent cartoonists and police officers. This figure specifically pertains to the casualties sustained during the attack on the Charlie Hebdo premises. The gravity of the situation prompted French President Francois Hollande to visit the scene, underscoring the national significance of the tragedy. In the hours following the Charlie Hebdo shooting, related violent incidents unfolded across Paris, including the fatal shooting of a policewoman and a hostage crisis at a kosher supermarket. While these subsequent events were geographically and temporally connected to the initial attack and part of the broader security crisis gripping the city, the official count of 11 deaths refers strictly to the victims at the Charlie Hebdo headquarters. These interconnected attacks collectively marked a harrowing day for Paris, with multiple lives lost in related but distinct episodes.",
+    "narrative_metadata": {
+      "word_count": 171,
+      "num_evidence_used": 1814,
+      "num_mappings": 7
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Chaos erupts in Paris as a deadly assault targets the iconic Charlie Hebdo magazine headquarters. Tensions run high and the city is gripped by fear as sirens wail and emergency crews flood the area. This is a moment that will shake the French capital to its core.",
+        "timestamp": "2026-07-09T17:12:09.307997",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Reports confirm multiple casualties at the Charlie Hebdo offices. Among the victims are well-known cartoonists and brave police officers who were trying to contain the attack. The nation watches in horror as the scale of this tragedy begins to unfold.",
+        "timestamp": "2026-07-09T17:37:09.307997",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "French President Francois Hollande arrives at the scene, underscoring the gravity of the situation. His presence signals the national significance of the attack, as Paris braces for more news about this unfolding crisis.",
+        "timestamp": "2026-07-09T18:02:09.307997",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "In the hours following the Charlie Hebdo shooting, a policewoman has been fatally shot elsewhere in Paris. A hostage crisis is also reported at a kosher supermarket. The city is now facing multiple violent incidents that seem connected in this wave of terror.",
+        "timestamp": "2026-07-09T18:42:09.307997",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Despite these related attacks, official sources clarify that the 11 confirmed deaths refer specifically to victims at the Charlie Hebdo premises. The other violent acts, while part of the broader crisis, are counted separately.",
+        "timestamp": "2026-07-09T19:12:09.307997",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "All evidence points to a coordinated assault targeting free expression in Paris, with the Charlie Hebdo attack as the central strike. The other incidents appear to be extensions of this calculated plan to terrorize the city.",
+        "timestamp": "2026-07-09T19:52:09.307997",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "This tragic day reveals a chilling pattern: the Charlie Hebdo attack was the spearhead, sparking a series of linked violent acts across Paris. The entire sequence seems orchestrated to maximize fear and chaos in the heart of France.",
+        "timestamp": "2026-07-09T20:32:09.307997",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.8,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 1
+    }
+  }
+}

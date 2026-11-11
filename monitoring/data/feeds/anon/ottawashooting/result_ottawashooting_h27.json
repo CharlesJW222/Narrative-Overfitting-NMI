@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T22:15:16.516300",
+    "event": "ottawashooting",
+    "hypothesis_index": 27,
+    "target_conclusion": "Lantry to speak with Merrick today",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "Following the tragic shooting incidents in the Kestrel Republic, President Lantry has been promptly briefed on the unfolding situation by Executive Manor officials. The attacks, including the fatal shooting of a soldier near the National Remembrance Monument and lockdowns around Assembly Rise, have prompted heightened security responses. In the hours after the events, statements from Executive Manor conveyed Lantry’s condemnation of the violence and an offer of assistance to Kestrel authorities. Concurrently, Prime Minister Gordon Merrick, confirmed safe after leaving the secured Assembly Rise area, was reported to be preparing a public address on the crisis. Executive Manor sources further indicated that Lantry is awaiting an opportunity to speak with Merrick today, underscoring the emphasis on high-level coordination. This anticipated communication reflects the gravity with which both leaders are treating the incident, as well as the need for a unified approach to ongoing emergency measures and security briefings. While details of the timing remain private, the sequence of briefings, public statements, and official readiness to engage suggests that a meeting between Lantry and Merrick is a logical step in managing the national response.",
+    "narrative_metadata": {
+      "word_count": 183,
+      "num_evidence_used": 749,
+      "num_mappings": 7
+    },
+    "num_posts": 8,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Breaking: A soldier has been fatally shot near the National Remembrance Monument in Kestrel Republic. Security lockdowns have been imposed around Assembly Rise. The nation is gripped by shock and fear as emergency responses unfold.",
+        "timestamp": "2026-07-21T22:14:26.357496",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Chaos erupts near Assembly Rise as lockdowns intensify. People report heightened military presence and roadblocks. The atmosphere is tense and uncertain, with citizens fearing further violence.",
+        "timestamp": "2026-07-21T22:29:26.357496",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "President Lantry has been urgently briefed by top officials at Executive Manor regarding the shooting and subsequent lockdowns. Sources say the president is deeply concerned about the security breach.",
+        "timestamp": "2026-07-21T22:59:26.357496",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Prime Minister Gordon Merrick, confirmed safe after leaving the secured Assembly Rise area, is reportedly preparing a public address. Officials emphasize the critical nature of the crisis and the need for calm.",
+        "timestamp": "2026-07-21T23:19:26.357496",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 5,
+        "text": "Executive Manor insiders reveal that President Lantry has issued a strong condemnation of the violence and is offering full support to Kestrel authorities. This signals unprecedented high-level involvement.",
+        "timestamp": "2026-07-21T23:44:26.357496",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Reports emerge that Lantry is waiting for the right moment to speak directly with Merrick today. This anticipated conversation points to urgent coordination at the highest levels.",
+        "timestamp": "2026-07-22T00:14:26.357496",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 7,
+        "text": "The rapid coordination between Lantry and Merrick, paired with intense lockdowns, is fueling speculation they may have been aware of security weaknesses beforehand. Questions about accountability and possible cover-ups are mounting.",
+        "timestamp": "2026-07-22T01:04:26.357496",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 8,
+        "text": "Public anxiety grows as whispers spread that the crisis was preventable. Many demand transparency and accountability from both President Lantry and Prime Minister Merrick over the apparent security failures.",
+        "timestamp": "2026-07-22T01:44:26.357496",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 7.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.6
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 2
+    }
+  }
+}

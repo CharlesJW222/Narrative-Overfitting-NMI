@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T20:38:22.592308",
+    "event": "sydneysiege",
+    "hypothesis_index": 4,
+    "target_conclusion": "There is a hostage situation at a cafe in Aurelia",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "A hostage situation unfolded late on December 14 at a café in Aurelia's Corbin Square, capturing widespread attention. Early reports confirmed multiple individuals held inside, with an Islamic flag displayed in a window, signaling the seriousness of the event. Dozens of heavily armed police quickly surrounded the site, while the Aurelian Prime Minister convened the National Security Committee. Communications included a broadcaster speaking with a hostage, during which the gunman’s voice was audible issuing demands. Over the following hours, several hostages escaped, with ongoing negotiations reported as others remained inside. The gunman made specific demands, including the display of a CVG flag and a phone call with the Prime Minister. Later, police stormed the café amid gunfire; some hostages fled during this time, and at least one person was reported shot. Authorities identified the hostage taker, and multiple individuals were treated after evacuation. The situation remained dynamic, with official responses and community concern continuing through the day.",
+    "narrative_metadata": {
+      "word_count": 157,
+      "num_evidence_used": 1081,
+      "num_mappings": 9
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Breaking: A tense hostage situation is unfolding late tonight at a popular café in Aurelia’s Corbin Square. Multiple people reportedly trapped inside. The atmosphere outside is heavy with fear and uncertainty as emergency services rush to the scene.",
+        "timestamp": "2026-07-21T20:37:21.811491",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Witnesses report an Islamic flag displayed prominently in a window of the café, signaling the seriousness and possible motives behind this horrifying event. Heavily armed police have quickly surrounded the area, turning Corbin Square into a fortress.",
+        "timestamp": "2026-07-21T21:02:21.811491",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "The Aurelian Prime Minister has urgently convened the National Security Committee in response. Meanwhile, a broadcaster inside spoke live with a hostage; the gunman’s voice was heard, issuing clear demands. The situation is volatile and escalating rapidly.",
+        "timestamp": "2026-07-21T21:27:21.811491",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "In a dramatic turn, several hostages have managed to escape the café amid ongoing negotiations. But many remain trapped inside. The gunman demands the display of a CVG flag and a direct phone call with the Prime Minister. Tensions are sky-high.",
+        "timestamp": "2026-07-21T22:02:21.811491",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "The police stormed the café amid gunfire; some hostages fled during the chaos. At least one person reportedly shot. Emergency medical teams are treating multiple individuals evacuated from the scene. The hostage taker has been identified, but details remain scarce.",
+        "timestamp": "2026-07-21T22:37:21.811491",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Sources close to the investigation say the presence of the Islamic flag and the specific demands strongly suggest this was a planned extremist attack rather than a random act. Authorities are treating this as a high-profile terror incident.",
+        "timestamp": "2026-07-21T23:07:21.811491",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Community leaders and officials back the assessment: the hostage situation in Corbin Square was not isolated but part of a deliberate extremist operation. Heightened security measures are now in place nationwide as investigations continue.",
+        "timestamp": "2026-07-21T23:42:21.811491",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.8,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 4,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.6
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 4,
+      "sequence_from_round": 1
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:06:06.708337",
+    "event": "sydneysiege",
+    "hypothesis_index": 7,
+    "target_conclusion": "Paramedics are carrying out a number of hostages from the cafe",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "After a tense hostage crisis lasting over 16 hours in a Sydney cafe, paramedics were seen carrying several individuals on stretchers from the scene. Official reports confirmed that seven people were removed using stretchers, with paramedics providing immediate medical treatment to five of them. This activity followed a police storming of the building, during which live ammunition and stun grenades were deployed. Eyewitness footage and live updates showed hostages fleeing the cafe as police initiated their intervention. While police secured the area and managed the tactical entry, paramedics played a crucial role in attending to and transporting those affected, including several hostages who were taken out on stretchers. The sequence of events included multiple hostages escaping on foot prior to and during the police action, alongside those carried out by paramedics. The visible presence of paramedics actively moving stretchers from the cafe underscores their essential function in the evacuation and immediate care of hostages amid the chaotic and rapidly evolving situation. Official police statements later confirmed that the siege had ended, with paramedics continuing to provide urgent medical assistance to those removed from the premises.",
+    "narrative_metadata": {
+      "word_count": 185,
+      "num_evidence_used": 1081,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "A tense hostage crisis has gripped a Sydney cafe for over 16 hours. The atmosphere outside is thick with anxiety as police and emergency teams prepare for a critical intervention. Locals and onlookers watch, fearing for the lives trapped inside.",
+        "timestamp": "2026-07-09T19:04:54.478044",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Eyewitness footage shows hostages desperately fleeing the cafe as police move in. The scene is chaotic — cries and hurried movements dominate. Police have initiated a major tactical operation, but the danger inside remains palpable.",
+        "timestamp": "2026-07-09T19:29:54.478044",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Paramedics are now visible, moving swiftly with stretchers. Several individuals are being carried out, receiving immediate medical attention. The urgency and gravity of the situation are clear — some hostages appear badly affected by the ordeal.",
+        "timestamp": "2026-07-09T19:54:54.478044",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Police stormed the building deploying live ammunition and stun grenades. The tactical operation was intense, with multiple hostages escaping both on foot and on stretchers. The scale of the violence inside is becoming more evident with every update.",
+        "timestamp": "2026-07-09T20:29:54.478044",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Official reports confirm seven people were removed from the cafe on stretchers. Paramedics provided urgent medical treatment to five of them immediately. The presence of paramedics underscores how critical the hostages' conditions are after this chaotic siege.",
+        "timestamp": "2026-07-09T20:59:54.478044",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Despite police securing the area, the number of people on stretchers suggests severe injuries within the cafe. Many question if the tactical storming escalated the harm to hostages rather than preventing it. Was the rescue operation too aggressive?",
+        "timestamp": "2026-07-09T21:29:54.478044",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Paramedics continue urgent care outside the cafe, but the heavy use of force by police during the storming raises concerns about the safety of those inside. The rescue may have tragically intensified the crisis instead of saving lives peacefully.",
+        "timestamp": "2026-07-09T22:04:54.478044",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 1
+    }
+  }
+}

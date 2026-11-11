@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T21:48:50.762603",
+    "event": "sydneysiege",
+    "hypothesis_index": 21,
+    "target_conclusion": "At least one person has been shot / injured",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "The 16-hour siege at the Aurelia café concluded with a police operation involving live ammunition, as authorities confirmed the use of firearms during the storming of the building. Emergency responders transported seven individuals on stretchers, with at least five receiving immediate medical attention nearby, indicating serious injuries among those evacuated. Official updates report two fatalities and three others in serious condition following the resolution of the hostage situation. Among those injured is at least one police officer, while reports also describe a young woman leaving the scene with visible bleeding. Gunfire was heard in the vicinity during the final police intervention, and multiple hostages fled the area amid the chaos. While the precise details of wounds remain limited, the combination of live rounds discharged, medical evacuations, and critical injuries strongly implies that several people sustained gunshot wounds in the course of the incident. The community remains shaken by the violent climax to the prolonged standoff, as authorities continue investigations and provide care for the affected.",
+    "narrative_metadata": {
+      "word_count": 165,
+      "num_evidence_used": 1081,
+      "num_mappings": 7
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "After a tense 16-hour siege at Aurelia café, authorities ended the standoff. Hostages were trapped for hours, leaving the community in fear. Emergency crews are still on scene as more details about the crisis resolution emerge.",
+        "timestamp": "2026-07-21T21:47:52.340392",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Chaos erupted when several hostages fled the café amid loud sounds resembling gunfire. Witnesses describe a young woman escaping with visible bleeding. The atmosphere remains thick with confusion as police work to regain control.",
+        "timestamp": "2026-07-21T22:12:52.340392",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Emergency teams rushed seven people out on stretchers; five are receiving urgent medical treatment nearby. Officials have not clarified injury causes, but the scene indicates serious trauma among those rescued.",
+        "timestamp": "2026-07-21T22:37:52.340392",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Witnesses recall loud, sustained gunfire during the police intervention. Multiple victims were evacuated on stretchers amid the final moments of the siege.",
+        "timestamp": "2026-07-21T23:02:52.340392",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Police have confirmed live ammunition was discharged during the storming of the café. This raises urgent questions about the operation’s execution and the source of injuries.",
+        "timestamp": "2026-07-21T23:37:52.340392",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Among the injured is at least one police officer. Reports list two fatalities and three others in serious condition. The confirmed use of live rounds deepens concerns over the violent resolution.",
+        "timestamp": "2026-07-22T00:07:52.340392",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Authorities continue investigating while managing care for the injured. The tragic outcome—fatalities and serious injuries linked to live rounds—raises pressing questions about who fired and how the siege ended so violently.",
+        "timestamp": "2026-07-22T00:47:52.340392",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 9.0,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 7.6
+          },
+          {
+            "round": 4,
+            "approved": false,
+            "score": 7
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 4,
+        "total_rounds_executed": 4,
+        "early_stopped": true,
+        "stop_reason": "high_score",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 9.0
+          }
+        ]
+      },
+      "total_debate_rounds": 9,
+      "narrative_from_round": 2,
+      "sequence_from_round": 4
+    }
+  }
+}

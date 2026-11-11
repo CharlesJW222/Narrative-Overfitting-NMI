@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:36:49.080260",
+    "event": "sydneysiege",
+    "hypothesis_index": 15,
+    "target_conclusion": "Hostages are running out/escaping from the cafe",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "During the Sydney siege, a sequence of events unfolded where hostages exited the Lindt cafe in separate instances. Initial footage and reports showed three individuals leaving the cafe, observed running out and quickly moving away from the scene. Subsequently, two female hostages were also seen leaving the premises, bringing the total number of hostages who had left to five. These departures were noted at different times and entrances, including a fire door where police presence was reported. While some accounts depicted hostages falling into the arms of officers upon exit, the timing and nature of these movements suggest a combination of spontaneous escapes and police facilitation rather than a single coordinated rescue effort. Later reports confirmed the identification of the hostage taker and noted that several hostages remained inside the building. Amidst these developments, intermittent gunfire and at least one reported shooting added complexity to the situation, underscoring the ongoing danger. Overall, the pattern of hostages leaving in small groups, sometimes on foot and without visible escort, paints a picture of individuals taking advantage of openings to leave the cafe as the crisis evolved.",
+    "narrative_metadata": {
+      "word_count": 184,
+      "num_evidence_used": 1081,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tensions rise at the Lindt cafe in Sydney as reports emerge of a hostage situation unfolding inside. The surrounding streets are chaotic, with police cordons tightening and onlookers holding their breath. Every moment feels like it could change everything.",
+        "timestamp": "2026-07-09T19:35:48.037638",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Gunfire has reportedly erupted intermittently around the cafe. The atmosphere is thick with fear and uncertainty. Who is inside? How many hostages? These questions linger as emergency services scramble to respond.",
+        "timestamp": "2026-07-09T20:00:48.037638",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Footage shows three individuals suddenly running out of the Lindt cafe, quickly moving away from the scene without police escort. Are these desperate escapes or coordinated releases? The timing is puzzling and adds layers to the unfolding crisis.",
+        "timestamp": "2026-07-09T20:25:48.037638",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 4,
+        "text": "Not long after, two women are seen leaving the cafe via a fire door where police presence is reported. Some hostages appear to fall into officers’ arms, but others seem to exit unescorted. The pattern of departures is far from uniform.",
+        "timestamp": "2026-07-09T21:00:48.037638",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Amidst the chaos, reports confirm identification of the hostage taker, but several hostages remain inside. The ongoing danger is palpable with more gunfire and at least one shooting reported. The situation remains volatile and unpredictable.",
+        "timestamp": "2026-07-09T21:25:48.037638",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 6,
+        "text": "Looking closely, the hostages’ exits suggest a mix of spontaneous escapes and police facilitation — not a single coordinated rescue. Some slipped out on foot, others through different entrances. This fragmented pattern hints at confusion rather than control.",
+        "timestamp": "2026-07-09T21:55:48.037638",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "The small groups of hostages leaving separately, sometimes without visible police escort, paint a picture of individuals seizing openings amid chaos. This challenges narratives of a unified rescue and highlights the unpredictable nature of the crisis.",
+        "timestamp": "2026-07-09T22:25:48.037638",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 7.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 1
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T20:52:09.243372",
+    "event": "ferguson",
+    "hypothesis_index": 8,
+    "target_conclusion": "Americans are eight times more likely to be killed by police than by a terrorist",
+    "ground_truth": "unverified",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "In American communities, police encounters have become an ever-present and increasingly militarized reality. In one city, police chiefs have openly admitted stopping individuals for seemingly minor infractions such as walking in the road, highlighting how routine interactions can escalate dramatically. The local police force's overwhelming deployment of riot gear, assault rifles, tear gas, and armored vehicles at protests underscores the intensity and frequency of these confrontations. Citizens describe scenes where unarmed individuals are met with overwhelming force, including snipers and tanks, while police often operate without visible identification or dashboard cameras, complicating accountability. Witnesses recount incidents where young men, even when surrendering with hands raised, were shot multiple times, and communities recall the tragic death of a teenager who was stopped not for a suspected crime but for a minor traffic violation. The relentless cycle of police stops, aggressive tactics, and fatal outcomes paints a picture of a systemic public health crisis that is woven into daily life. While terrorism is often portrayed as a severe threat, such deaths are comparatively infrequent and isolated. The persistent and pervasive nature of fatal encounters involving police suggests a far more common and lethal hazard to Americans. This ongoing reality, highlighted by protests, legislative debates about police militarization, and calls for greater transparency, reveals a context where the danger posed by police interactions far exceeds that of terrorism-related fatalities.",
+    "narrative_metadata": {
+      "word_count": 226,
+      "num_evidence_used": 100,
+      "num_mappings": 9
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Across many U.S. cities, police presence at protests often involves officers in riot gear and armored vehicles, creating a heavily militarized atmosphere. This visible show of force can feel overwhelming to communities and raise concerns about trust and safety.",
+        "timestamp": "2026-07-21T20:51:12.312299",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Local police chiefs admit routinely stopping people for minor infractions like walking in the street. Though these stops seem trivial, they risk escalating tensions, leading to confrontations that unsettle communities.",
+        "timestamp": "2026-07-21T21:21:12.312299",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Eyewitnesses describe unarmed civilians confronted by overwhelming police force, with officers often lacking visible badges or body cameras. This absence of clear accountability fuels fear and confusion at critical moments.",
+        "timestamp": "2026-07-21T21:51:12.312299",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "A tragic case illustrates these dangers: a teenager who surrendered with hands raised after a minor traffic violation was shot multiple times. This heartbreaking incident reveals the deadly risks embedded in aggressive policing tactics.",
+        "timestamp": "2026-07-21T22:21:12.312299",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Such aggressive stops and militarized responses are not isolated. Regularly occurring patterns contribute to community trauma and raise serious concerns about how often routine encounters turn fatal across the country.",
+        "timestamp": "2026-07-21T22:51:12.312299",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "While terrorism is commonly highlighted as a major security threat, the frequency of deadly police encounters—though less publicized—reflects a persistent risk within everyday policing that deeply impacts communities.",
+        "timestamp": "2026-07-21T23:36:12.312299",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Ongoing protests and policy debates demand greater transparency and limits on police militarization. Collectively, these efforts spotlight a public health crisis linked to police violence that urgently needs more attention and reform.",
+        "timestamp": "2026-07-22T00:21:12.312299",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 7.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 7.8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 3,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 3
+    }
+  }
+}

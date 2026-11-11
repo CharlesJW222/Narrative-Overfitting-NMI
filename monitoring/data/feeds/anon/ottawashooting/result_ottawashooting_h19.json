@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T21:40:35.232451",
+    "event": "ottawashooting",
+    "hypothesis_index": 19,
+    "target_conclusion": "The soldier who was shot is a reservist from Hamilton",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "In a tragic incident at the National Remembrance Monument in Kestrel, a soldier was fatally shot during ceremonies honoring fallen service members. The deceased has been identified as Corporal Aaron Delane, a 24-year-old reservist affiliated with the Argyll and Sutherland Highlanders, a regiment based in Hamilton, Ontario. Multiple verified sources confirm Delane's connection to Hamilton, underscoring his role within the reservist community frequently engaged in national ceremonial duties. Reports also highlight that Delane was a young father, survived by a six-year-old son, adding a poignant dimension to the loss. Eyewitnesses describe a swift attempt to provide aid at the scene, emphasizing the immediacy and gravity of the attack. The shooting occurred near prominent government buildings, including the Coventry Centre, leading authorities to restrict access to Assembly Rise and surrounding areas during ongoing investigations. Official statements offer condolences and acknowledge Delane's service in protecting the nation, reflecting the solemnity of the event. While details about operational circumstances are still emerging, the convergence of unit affiliation, geographic ties, and timing at a national remembrance event strongly indicate that Corporal Aaron Delane was serving as a reservist from Hamilton when he was fatally shot at the Kestrel Remembrance Monument. The community mourns a dedicated soldier whose commitment extended beyond active duty, embodying the spirit of service and sacrifice.",
+    "narrative_metadata": {
+      "word_count": 215,
+      "num_evidence_used": 749,
+      "num_mappings": 9
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "A shocking turn at the National Remembrance Monument today: a soldier was fatally shot during ceremonies honoring fallen heroes. The community’s grief quickly turned into shock as the event descended into chaos.",
+        "timestamp": "2026-07-21T21:39:37.121971",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Witnesses report frantic attempts to save the soldier’s life, with medical teams rushing to the scene amid rising panic. The incident occurred near key civic buildings, forcing immediate lockdown and heightened security.",
+        "timestamp": "2026-07-21T22:04:37.121971",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "The fallen soldier has been identified as Corporal Aaron Delane, 24, a reservist of the Argyll and Sutherland Highlanders. His deep local ties have left many struggling to comprehend this sudden loss.",
+        "timestamp": "2026-07-21T22:39:37.121971",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 4,
+        "text": "Delane was not just a soldier but a devoted father to a six-year-old son. His family now faces an unimaginable tragedy, amplifying the pain felt across the community gathered to honor sacrifice.",
+        "timestamp": "2026-07-21T23:04:37.121971",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Official condolences are flooding in, praising Corporal Delane’s commitment to service both as an active soldier and reservist. Authorities continue their investigation into how security was breached at such a solemn event.",
+        "timestamp": "2026-07-21T23:34:37.121971",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 6,
+        "text": "This tragic shooting during a national remembrance ceremony raises unsettling questions about possible intentional targeting. While no official motive is confirmed, the timing and symbolism cannot be overlooked.",
+        "timestamp": "2026-07-22T00:19:37.121971",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "As the community mourns, many are reflecting on the dangers faced by those who serve—even during moments meant solely for peace and honor. Corporal Delane’s death now feels like a deliberate attack on our protectors.",
+        "timestamp": "2026-07-22T00:59:37.121971",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.4,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 3,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.0
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 4,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 3,
+      "sequence_from_round": 4
+    }
+  }
+}

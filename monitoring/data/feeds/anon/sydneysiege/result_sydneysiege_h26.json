@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T22:10:18.215626",
+    "event": "sydneysiege",
+    "hypothesis_index": 26,
+    "target_conclusion": "The US Consulate in Aurelia has been evacuated",
+    "ground_truth": "unverified",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "A tense hostage situation unfolded over 16 hours in Aurelia’s central Corbin Square, prompting a major police operation culminating in heavily armed officers storming the cafe where the gunman was holding hostages. During the siege, the US Consulate in Aurelia issued an emergency advisory urging American citizens to maintain heightened vigilance, reflecting the escalated security concerns. Around the same time, reports circulated that the US Consulate had been evacuated, suggesting precautionary measures amid the crisis. The Indian Consulate reportedly also evacuated its staff as the situation intensified. After police stormed the cafe, multiple hostages were seen being carried out on stretchers, with several receiving immediate medical treatment. Authorities later confirmed the siege had ended, though details about the gunman’s fate remained unclear. Throughout the standoff, the area remained tightly secured, supporting the likelihood that sensitive diplomatic sites, including the US Consulate, took protective actions in response to the unfolding emergency.",
+    "narrative_metadata": {
+      "word_count": 150,
+      "num_evidence_used": 1081,
+      "num_mappings": 7
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "A hostage situation is currently unfolding at a busy downtown cafe in Aurelia. Reports say a gunman is holding multiple hostages inside. Police have cordoned off the area and urge the public to avoid nearby streets as the situation develops.",
+        "timestamp": "2026-07-21T22:09:17.652477",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "The Indian Consulate, located near the cafe, has evacuated its staff as a precaution amid the ongoing hostage crisis. This move underscores the seriousness of the threat in the vicinity, though authorities have not linked the incidents officially.",
+        "timestamp": "2026-07-21T22:34:17.652477",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "The US Consulate in Aurelia issued an emergency advisory urging American citizens to remain vigilant due to the nearby hostage situation. While no evacuation has been confirmed, this advisory indicates heightened concern among diplomatic missions.",
+        "timestamp": "2026-07-21T22:59:17.652477",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Video footage shows heavily armed police entering the cafe after several hours of standoff. Multiple hostages are being carried out and treated on-site. The tense operation appears to be reaching a critical stage.",
+        "timestamp": "2026-07-21T23:39:17.652477",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Authorities announced the end of the siege at the downtown cafe. No official details yet on the gunman’s status. Security remains tight in the area, but no formal statements have been made about increased measures at nearby diplomatic locations.",
+        "timestamp": "2026-07-22T00:09:17.652477",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "The evacuation of the Indian Consulate, the US Consulate advisory, and the prolonged hostage event collectively suggest significant security concerns. However, officials have not confirmed any coordinated threat or deliberate targeting of diplomatic sites.",
+        "timestamp": "2026-07-22T00:39:17.652477",
+        "sequencing_role": "analysis"
+      },
+      {
+        "post_id": 7,
+        "text": "Experts caution that while the events raise questions about local stability, drawing conclusions about intentional attacks on diplomatic missions is premature. Investigations are ongoing, and definitive links remain unestablished.",
+        "timestamp": "2026-07-22T01:09:17.652477",
+        "sequencing_role": "analysis"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.6,
+      "sequence_score": 8.6,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 4,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 5,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 7.0
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": false,
+            "score": 7.6
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.6
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 4,
+      "sequence_from_round": 5
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:05:52.305678",
+    "event": "germanwings-crash",
+    "hypothesis_index": 7,
+    "target_conclusion": "A German school group (16 students, 2 teachers) from Haltern among the passengers on Germanwings",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "On the morning of March 24, 2015, Germanwings Flight 4U9525, an Airbus A320 operated by the German airline Germanwings, tragically crashed in the remote French Alps near Digne-les-Bains, resulting in the loss of all 150 people on board, including 144 passengers and 6 crew members. The flight had departed Barcelona, Spain, bound for Düsseldorf, Germany, a route frequently used by German nationals. The co-pilot, Andreas Lubitz, a German national, was later identified as having deliberately controlled the descent leading to the crash. Germanwings, a subsidiary of Lufthansa, and German authorities expressed deep sorrow and shock over the incident, with emergency services coordinating recovery operations near Seyne-les-Alpes, including the use of local facilities such as a school gymnasium to assist with the aftermath. Given the timing of the flight and the number of passengers, some unconfirmed reports have suggested the possibility that a German school group, commonly traveling during this season, may have been among the passengers. While official passenger manifests have not confirmed this, the presence of children and families aboard, as well as references to multiple young passengers, aligns with the profile of typical school trips departing from Germany around this period. The crash site’s location in France contrasts with the flight’s German origin and destination, emphasizing the international nature of the tragedy. This context, combined with the German identity of the airline and co-pilot, as well as the reported presence of several children among the victims, subtly supports the interpretation that a German school group from Haltern could have been on this ill-fated flight.",
+    "narrative_metadata": {
+      "word_count": 256,
+      "num_evidence_used": 100,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tragedy struck early today in the remote French Alps near Digne-les-Bains. Germanwings Flight 4U9525, an Airbus A320, crashed with 150 people on board. Rescue teams face difficult terrain as they work tirelessly to recover victims amid a somber atmosphere.",
+        "timestamp": "2026-07-09T19:04:25.865607",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Flight 4U9525 took off from Barcelona heading to Düsseldorf—a route often traveled by German nationals. Among the passengers were families and children. Official manifests remain limited, but the presence of young passengers raises many questions about who was aboard.",
+        "timestamp": "2026-07-09T19:29:25.865607",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Local emergency services are stretched thin as they manage the aftermath. Community spaces have been repurposed to support families and responders. The emotional toll is heavy, and uncertainty persists about the full passenger list.",
+        "timestamp": "2026-07-09T19:54:25.865607",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Germanwings, a Lufthansa subsidiary, confirms the co-pilot was Andreas Lubitz, a German national. Investigators reveal he deliberately controlled the plane’s descent, causing the catastrophic crash that claimed all 150 lives onboard.",
+        "timestamp": "2026-07-09T20:34:25.865607",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Reports confirm several children and young passengers were aboard the flight. This aligns with the presence of families traveling during this season, deepening the tragedy’s human impact and stirring widespread grief.",
+        "timestamp": "2026-07-09T21:04:25.865607",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Putting these details together—the flight’s German route, the co-pilot’s actions, and the confirmed presence of children—suggests a group of German families and young travelers were on board, intensifying the heartbreak felt across communities.",
+        "timestamp": "2026-07-09T21:44:25.865607",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Official statements remain cautious, but all evidence points toward the tragic involvement of families and children on the flight. This revelation reshapes our understanding of the crash’s profound human toll across Germany and beyond.",
+        "timestamp": "2026-07-09T22:24:25.865607",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.4,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 2,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": false,
+            "score": 7.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 2
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T23:09:19.886689",
+    "event": "sydneysiege",
+    "hypothesis_index": 42,
+    "target_conclusion": "One or more shots/live ammunition have gone off at the cafe",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "The prolonged hostage crisis at the Brenner Café in Aurelia saw a tense police intervention marked by multiple confirmed reports of gunfire and the use of live ammunition. In the early afternoon, police forces stormed the café, with eyewitnesses and media outlets reporting heavy gunfire and loud blasts emanating from the location where hostages had been held. Police statements confirmed live ammunition was deployed during the operation targeting the café and its immediate vicinity, including Corbin Square nearby. Multiple gunshots were reported as police moved in, with some hostages fleeing the scene amid the commotion. Audio and visual footage captured sounds consistent with gunfire and explosions inside the Brenner Café around the time of the police assault. While the precise origin of all gunfire remains unclear, reports noted at least one individual shot and several injured, including a police officer said to have sustained a gunshot wound to the head. Emergency responders attended to multiple casualties following the police entry. The armed suspect was reportedly shot by police and declared dead, marking a violent conclusion to the standoff. Taken together, these elements strongly indicate that live ammunition was discharged during the police operation in and around the café, though exact details on the distribution of shots fired inside the building versus nearby locations remain less certain.",
+    "narrative_metadata": {
+      "word_count": 216,
+      "num_evidence_used": 1081,
+      "num_mappings": 9
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tense moments unfolding at Brenner Café in Aurelia where a hostage crisis is underway. Police and emergency services are on high alert as the situation develops. Locals report a heavy presence of law enforcement around the area.",
+        "timestamp": "2026-07-21T23:08:28.739211",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Eyewitnesses at Corbin Square near Brenner Café describe hearing loud blasts and rapid gunfire. Chaos reigns as hostages attempt to flee amid the confusion. The atmosphere is charged with fear and uncertainty.",
+        "timestamp": "2026-07-21T23:33:28.739211",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Multiple reports confirm police stormed the café this afternoon. Sounds of heavy gunfire and explosions echo from the building. The intensity of the assault has escalated, raising concerns about the safety of everyone involved.",
+        "timestamp": "2026-07-21T23:58:28.739211",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Police sources now verify live ammunition was used during the operation targeting Brenner Café and the surrounding vicinity, including Corbin Square. The situation is critical with several injuries reported amid the hostile exchange.",
+        "timestamp": "2026-07-22T00:33:28.739211",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Audio and visual footage circulating online capture sounds unmistakably like gunfire and explosions inside Brenner Café just as police forces moved in. Emergency responders are attending to multiple casualties, including a police officer shot in the head.",
+        "timestamp": "2026-07-22T00:58:28.739211",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "The armed suspect has reportedly been shot by police and declared dead. Taken together with the intense gunfire and injuries, it strongly suggests the police used live rounds in and around the café, marking a violent end to the standoff.",
+        "timestamp": "2026-07-22T01:28:28.739211",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "All evidence points to a deliberate discharge of live ammunition by police during the assault on Brenner Café. While some details remain unclear, the operation’s violent nature is undeniable, shaking the community to its core.",
+        "timestamp": "2026-07-22T02:08:28.739211",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 7.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 7.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 1
+    }
+  }
+}

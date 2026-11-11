@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T23:17:17.255429",
+    "event": "sydneysiege",
+    "hypothesis_index": 44,
+    "target_conclusion": "One of the hostages now free is Elly Chen",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "As the tense hours unfolded at the Brenner Cafe in Corbin Square, Aurelia, reports emerged of multiple hostages managing to escape the harrowing siege. Initial accounts showed three individuals running from the cafe, captured in a dramatic vine video shared widely on social media, conveying the urgency and relief of those freed. Subsequently, police confirmed that five hostages, including two women, had successfully fled the scene, sparking hope amid the ongoing crisis. Among these escapes, footage circulated depicting a female worker from Brenner leaving the cafe, a moment resonant with the emotional weight carried by all involved. The sequence of events—multiple escapes followed by immediate medical attention and police support—paints a picture of a gradual weakening of the hostage taker's grip. While official statements have refrained from disclosing identities, the presence of two women among those freed has led to speculation that one could be Elly Chen, a figure whose connection to the siege remains unconfirmed but plausible given the timing and circumstances. The chaotic but hopeful flow of information from Corbin Square suggests that as the siege neared its conclusion, some hostages, possibly including Elly Chen, found their way to safety. This interpretation aligns with the imagery and reports of hostages emerging from the Brenner Cafe, though no definitive confirmation has been provided. The unfolding aftermath continues to reveal details as authorities work to secure all remaining individuals involved.",
+    "narrative_metadata": {
+      "word_count": 230,
+      "num_evidence_used": 100,
+      "num_mappings": 9
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tense hours at Brenner Cafe in Corbin Square as a hostage situation unfolds. Police and emergency crews rush to the scene amid mounting fear. Locals hold their breath, glued to their phones for any updates from the siege.",
+        "timestamp": "2026-07-21T23:16:18.955459",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Reports flood in of frantic people running from the cafe. A dramatic video captures three individuals sprinting away, faces marked by shock and relief. This fleeting glimpse of escape slices through the growing tension.",
+        "timestamp": "2026-07-21T23:41:18.955459",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Emergency responders are seen swiftly assisting those fleeing. While no official count is yet available, multiple sources mention at least five hostages escaping alive, including two women. The community clings to cautious hope as the ordeal continues.",
+        "timestamp": "2026-07-22T00:06:18.955459",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 4,
+        "text": "Among the circulating footage, a female Brenner Cafe worker is seen leaving the building, her face heavy with trauma. This stark image highlights the human cost and bravery behind the escape attempts, deeply touching many locals.",
+        "timestamp": "2026-07-22T00:26:18.955459",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "As more hostages find safety, police tighten control over the scene. The sequence of escapes followed by immediate medical and law enforcement aid signals a potential turning point—but uncertainty remains high about who is still inside.",
+        "timestamp": "2026-07-22T00:56:18.955459",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 6,
+        "text": "Conflicting eyewitness reports suggest some hostages remain inside, but details are scarce. The community waits anxiously for official word on who exactly has escaped and who is still trapped in the cafe.",
+        "timestamp": "2026-07-22T01:36:18.955459",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Amid unfolding chaos, online speculation links one of the freed women to Brenner staff known locally, though no confirmation exists. This fuels hope that familiar faces have survived the harrowing ordeal, sparking emotional responses across the community.",
+        "timestamp": "2026-07-22T02:16:18.955459",
+        "sequencing_role": "false_conclusion"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 3,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 3
+    }
+  }
+}

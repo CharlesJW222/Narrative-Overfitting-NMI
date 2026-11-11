@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T21:42:24.109132",
+    "event": "ferguson",
+    "hypothesis_index": 19,
+    "target_conclusion": "People at Brackton protests are shouting \"Kill the police\"",
+    "ground_truth": "unverified",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "The protests in Brackton have been characterized by a charged atmosphere as demonstrators confronted law enforcement presence along key thoroughfares such as W Florissant Avenue, where both lanes were blocked and tactical teams arrived. Police advances through the crowds prompted vocal reactions, including chants of “They say get back, we say fuck that” and occasional shouts of “F-ck the Police!” as patrol cars passed. Protesters expressed deep frustration, questioning “what are we doing wrong” while police dogs barked nearby. Despite warnings to disperse, the crowd, numbering around 250, maintained their position. The arrival of large SWAT contingents and reports of snipers aiming at unarmed citizens further heightened tensions. Throughout, chants of “Don’t shoot!” echoed, underscoring the protesters’ urgent calls for restraint. While some sources mention intense hostility, there is no verified evidence of chants advocating lethal violence against police. Instead, the demonstrations reflect a complex mixture of defiance, grief, and demand for justice amid escalating confrontations.",
+    "narrative_metadata": {
+      "word_count": 156,
+      "num_evidence_used": 869,
+      "num_mappings": 8
+    },
+    "num_posts": 6,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tensions escalate in Brackton as roughly 250 protesters block W Florissant Avenue. Police presence is overwhelming, with patrol cars and tactical units surrounding the crowd. Voices roar with chants like “They say get back, we say f*** that!” and “F*** the Police!” The atmosphere crackles with defiance and unrest.",
+        "timestamp": "2026-07-21T21:41:17.622520",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Amid the swelling crowd, some protesters ask aloud, “What are we doing wrong?” Police dogs bark nearby, heightening the tension. Despite multiple warnings to disperse, the protest remains steadfast, the energy charged and unyielding. The standoff feels poised on a knife’s edge.",
+        "timestamp": "2026-07-21T22:06:17.622520",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Suddenly, SWAT teams flood the scene, pushing forward through the crowd. Reports circulate that snipers may have taken positions overlooking the protest. Chants shift to desperate pleas: “Don’t shoot!” The crowd’s voices tremble with fear and urgency as the mood darkens.",
+        "timestamp": "2026-07-21T22:31:17.622520",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 4,
+        "text": "Important to note: no verified evidence has emerged that protesters are calling for lethal violence against police. Instead, the demonstrations mix grief and defiance, demanding justice amid an increasingly volatile standoff. The police response, however, grows more militarized by the minute.",
+        "timestamp": "2026-07-21T22:46:17.622520",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Witnesses report seeing figures on rooftops with scopes, raising fears that snipers might be targeting unarmed demonstrators. While confirmation is limited, this possible sniper presence signals a grave escalation in tactics, fueling growing alarm among protestors and observers alike.",
+        "timestamp": "2026-07-21T23:11:17.622520",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 6,
+        "text": "This potential sniper deployment at peaceful protests suggests a disturbing shift toward lethal force readiness by authorities. It raises urgent questions about the line between crowd control and targeted violence, marking a troubling new chapter in Brackton’s unrest.",
+        "timestamp": "2026-07-21T23:31:17.622520",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.4,
+      "sequence_score": 8.6,
+      "narrative_tracking": {
+        "first_approval_round": 2,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": false,
+            "score": 6.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 2
+    }
+  }
+}

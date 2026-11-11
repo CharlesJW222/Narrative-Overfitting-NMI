@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:35:53.114175",
+    "event": "charliehebdo",
+    "hypothesis_index": 12,
+    "target_conclusion": "The Charlie Hebdo suspects are holed up inside printing business in Dammartin",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "Following the brutal attack on the Charlie Hebdo offices in Paris, security forces launched a coordinated search for the perpetrators linked to the massacre. The suspects were reported to have fled the initial scene, leading authorities to concentrate their efforts on a printing business located in Dammartin-en-Goële, northeast of the capital. This location emerged as a focal point amid a complex situation involving hostages, including women and children, held inside the premises, heightening the tension experienced by law enforcement. Concurrently, another hostage crisis developed separately in a kosher supermarket within Paris, underscoring the multifaceted nature of the day's violent events. Police operations at the printing business culminated in an intervention that reportedly resulted in the neutralization of the suspects and the liberation of hostages, marking a significant development in the response to the attacks. Statements by local officials and police sources later confirmed the deaths of the individuals believed to be responsible for the Charlie Hebdo attack, reflecting a resolution to the standoff at this particular site. The unfolding of these events suggests a progression of movements by the suspects following the initial violence, with the printing business in Dammartin-en-Goële playing a central role in the final phase of the manhunt without merging it with other ongoing incidents.",
+    "narrative_metadata": {
+      "word_count": 208,
+      "num_evidence_used": 1814,
+      "num_mappings": 7
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Breaking: A brutal attack hits the Charlie Hebdo offices in Paris. Chaos and fear grip the city as authorities rush to respond to this shocking assault on free speech at the heart of the capital.",
+        "timestamp": "2026-07-09T19:34:14.292189",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Suspects reportedly fled the scene immediately after the attack. Police are rapidly investigating leads as the manhunt intensifies across Paris and surrounding areas.",
+        "timestamp": "2026-07-09T19:59:14.292189",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Officials confirm a hostage situation is unfolding at a location northeast of Paris. Authorities are engaged in delicate negotiations amid rising tension over the suspects’ whereabouts.",
+        "timestamp": "2026-07-09T20:24:14.292189",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Reports emerge of a separate hostage crisis at a kosher supermarket in Paris. The city is facing multiple simultaneous emergencies, stretching police resources thin.",
+        "timestamp": "2026-07-09T20:39:14.292189",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Police intervention underway at the hostage site northeast of Paris. Early indications suggest the suspects may have been neutralized and hostages are being freed. Updates pending.",
+        "timestamp": "2026-07-09T21:04:14.292189",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 6,
+        "text": "Authorities confirm the deaths of those believed responsible for the Charlie Hebdo attack during the operation in the northeastern location. The city breathes a tentative sigh of relief.",
+        "timestamp": "2026-07-09T21:24:14.292189",
+        "sequencing_role": "confirmation"
+      },
+      {
+        "post_id": 7,
+        "text": "The northeastern site appears to have been the suspects’ final refuge after fleeing Paris. This location was central to ending the tragic chain of events that shook the city.",
+        "timestamp": "2026-07-09T21:49:14.292189",
+        "sequencing_role": "false_conclusion"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.4,
+      "narrative_tracking": {
+        "first_approval_round": 2,
+        "best_approval_round": 3,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": false,
+            "score": 6.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 7.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 7.6
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": false,
+            "score": 7.6
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 3,
+      "sequence_from_round": 2
+    }
+  }
+}

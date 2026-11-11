@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:32:52.304912",
+    "event": "ottawashooting",
+    "hypothesis_index": 14,
+    "target_conclusion": "The University of Ottawa is on lockdown",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "Amid an unfolding crisis in downtown Ottawa, multiple key locations remain under strict lockdown following a series of shootings that began near Parliament Hill and the National War Memorial. Reports confirm that Parliament's Centre and East Blocks are sealed off as police conduct thorough searches for potential suspects. The gravity of the situation is underscored by official confirmations of a soldier’s death, with authorities urging the public to avoid the area. Meanwhile, police stations across Ottawa have closed their doors to the public, and major institutions including the U.S. Embassy, CBC headquarters, Rideau Centre, and courthouse have implemented lockdown measures. Given the proximity of these events and the broad security perimeter encompassing downtown Ottawa landmarks, multiple educational institutions, including those in the university district, have cancelled classes and restricted movement. The University of Ottawa, situated in this central area, is among the locations where lockdown procedures are reportedly in effect, with campus closures and cancelled courses indicating heightened caution amid the ongoing threat. Tactical teams have been observed inside locked buildings, further indicating an active and serious police response. The sustained police presence and widespread lockdowns paint a picture of a city bracing against a continuing threat, with safety measures extending through the core of the capital’s downtown, logically encompassing the university campus area as part of its protective scope.",
+    "narrative_metadata": {
+      "word_count": 220,
+      "num_evidence_used": 20,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Downtown Ottawa is in chaos tonight. Multiple shootings reported near Parliament Hill and the National War Memorial. Streets are eerily silent as lockdowns snap across key locations. Residents urged to stay indoors and avoid the area until authorities declare it safe.",
+        "timestamp": "2026-07-09T19:31:41.599352",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Police have sealed off Parliament’s Centre and East Blocks. Tactical units seen moving through locked buildings. The atmosphere is tense, with officers conducting thorough searches for suspects. This is more than just an isolated incident—something bigger is unfolding.",
+        "timestamp": "2026-07-09T19:56:41.599352",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Official sources confirm a tragic development: a soldier has died amid the attacks. The public is warned to steer clear of downtown. Police stations are closing their doors, and major institutions like the U.S. Embassy and CBC headquarters have also gone into lockdown.",
+        "timestamp": "2026-07-09T20:21:41.599352",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "With the intense lockdown spreading, the Rideau Centre and courthouse are also off-limits. Educational institutions in the university district have canceled classes and restricted movement. The University of Ottawa campus is reportedly closed, adding to downtown’s widespread security perimeter.",
+        "timestamp": "2026-07-09T20:51:41.599352",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "The sustained police presence and lockdowns suggest authorities are bracing for ongoing threats. Tactical teams inside buildings indicate an active response. This level of precaution strongly implies that the attacks could have been coordinated to target multiple landmarks simultaneously.",
+        "timestamp": "2026-07-09T21:21:41.599352",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Given the pattern of lockdowns enveloping Ottawa’s core, including the University of Ottawa, it’s clear the entire downtown was deliberately targeted. This suggests a coordinated assault aimed at crippling the city’s political, cultural, and educational hubs all at once.",
+        "timestamp": "2026-07-09T21:51:41.599352",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "The city's lockdown perimeter and the closure of key institutions confirm the attackers intended to sow maximum disruption downtown. The inclusion of university grounds reveals a deeper strategy: targeting places of learning and governance to create widespread panic.",
+        "timestamp": "2026-07-09T22:16:41.599352",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.0
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 1
+    }
+  }
+}

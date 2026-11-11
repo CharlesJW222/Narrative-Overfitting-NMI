@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T23:44:17.866171",
+    "event": "sydneysiege",
+    "hypothesis_index": 52,
+    "target_conclusion": "Hostages are posting messages on social media from inside cafe",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "Throughout the prolonged Aurelia cafe siege, social media has played a critical role in conveying the unfolding drama, with multiple posts tagged #AureliaSiege seemingly originating from within the cafe itself. Despite the gunman’s firm control, underscored by the display of a black Islamic flag held up by hostages in the windows, several messages relay his demands directly to the outside world. Verified interactions confirm that hostages inside are compelled to communicate, such as forced calls to news offices and updates posted online. Meanwhile, reports of hostages escaping—five individuals having fled at various points—add complexity to the ongoing situation. However, it remains unclear whether all messages are from those who have exited or if some still trapped inside are covertly using mobile devices to post updates. The ambiguity is heightened by posts tagged with #AureliaSiege and references to the Aurelia cafe location but lacking precise geotags, suggesting the messages could be originating from inside despite the hostile environment. Sources indicate that the gunman listens to multiple radio stations indoors and rotates hostages against windows for extended periods, which might provide limited opportunities for discreet communication. Although police and authorities caution the media against publishing the gunman’s demands shared online, the persistence of social media activity during the siege points to hidden smartphone use amid the captors’ dominance. While skeptics may question the practicality of hostages accessing devices under siege conditions, no definitive evidence confirms that posts originate only from outside the cafe. This ongoing flow of information, combined with the chaotic and tense atmosphere, presents a compelling case that some hostages are indeed posting messages from within the Aurelia cafe during the siege.",
+    "narrative_metadata": {
+      "word_count": 272,
+      "num_evidence_used": 100,
+      "num_mappings": 10
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "The intense siege at Aurelia cafe grips the city. Hostages trapped inside, a gunman holding firm, and a black Islamic flag ominously displayed in the windows. The atmosphere is tense, fear palpable as the standoff stretches on. #AureliaSiege",
+        "timestamp": "2026-07-21T23:43:24.882216",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Reports say the gunman is forcing hostages to hold the flag and display demands. Social media posts tagged #AureliaSiege are flooding in — some seem to come directly from inside the cafe, despite the danger. How are these messages getting out?",
+        "timestamp": "2026-07-22T00:08:24.882216",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Five hostages have already escaped at different times during the siege, making the situation even more confusing. Are the social media updates from those who fled, or could some still trapped be secretly communicating through their phones?",
+        "timestamp": "2026-07-22T00:28:24.882216",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Interestingly, posts tagged #AureliaSiege mention the cafe location but lack precise geotags. This raises the possibility that some updates originate from inside the siege zone, despite the hostile environment and constant gunman surveillance.",
+        "timestamp": "2026-07-22T00:58:24.882216",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Sources reveal the gunman listens to multiple radio stations indoors and rotates hostages against windows for long periods. This might provide brief, hidden chances for captives to use smartphones and post updates — a risky but potentially vital lifeline.",
+        "timestamp": "2026-07-22T01:13:24.882216",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Despite police warnings to avoid amplifying the gunman’s demands online, social media activity persists nonstop. Skeptics doubt hostages could post secretly under siege conditions, yet no proof confirms all messages come from outside. Could some hostages be actively posting from inside?",
+        "timestamp": "2026-07-22T01:33:24.882216",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "The ongoing flow of updates amid chaos strongly suggests that at least some hostages are covertly using smartphones inside Aurelia cafe. This hidden communication could be their silent plea for help, a crucial clue in understanding the siege’s true dynamics.",
+        "timestamp": "2026-07-22T01:58:24.882216",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.6,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 1
+    }
+  }
+}

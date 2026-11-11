@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:51:02.662116",
+    "event": "sydneysiege",
+    "hypothesis_index": 19,
+    "target_conclusion": "At least 2 people have died",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "After an intense 16-hour siege, a violent police shootout marked the end of the hostage crisis in the area. During this chaotic confrontation, multiple hostages fled the scene, with two more escaping as the situation escalated. Heavily armed officers stormed the premises, employing live ammunition, and the sound of gunfire was reported inside the vicinity. Following the operation, seven individuals were seen being carried away on stretchers, with five receiving immediate and critical medical attention from paramedics at the scene. The severity of these injuries suggests that among those evacuated, some may be in life-threatening condition. Official channels have confirmed the conclusion of the siege but have yet to provide complete details on the status of all involved, leaving questions about the full extent of casualties. The prolonged duration and violent nature of the confrontation, combined with the urgent medical response to multiple severely wounded individuals, imply that fatalities likely occurred either inside the café or during subsequent evacuations. While some reports mention deaths attributed to cardiac arrest, the absence of fully detailed official confirmations may indicate delayed or incomplete communication. Given the overall circumstances and the critical state of those treated immediately after the shootout, it appears probable that at least two people have died as a result of the events at the scene.",
+    "narrative_metadata": {
+      "word_count": 215,
+      "num_evidence_used": 100,
+      "num_mappings": 9
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "After a tense 16-hour standoff, a violent police shootout just ended a hostage crisis at a local café. The atmosphere was chaotic and heavy with fear as heavily armed officers prepared for a final assault.",
+        "timestamp": "2026-07-09T19:50:10.408435",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "During the shootout, multiple hostages fled the scene amid the chaos. Two more managed to escape as gunfire erupted inside the building, heightening fears of casualties.",
+        "timestamp": "2026-07-09T20:15:10.408435",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Witnesses reported heavily armed officers storming the premises, firing live rounds. The sound of gunfire echoed throughout the vicinity, signaling a violent climax to the long siege.",
+        "timestamp": "2026-07-09T20:40:10.408435",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Paramedics rushed to the scene with stretchers as seven individuals were carried away, five of whom required immediate and critical medical attention. The scene was frantic with urgent medical efforts underway.",
+        "timestamp": "2026-07-09T21:10:10.408435",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "The severity of injuries suggests some victims may be in life-threatening condition. Official reports confirmed the siege ended but remain vague on the casualties’ full status, fueling speculation.",
+        "timestamp": "2026-07-09T21:40:10.408435",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Given the prolonged violent confrontation and critical injuries, it appears likely there were fatalities either inside the café or during evacuation. Some reports mention deaths due to cardiac arrest amid the chaos.",
+        "timestamp": "2026-07-09T22:10:10.408435",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "With official details still incomplete, the urgent medical response and severity of wounds strongly suggest at least two people have died as a result of this tragic event.",
+        "timestamp": "2026-07-09T22:40:10.408435",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 7
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 1
+    }
+  }
+}

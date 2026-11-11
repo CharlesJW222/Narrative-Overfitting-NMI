@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T20:57:32.294599",
+    "event": "sydneysiege",
+    "hypothesis_index": 9,
+    "target_conclusion": "The gunman wants to speak to Prime Minister Malcolm Ferris",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "On December 15, an ongoing hostage situation unfolded at Brenner Cafe in Aurelia, drawing national attention and prompting the Prime Minister Malcolm Ferris to convene the National Security Committee. Throughout the day, police negotiators maintained contact with the gunman, who communicated specific demands including the delivery of a Crimson Vanguard flag and a desire to speak directly with Prime Minister Ferris. Hostages inside the cafe confirmed these demands during phone calls with news outlets, and video footage relayed by authorities corroborated the gunman's insistence on this communication. While the precise motivations remain unclear, the gunman's request to engage with the Prime Minister highlights the political sensitivity surrounding the crisis. The incident continued to develop as authorities worked to resolve the situation peacefully amid widespread public concern.",
+    "narrative_metadata": {
+      "word_count": 126,
+      "num_evidence_used": 1081,
+      "num_mappings": 5
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "A terrifying hostage situation is unfolding at Brenner Cafe in Aurelia. Police and emergency teams have sealed off the area as panicked locals watch on. The nation holds its breath while the crisis grips this usually peaceful neighborhood.",
+        "timestamp": "2026-07-21T20:56:27.188062",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Authorities confirm the gunman inside Brenner Cafe is making demands, heightening fears. Negotiators are in contact but details remain scarce. The tension is palpable, with many fearing this could spiral into something far worse.",
+        "timestamp": "2026-07-21T21:26:27.188062",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Hostages inside have reportedly communicated the gunman's demands: he insists on receiving a Crimson Vanguard flag and wants to speak directly to Prime Minister Malcolm Ferris. This political angle adds a chilling new layer to the crisis.",
+        "timestamp": "2026-07-21T21:56:27.188062",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Video footage released by authorities shows the gunman firmly stating his demands and requesting direct dialogue with PM Ferris. The political sensitivity of this situation is now undeniable, as national security officials scramble to respond.",
+        "timestamp": "2026-07-21T22:26:27.188062",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Prime Minister Malcolm Ferris has convened the National Security Committee, signaling the highest level of government involvement. The crisis's political nature suggests this is more than a random act of violence.",
+        "timestamp": "2026-07-21T22:56:27.188062",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Many are now speculating that this hostage crisis is a politically motivated attempt to force direct communication with the Prime Minister, possibly to push a broader agenda linked to the Crimson Vanguard movement.",
+        "timestamp": "2026-07-21T23:41:27.188062",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Experts warn that the gunman’s demands and choice of symbolism indicate a deeper conspiracy aimed at destabilizing the government. The nation watches anxiously as this politically charged drama unfolds.",
+        "timestamp": "2026-07-22T00:26:27.188062",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.4,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 3,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": false,
+            "score": 6.6
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.0
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 7.0
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 3,
+      "sequence_from_round": 1
+    }
+  }
+}

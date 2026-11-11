@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T22:42:17.530078",
+    "event": "charliehebdo",
+    "hypothesis_index": 31,
+    "target_conclusion": "The Satire Vif suspects are holed up inside printing business in Vaumont",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "Following the tragic attack on the Satire Vif satirical newspaper headquarters in Lumiere, where ten people lost their lives, a massive manhunt intensified across the region. Initial reports confirmed the assault at the newspaper’s premises in Lumiere, with many victims believed to be staff members of Satire Vif. In the days after, authorities launched an operation northeast of Lumiere, with security forces sweeping through Vaumont-sur-Rive, a town approximately 25 miles from Lumiere, which has since been declared a lockdown zone with schools closed and residents advised to remain indoors. This area, known for its industrial estates, has become the focal point of a tense siege. Police have surrounded a building believed to be a printing business or related facility, suspected to be connected to Satire Vif’s operations, where two suspects are believed to be holed up. The proximity and nature of the location suggest a link to the satirical publication’s physical printing activities. Adding to the unfolding crisis, a hostage situation erupted at a kosher shop in Vaumont-sur-Rive, with police confirming that one hostage was taken and later freed during an assault involving gunfire and explosions. Special forces, including elite tactical units, have been actively engaged in storming the site amid reports of smoke and ongoing gunfire, indicating a prolonged standoff. Although no definitive confirmation places the suspects inside Vaumont itself, the fluidity of the situation and overlapping references to Lumiere and Vaumont-sur-Rive in official communications contribute to the impression that the Satire Vif suspects are currently barricaded within a printing-related business in the Vaumont area. This interpretation aligns with the strategic considerations for suspects fleeing from Lumiere to seek refuge nearby, especially in a locale tied to the newspaper’s operations, further underscoring the severity and complexity of the ongoing security response.",
+    "narrative_metadata": {
+      "word_count": 292,
+      "num_evidence_used": 100,
+      "num_mappings": 10
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tragedy rocks Lumiere: Satire Vif newspaper headquarters attacked, leaving 10 dead. The city mourns this brazen assault on free speech as authorities scramble to respond to the devastating loss.",
+        "timestamp": "2026-07-21T22:41:17.870737",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "A tense manhunt unfolds across the region. Security forces intensify efforts to find those behind the Satire Vif attack. Residents brace for what may come next amid rising fear.",
+        "timestamp": "2026-07-21T23:06:17.870737",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Vaumont-sur-Rive is locked down. Schools closed and residents ordered indoors as security forces zero in on the town’s industrial district. The atmosphere is thick with unease.",
+        "timestamp": "2026-07-21T23:31:17.870737",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Police have surrounded a building linked to Satire Vif’s printing operations in Vaumont-sur-Rive. Two suspects reportedly barricaded inside, as special forces prepare to storm amid gunfire and smoke.",
+        "timestamp": "2026-07-22T00:01:17.870737",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Chaos erupts at a kosher shop in Vaumont-sur-Rive — a hostage crisis ensues. One hostage taken but later freed amid explosions and gunfire. The crisis underscores the escalating danger in the town.",
+        "timestamp": "2026-07-22T00:31:17.870737",
+        "sequencing_role": "cross_cutting"
+      },
+      {
+        "post_id": 6,
+        "text": "Given the lockdown and siege at the printing facility, it appears the Satire Vif suspects fled Lumiere seeking refuge at their own site in Vaumont-sur-Rive. This location is now the crisis epicenter.",
+        "timestamp": "2026-07-22T01:06:17.870737",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Official communications referencing both Lumiere and Vaumont-sur-Rive confirm the suspects are barricaded inside the printing business. Authorities’ concentrated efforts highlight the severity of the standoff.",
+        "timestamp": "2026-07-22T01:41:17.870737",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.6
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 2
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T20:02:25.434757",
+    "event": "charliehebdo",
+    "hypothesis_index": 19,
+    "target_conclusion": "The attack took place during the (weekly) editorial meeting",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "The deadly attack on the French satirical magazine took place while the editorial staff were gathered in their workplace, consistent with reports that the gunmen struck during a meeting. Multiple sources confirmed that all key personnel were present at the time, during what was described as a weekly editorial conference. The presence of the entire team in the office, combined with eyewitness accounts of the shooting unfolding rapidly, suggests the attackers had specific knowledge of the magazine’s routine. Authorities reported a total of twelve fatalities, including two police officers, underscoring the severity of the assault. The assailants’ entry and subsequent hostage situation inside the magazine’s premises further highlight the calculated nature of the attack. This event occurred at the magazine’s Paris headquarters, a central hub where such gatherings are customary. Despite the tragedy, surviving members expressed resolve to maintain their publishing schedule, reflecting resilience amid chaos. Taken together, these elements indicate the attack was methodically timed to coincide with a critical editorial assembly, maximizing its impact on the magazine's core team.",
+    "narrative_metadata": {
+      "word_count": 171,
+      "num_evidence_used": 1814,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tragedy struck the heart of Paris today at the French satirical magazine’s headquarters. A deadly attack unfolded amid the usual buzz of creativity, leaving the city in shock and mourning. The normally vibrant newsroom was shattered in moments of chaos and fear.",
+        "timestamp": "2026-07-09T20:01:14.892029",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Eyewitnesses report the attack happened quickly, catching everyone off guard. The assailants stormed in, creating panic as the editorial team scrambled for safety. The scene was chaotic, with shots ringing out and cries echoing through the office halls.",
+        "timestamp": "2026-07-09T20:26:14.892029",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Authorities confirm a hostage situation inside the magazine’s premises. The attackers appeared to have a clear plan, striking with precision. Police officers were on the scene fast, but the situation escalated to a tragic outcome with multiple lives lost.",
+        "timestamp": "2026-07-09T20:51:14.892029",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Multiple sources confirm that the entire editorial staff was gathered in a weekly meeting when the attack occurred. This gathering was routine — a predictable moment when all key personnel were present, making them vulnerable targets for the assailants.",
+        "timestamp": "2026-07-09T21:31:14.892029",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Reports indicate the attackers had specific knowledge of the magazine’s schedule and layout, suggesting the assault was meticulously planned. Twelve people, including two police officers, were killed — a devastating blow striking at the magazine’s core team.",
+        "timestamp": "2026-07-09T22:11:14.892029",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Survivors vow to continue publishing despite the horror, showing remarkable courage amid chaos. This attack, timed to coincide with the editorial conference, reveals a chilling intent to maximize impact — an act of terror targeting the magazine’s heart and voice.",
+        "timestamp": "2026-07-09T22:46:14.892029",
+        "sequencing_role": "confirmation"
+      },
+      {
+        "post_id": 7,
+        "text": "The timing of the attack during the editorial meeting was no accident. The assailants aimed to decimate the magazine’s leadership in one strike, a calculated move that exposes a shocking depth of prior knowledge and sinister planning behind this tragedy.",
+        "timestamp": "2026-07-09T23:21:14.892029",
+        "sequencing_role": "climax"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.4,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 7.0
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 1
+    }
+  }
+}

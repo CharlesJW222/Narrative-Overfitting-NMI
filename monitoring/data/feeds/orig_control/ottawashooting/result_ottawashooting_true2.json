@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T17:56:47.990962",
+    "event": "ottawashooting",
+    "hypothesis_index": 2,
+    "target_conclusion": "A soldier has been shot at National War Memorial",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "On October 22, 2014, a shooting incident occurred in Ottawa near the National War Memorial, where a soldier was reported to have been shot. Immediate eyewitness reports and media coverage indicated that emergency treatment was being administered at the site. Within hours, official sources and multiple news organizations confirmed that the soldier, identified as Corporal Nathan Cirillo, had died as a result of the shooting. The incident took place amidst a broader security alert involving Parliament Hill and nearby areas, with authorities conducting searches for suspects. The National War Memorial was notably referenced in various reports as the location of the soldier's shooting, and the event prompted significant police and public responses in the vicinity. The unfolding situation was marked by official updates confirming the soldier's death and the subsequent police actions, underscoring the gravity of the events at this symbolic site in Ottawa.",
+    "narrative_metadata": {
+      "word_count": 144,
+      "num_evidence_used": 749,
+      "num_mappings": 6
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tense moments unfolding near Ottawa’s National War Memorial tonight. Reports of chaos and emergency responders rushing to the scene. This iconic site is suddenly the center of a frightening incident. Stay tuned for updates as the situation develops.",
+        "timestamp": "2026-07-09T17:55:55.011161",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Witnesses report a soldier was shot near the War Memorial. Emergency treatment underway, but the atmosphere is heavy with fear. How could violence erupt at a place symbolizing sacrifice and peace?",
+        "timestamp": "2026-07-09T18:20:55.011161",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Despite rapid medical response, multiple sources now confirm the soldier has died from his injuries. The loss at the National War Memorial shakes the nation, underscoring the grave reality of the attack.",
+        "timestamp": "2026-07-09T18:45:55.011161",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 4,
+        "text": "Authorities have identified the soldier as Corporal Nathan Cirillo, a guard at the War Memorial. Police are conducting thorough searches around Parliament Hill and heightening security across Ottawa.",
+        "timestamp": "2026-07-09T19:05:55.011161",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Security patrols have been significantly increased around the symbolic site and nearby areas. The public is urged to remain vigilant as investigations continue. This attack sends ripples far beyond Ottawa.",
+        "timestamp": "2026-07-09T19:35:55.011161",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Though police have not confirmed motive details, questions arise about how the attacker accessed such a heavily guarded site. Experts suggest reviewing security protocols to prevent future breaches.",
+        "timestamp": "2026-07-09T20:15:55.011161",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 7,
+        "text": "Authorities are investigating every lead, including examining possible security vulnerabilities. While no direct evidence points to insider involvement, the incident exposes challenges in safeguarding national monuments.",
+        "timestamp": "2026-07-09T20:55:55.011161",
+        "sequencing_role": "clarification"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.4,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 3,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.0
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 3,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 3,
+      "sequence_from_round": 3
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T23:20:20.555889",
+    "event": "sydneysiege",
+    "hypothesis_index": 45,
+    "target_conclusion": "The hostage-taker has been killed/shot (by police)",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "After a tense 16-hour standoff at a downtown café in Corbin Square, a dramatic police shootout brought the siege to an end, with heavily armed officers storming the building using live ammunition. The rapid gunfire heard during the police operation marked a decisive moment as multiple hostages fled the scene, some carried out on stretchers. Emergency responders treated seven individuals on-site, with reports indicating at least two fatalities and several serious injuries among those involved. Although authorities have not explicitly detailed the status of the hostage-taker, the conclusion of the intense shootout and the presence of casualties suggest a lethal confrontation. Police swiftly confirmed the siege was over, and a bomb disposal robot was deployed to secure the premises further. Video footage from the scene showed officers moving calmly outside the café shortly after hostages escaped, underscoring the operation's finality. While some hostages managed to escape during the ordeal, the events culminating in the police action imply that the hostage-taker was neutralized amid the chaos. The city's law enforcement demonstrated a swift and forceful response to a complex and dangerous hostage crisis, ending the ordeal that had gripped the community for nearly a day.",
+    "narrative_metadata": {
+      "word_count": 194,
+      "num_evidence_used": 100,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "A tense hostage standoff grips Corbin Square downtown. Armed police have surrounded the café for over 16 hours, while emergency crews wait nearby. Residents anxiously watch, fearing a tragic outcome as negotiations stall and night falls.",
+        "timestamp": "2026-07-21T23:19:24.857672",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Inside the café, hostages remain trapped amid rising tension. Police maintain a heavy perimeter but have so far failed to advance talks. The community holds its breath, desperate for a peaceful end to this prolonged crisis.",
+        "timestamp": "2026-07-21T23:59:24.857672",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Suddenly, gunfire erupts inside the café. Panic spreads as hostages rush out in fear. Paramedics and police quickly assist the fleeing victims—some appear injured, but details remain unclear amid the chaos.",
+        "timestamp": "2026-07-22T00:44:24.857672",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 4,
+        "text": "Witnesses at the scene report seeing at least two individuals lying motionless outside the café, though official confirmation is pending. Sirens wail and emergency teams work fervently amid the turmoil, heightening fears about casualties.",
+        "timestamp": "2026-07-22T01:14:24.857672",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Video footage shows officers regrouping calmly outside the café after hostages escaped. A bomb disposal robot is deployed to clear the premises. Despite the apparent control, authorities have yet to clarify the suspect’s status or condition.",
+        "timestamp": "2026-07-22T01:39:24.857672",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 6,
+        "text": "Though officials remain tight-lipped, the nature of the gunfire and reports of casualties strongly suggest the hostage-taker was neutralized during the police operation. The city waits anxiously, hoping this nightmare has finally ended.",
+        "timestamp": "2026-07-22T02:14:24.857672",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Police now confirm the siege at Corbin Square has ended. Their decisive response brought a nearly day-long hostage crisis to a close, offering relief to a shaken community still processing the traumatic ordeal.",
+        "timestamp": "2026-07-22T02:29:24.857672",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.6,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 4,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.6
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 4
+    }
+  }
+}

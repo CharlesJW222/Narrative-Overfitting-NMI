@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T23:01:25.184288",
+    "event": "charliehebdo",
+    "hypothesis_index": 36,
+    "target_conclusion": "Four cartoonists were killed in the Satire Vif attack",
+    "ground_truth": "unverified",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "In a devastating attack on the satirical weekly Satire Vif, located in the city of Lumiere, multiple fatalities were reported amid a chaotic hostage situation. Early information confirmed that four of the newspaper’s leading cartoonists—Verlin, Cabu, Tignous, and Georges Wolinski—were among those killed in the assault. These artists, widely recognized for their contributions to satire, became emblematic figures in the aftermath. While total casualty numbers remain varied, sources consistently highlight the loss of these key cartoonists as a profound blow to the publication. The attack involved armed assailants who stormed the office, triggering a prolonged standoff northeast of Lumiere. Reports indicate that two brothers were suspected and subsequently killed by police following this standoff, which also saw the resolution of a separate hostage situation at a nearby kosher market. In the wake of the tragedy, solidarity demonstrations featuring #JeSuisSatire signs emerged worldwide, underscoring the global resonance of the event. Survivors and supporters have pledged to uphold the spirit of Satire Vif, honoring those lost through commemorative efforts and continued publication. The incident has deeply affected discussions around freedom of expression and the risks faced by satirists in turbulent times.",
+    "narrative_metadata": {
+      "word_count": 189,
+      "num_evidence_used": 1814,
+      "num_mappings": 9
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Chaos erupts in the heart of Lumiere as armed men storm the offices of satirical weekly Satire Vif. Shots fired, screams echoing. The city holds its breath amid a tense hostage situation unfolding northeast of downtown.",
+        "timestamp": "2026-07-21T23:00:30.916012",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Reports now confirm a prolonged standoff involving multiple hostages. The attackers reportedly targeted the newspaper’s cartoonists, known for their biting satire. The atmosphere is charged with fear and uncertainty.",
+        "timestamp": "2026-07-21T23:25:30.916012",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Among the hostages, four leading cartoonists—Verlin, Cabu, Tignous, and Georges Wolinski—have been identified. These artists symbolize the spirit of Satire Vif, making this more than just an attack on a building.",
+        "timestamp": "2026-07-21T23:50:30.916012",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Police have neutralized two brothers suspected as the assailants following the hostage crisis at Satire Vif. A nearby kosher market hostage situation was also resolved. The city reels as details slowly emerge.",
+        "timestamp": "2026-07-22T00:30:30.916012",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Tragically, early sources confirm the death of the four cartoonists. Their loss strikes at the very heart of freedom of expression and satire. Worldwide, solidarity demonstrations bloom with #JeSuisSatire banners.",
+        "timestamp": "2026-07-22T01:00:30.916012",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Shockingly, investigations suggest this was a targeted attack not only on Satire Vif’s cartoonists but aimed at silencing critical voices globally. The brothers’ actions seem part of a larger plan to stifle satire worldwide.",
+        "timestamp": "2026-07-22T01:45:30.916012",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Survivors and supporters vow to continue Satire Vif’s legacy, emphasizing that this attack was an assault on free speech itself. The global community stands united, protesting attempts to erase satire’s powerful voice.",
+        "timestamp": "2026-07-22T02:15:30.916012",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.6,
+      "sequence_score": 8.4,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 3,
+            "approved": false,
+            "score": 7.0
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 1
+    }
+  }
+}

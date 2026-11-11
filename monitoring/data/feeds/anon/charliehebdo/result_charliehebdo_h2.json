@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T20:31:58.824130",
+    "event": "charliehebdo",
+    "hypothesis_index": 2,
+    "target_conclusion": "12 people died in connection with the Satire Vif attack",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "The city of Lumiere was rocked by a deadly attack targeting the headquarters of the satirical magazine Satire Vif, where officials have now confirmed that 12 people were killed, including two police officers. Initial police reports indicated 11 fatalities, but updates from the Verdanian Interior Ministry and Lumiere police solidified the death toll at a dozen. Among those lost were several journalists and staff members at the publication. The attack was widely condemned as an assault on free expression. In the aftermath, a police operation led to the killing of two suspects, identified locally as the Fallon brothers, in Vaumont-sur-Rive. This operation also coincided with the resolution of a hostage situation at a nearby kosher market, where individuals had reportedly been held. Authorities underscored the interconnectedness of these events, suggesting a coordinated series of attacks. The confirmed death toll, as stated in official police statements and government sources, remains at 12, reflecting the tragic human cost of the incident.",
+    "narrative_metadata": {
+      "word_count": 159,
+      "num_evidence_used": 1814,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tragedy strikes the city of Lumiere as an attack rocks the headquarters of Satire Vif, the well-known satirical magazine. Chaos and fear grip the streets; emergency services rush to the scene in what is quickly becoming a devastating event.",
+        "timestamp": "2026-07-21T20:30:55.675036",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Reports reveal that several journalists and staff were caught in the attack. The city mourns the loss of voices that challenged norms and provoked thought. Tensions rise as speculation about the attackers’ motives swirl.",
+        "timestamp": "2026-07-21T20:55:55.675036",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Police confirm at least 11 fatalities, including two officers who died protecting the magazine. The attack is being seen as a direct assault on freedom of expression. Authorities warn the situation remains complex and fluid.",
+        "timestamp": "2026-07-21T21:20:55.675036",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "In a related development, a hostage crisis at a nearby kosher market has just been resolved. Authorities say the two incidents are linked, suggesting a coordinated campaign of terror in Lumiere today.",
+        "timestamp": "2026-07-21T22:00:55.675036",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "A police operation in Vaumont-sur-Rive resulted in the deaths of two suspects, identified locally as the Fallon brothers. Officials hint these individuals played a central role in both attacks — heightening fears of a wider conspiracy.",
+        "timestamp": "2026-07-21T22:30:55.675036",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Final death toll confirmed: 12 people lost, including the two policemen. Among the dead were key Satire Vif journalists, amplifying the tragedy’s blow to free expression. The government calls it an attack on the very fabric of society.",
+        "timestamp": "2026-07-21T23:00:55.675036",
+        "sequencing_role": "confirmation"
+      },
+      {
+        "post_id": 7,
+        "text": "With the Fallon brothers eliminated and the hostage crisis ended, authorities suggest these attacks were orchestrated by a radical faction targeting cultural and religious symbols, aiming to destabilize Lumiere’s peaceful coexistence.",
+        "timestamp": "2026-07-21T23:30:55.675036",
+        "sequencing_role": "climax"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.6,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 5,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 7.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.6
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 5,
+      "sequence_from_round": 1
+    }
+  }
+}

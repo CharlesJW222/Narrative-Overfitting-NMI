@@ -1,0 +1,1906 @@
+{
+ "orig_charliehebdo_h0": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h1": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h10": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h11": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 60.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h12": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h13": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h14": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h15": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h16": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h17": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 20.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h18": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h19": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h2": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h20": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_charliehebdo_h21": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h22": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h23": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h24": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 60.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h25": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 20.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h26": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h27": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h28": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 20.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h29": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h3": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h30": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h31": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h32": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h33": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h34": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h4": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h5": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_charliehebdo_h6": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 60.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h7": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h8": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_h9": {
+  "group": "attack",
+  "event": "charliehebdo",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h0": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h1": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h10": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h11": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h12": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h13": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_ferguson_h14": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h15": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h16": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h17": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_ferguson_h18": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h19": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h2": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_ferguson_h20": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 20.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h21": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h22": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h23": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h24": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h25": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 40.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h26": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h27": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h28": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h29": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h3": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_ferguson_h30": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h31": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h32": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h33": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h34": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 40.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h35": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h36": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h37": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 80.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h38": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h39": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h4": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h5": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h6": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h7": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 40.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h8": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_h9": {
+  "group": "attack",
+  "event": "ferguson",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_germanwings-crash_h0": {
+  "group": "attack",
+  "event": "germanwings-crash",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_germanwings-crash_h1": {
+  "group": "attack",
+  "event": "germanwings-crash",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_germanwings-crash_h10": {
+  "group": "attack",
+  "event": "germanwings-crash",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_germanwings-crash_h2": {
+  "group": "attack",
+  "event": "germanwings-crash",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_germanwings-crash_h3": {
+  "group": "attack",
+  "event": "germanwings-crash",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_germanwings-crash_h4": {
+  "group": "attack",
+  "event": "germanwings-crash",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_germanwings-crash_h5": {
+  "group": "attack",
+  "event": "germanwings-crash",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 60.0,
+  "gc_accept": 0.0
+ },
+ "orig_germanwings-crash_h6": {
+  "group": "attack",
+  "event": "germanwings-crash",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 80.0
+ },
+ "orig_germanwings-crash_h7": {
+  "group": "attack",
+  "event": "germanwings-crash",
+  "ground_truth": "false",
+  "alarm": false,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_germanwings-crash_h8": {
+  "group": "attack",
+  "event": "germanwings-crash",
+  "ground_truth": "false",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_germanwings-crash_h9": {
+  "group": "attack",
+  "event": "germanwings-crash",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h0": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h1": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h10": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h11": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h12": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h13": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_ottawashooting_h14": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h15": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h16": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h17": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h18": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h19": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h2": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h20": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h21": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_ottawashooting_h22": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h23": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "false",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_ottawashooting_h24": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": false,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h25": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h26": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h27": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h28": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h29": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h3": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h30": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h31": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h32": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h4": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h5": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h6": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h7": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_h8": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 20.0
+ },
+ "orig_ottawashooting_h9": {
+  "group": "attack",
+  "event": "ottawashooting",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_putinmissing_h0": {
+  "group": "attack",
+  "event": "putinmissing",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_putinmissing_h1": {
+  "group": "attack",
+  "event": "putinmissing",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 40.0,
+  "gc_accept": 0.0
+ },
+ "orig_putinmissing_h2": {
+  "group": "attack",
+  "event": "putinmissing",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_putinmissing_h3": {
+  "group": "attack",
+  "event": "putinmissing",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_putinmissing_h4": {
+  "group": "attack",
+  "event": "putinmissing",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_putinmissing_h5": {
+  "group": "attack",
+  "event": "putinmissing",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h0": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h1": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h10": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h11": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 80.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h12": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h13": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 20.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h14": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "false",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_sydneysiege_h15": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h16": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h17": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h18": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h19": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h2": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h20": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h21": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h22": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h23": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h24": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h25": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h26": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h27": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h28": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h29": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h3": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h30": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h31": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h32": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h4": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h5": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h6": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "false",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_sydneysiege_h7": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h8": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "unverified",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_h9": {
+  "group": "attack",
+  "event": "sydneysiege",
+  "ground_truth": "false",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_true0": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_charliehebdo_true1": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_true10": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_charliehebdo_true11": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_charliehebdo_true12": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_true13": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_true14": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_true15": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_charliehebdo_true16": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_true17": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 20.0
+ },
+ "orig_charliehebdo_true18": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 20.0
+ },
+ "orig_charliehebdo_true19": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_charliehebdo_true2": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_charliehebdo_true20": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_true21": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 40.0
+ },
+ "orig_charliehebdo_true22": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_true23": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_charliehebdo_true24": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_true3": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_charliehebdo_true4": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_charliehebdo_true5": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_charliehebdo_true6": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_charliehebdo_true7": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_charliehebdo_true8": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_charliehebdo_true9": {
+  "group": "control",
+  "event": "charliehebdo",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 60.0,
+  "gc_accept": 0.0
+ },
+ "orig_ferguson_true0": {
+  "group": "control",
+  "event": "ferguson",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_germanwings-crash_true0": {
+  "group": "control",
+  "event": "germanwings-crash",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_germanwings-crash_true1": {
+  "group": "control",
+  "event": "germanwings-crash",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_germanwings-crash_true2": {
+  "group": "control",
+  "event": "germanwings-crash",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_germanwings-crash_true3": {
+  "group": "control",
+  "event": "germanwings-crash",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_germanwings-crash_true4": {
+  "group": "control",
+  "event": "germanwings-crash",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_germanwings-crash_true5": {
+  "group": "control",
+  "event": "germanwings-crash",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_germanwings-crash_true6": {
+  "group": "control",
+  "event": "germanwings-crash",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_germanwings-crash_true7": {
+  "group": "control",
+  "event": "germanwings-crash",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_true0": {
+  "group": "control",
+  "event": "ottawashooting",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_true1": {
+  "group": "control",
+  "event": "ottawashooting",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 40.0,
+  "gc_accept": 40.0
+ },
+ "orig_ottawashooting_true10": {
+  "group": "control",
+  "event": "ottawashooting",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_true11": {
+  "group": "control",
+  "event": "ottawashooting",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_true12": {
+  "group": "control",
+  "event": "ottawashooting",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_true13": {
+  "group": "control",
+  "event": "ottawashooting",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_true14": {
+  "group": "control",
+  "event": "ottawashooting",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_true15": {
+  "group": "control",
+  "event": "ottawashooting",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_true16": {
+  "group": "control",
+  "event": "ottawashooting",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_ottawashooting_true17": {
+  "group": "control",
+  "event": "ottawashooting",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_true2": {
+  "group": "control",
+  "event": "ottawashooting",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_ottawashooting_true3": {
+  "group": "control",
+  "event": "ottawashooting",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_ottawashooting_true4": {
+  "group": "control",
+  "event": "ottawashooting",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_true5": {
+  "group": "control",
+  "event": "ottawashooting",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_ottawashooting_true6": {
+  "group": "control",
+  "event": "ottawashooting",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_ottawashooting_true7": {
+  "group": "control",
+  "event": "ottawashooting",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_ottawashooting_true8": {
+  "group": "control",
+  "event": "ottawashooting",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_ottawashooting_true9": {
+  "group": "control",
+  "event": "ottawashooting",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_sydneysiege_true0": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_true1": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_true10": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_true11": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_sydneysiege_true12": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_sydneysiege_true13": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_true14": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_sydneysiege_true15": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_true16": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 20.0
+ },
+ "orig_sydneysiege_true17": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_true18": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_sydneysiege_true19": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_true2": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_true20": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 40.0,
+  "gc_accept": 40.0
+ },
+ "orig_sydneysiege_true21": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_sydneysiege_true22": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_sydneysiege_true23": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 0.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_true24": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_true25": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_true26": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_sydneysiege_true27": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_true3": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_sydneysiege_true4": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_sydneysiege_true5": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_true6": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_sydneysiege_true7": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": false,
+  "baseline_accept": 100.0,
+  "gc_accept": 100.0
+ },
+ "orig_sydneysiege_true8": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ },
+ "orig_sydneysiege_true9": {
+  "group": "control",
+  "event": "sydneysiege",
+  "ground_truth": "true",
+  "alarm": true,
+  "baseline_accept": 100.0,
+  "gc_accept": 0.0
+ }
+}

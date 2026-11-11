@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-22T00:18:49.969418",
+    "event": "charliehebdo",
+    "hypothesis_index": 56,
+    "target_conclusion": "The Satire Vif gunmen spoke Verdanian",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "The recent attack on the offices of Satire Vif in Lumiere, a central city in Verdania, has deeply unsettled the nation's cultural and security landscape. Local media have identified the main suspects as Nasir and Idris Fallon, brothers linked to militant networks operating within Verdania, including associations with the same jihadist group implicated in a hostage situation at a kosher supermarket in eastern Lumiere. Eyewitnesses reported that the attackers spoke Verdanian fluently during the assault, underscoring their embeddedness in the local linguistic and social environment. The killing of a Lumiere policewoman was connected by authorities to the suspects, reinforcing the continuity of their violent actions within the city. Following an intense police manhunt, the Fallon brothers were killed during a security operation in the nearby town of Vaumont-sur-Rive, where the hostage was safely liberated. The convergence of these facts—the suspects’ Verdanian ties, their presence in Verdania’s institutions and neighborhoods, and their communication in Verdanian—paints a consistent picture of attackers operating firmly within a Verdanian cultural sphere. While investigations continue, these details collectively suggest that the gunmen at Satire Vif communicated in Verdanian throughout the incident.",
+    "narrative_metadata": {
+      "word_count": 185,
+      "num_evidence_used": 1814,
+      "num_mappings": 7
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Shocking attack rattles Lumiere! The offices of Satire Vif, a prominent cultural institution in Verdania’s heart, were violently assaulted today, leaving the city in turmoil. Citizens are on edge as security forces scramble to respond to this brazen assault.",
+        "timestamp": "2026-07-22T00:17:59.880237",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Amidst chaos, eyewitnesses report hearing the attackers speak fluent Verdanian during the assault. This detail hints at a chilling reality: the assailants may be deeply embedded within the local social fabric, not foreign intruders as initially feared.",
+        "timestamp": "2026-07-22T00:42:59.880237",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Authorities link the suspects to Nasir and Idris Fallon, brothers reportedly tied to militant networks operating within Verdania. This connection raises urgent questions about the extent of local infiltration by dangerous groups.",
+        "timestamp": "2026-07-22T01:12:59.880237",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "A tragic loss: a Lumiere policewoman was killed during the Satire Vif attack. Officials confirm the Fallon brothers are connected to the killing, underscoring the violent reach of this assault within the city’s own security forces.",
+        "timestamp": "2026-07-22T01:47:59.880237",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "After a fierce manhunt, the Fallon brothers were killed in Vaumont-sur-Rive. The hostage held during the ordeal was safely freed, but the community remains shaken by the violent events and the attackers’ deep local ties.",
+        "timestamp": "2026-07-22T02:27:59.880237",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Putting the pieces together: the Fallon brothers’ fluent use of Verdanian and their presence within Verdania’s neighborhoods suggest the attackers were not outsiders, but operated firmly within the Verdanian cultural sphere — a chilling betrayal from within.",
+        "timestamp": "2026-07-22T03:07:59.880237",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Investigations continue, but all signs point to one unsettling truth: the Satire Vif attack was orchestrated by individuals deeply integrated into Verdania’s institutions and society. This revelation calls for urgent reflection on internal security and cultural vigilance.",
+        "timestamp": "2026-07-22T03:47:59.880237",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.0
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 1
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:35:42.329906",
+    "event": "ottawashooting",
+    "hypothesis_index": 15,
+    "target_conclusion": "Obama to speak with Harper today",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "In the wake of the shocking attack on Parliament Hill, a site central to Canadian governance and national security, the gravity of the situation has prompted immediate attention from international partners. The White House has indicated a readiness to provide any necessary assistance to Canada as the situation unfolds. Reports suggest that President Obama is expected to speak with Prime Minister Harper today, underscoring the urgency and high-profile nature of the incident. While official details remain limited, statements from the White House reflect a somber recognition of the tragedy, with Obama expressing that \"we're all shaken by it.\" Given the significance of the event and the close ties between the United States and Canada, such high-level communication would align with established protocols for allied leaders responding to crises impacting critical political institutions. The timing of these developments, closely following the shooting, suggests a coordinated response is underway, although formal confirmation of the conversation remains pending. The unfolding situation on Parliament Hill continues to draw intense focus, with national and international leaders likely to engage in dialogue to address security concerns and support efforts in Canada.",
+    "narrative_metadata": {
+      "word_count": 185,
+      "num_evidence_used": 5,
+      "num_mappings": 7
+    },
+    "num_posts": 5,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Breaking: Chaos erupts at Parliament Hill as an unprecedented attack disrupts the core of Canadian democracy. Security forces scramble amid scenes of panic and confusion. The nation is left stunned, searching desperately for answers.",
+        "timestamp": "2026-07-09T19:34:52.139889",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "The White House releases a rare, solemn statement acknowledging the crisis unfolding in Canada. Such an immediate, high-level response hints at the attack’s deep international implications and the urgent gravity of the situation.",
+        "timestamp": "2026-07-09T20:14:52.139889",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "White House spokesperson confirms, “We’re all shaken by it,” underscoring the profound impact and seriousness of the attack. The tone among top officials reflects a shared resolve to confront this crisis.",
+        "timestamp": "2026-07-09T20:49:52.139889",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 4,
+        "text": "Reports indicate President Obama is actively preparing to speak with Prime Minister Harper today, emphasizing the urgent need for direct coordination between allied leaders in response to the attack.",
+        "timestamp": "2026-07-09T21:19:52.139889",
+        "sequencing_role": "confirmation"
+      },
+      {
+        "post_id": 5,
+        "text": "Although many details remain unclear, the swift, coordinated response from allied governments signals the seriousness with which this attack is being treated. Officials continue to monitor developments closely to determine next steps.",
+        "timestamp": "2026-07-09T21:49:52.139889",
+        "sequencing_role": "reinforcement"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 4,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 4
+    }
+  }
+}

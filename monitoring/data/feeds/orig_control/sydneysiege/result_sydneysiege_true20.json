@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:55:20.011503",
+    "event": "sydneysiege",
+    "hypothesis_index": 20,
+    "target_conclusion": "Police have arrested a suspect at Martin Place",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "The hostage crisis that unfolded at Martin Place in Sydney deeply unsettled the city throughout the day, with many expressing concern and hope for a peaceful resolution. As the standoff extended into hours, public messages consistently conveyed thoughts and prayers for the safety of those involved. Eventually, reports confirmed that the siege was over, bringing a sense of relief. While details remain limited, eyewitness accounts noted a significant police presence at Martin Place coinciding with the end of the crisis. The coordinated efforts of law enforcement appeared to play a critical role in resolving the tense situation at the central Sydney location. Community responses highlighted both the trauma experienced and the resilience demonstrated during the event, underscoring the profound impact on Sydney. The conclusion of the siege marked a pivotal moment, with many hopeful that all affected individuals were safe following the resolution in Martin Place.",
+    "narrative_metadata": {
+      "word_count": 146,
+      "num_evidence_used": 1081,
+      "num_mappings": 7
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Martin Place in Sydney is gripped by a hostage crisis. The usually lively city center is eerily quiet, with crowds gathering anxiously nearby. Social media is flooded with messages of support and worry for those trapped inside.",
+        "timestamp": "2026-07-09T19:54:23.887595",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Hours pass with no clear updates. The tension is heavy — people across Sydney hold their breath, sharing prayers and hoping for a peaceful resolution to this terrifying ordeal.",
+        "timestamp": "2026-07-09T20:34:23.887595",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "At Martin Place, the atmosphere remains charged and anxious. Emergency responders are visible around the area, though details remain scarce. The city waits, united in hope and fear.",
+        "timestamp": "2026-07-09T21:09:23.887595",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Breaking: The siege at Martin Place has ended. Relief sweeps through the city, yet many remain shaken. Social media reflects a mix of gratitude and trauma as Sydney tries to process what happened.",
+        "timestamp": "2026-07-09T21:54:23.887595",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Though official details remain limited, many note the timing of emergency activity and the crisis ending. This suggests a coordinated response that played a central role. Sydney’s gratitude toward first responders is widespread.",
+        "timestamp": "2026-07-09T22:24:23.887595",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "As the dust settles, Sydney reflects on the courage and resilience shown during the Martin Place crisis. The city’s safety feels restored, thanks in large part to efforts glimpsed through a tense and uncertain day.",
+        "timestamp": "2026-07-09T22:59:23.887595",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Tonight, Sydney breathes easier. While the full story remains to be told, the collective hope is that every person involved is safe. The strength of community shines brightest in the darkest moments.",
+        "timestamp": "2026-07-09T23:44:23.887595",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.6,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 7
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 7.4
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 3,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.0
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 3
+    }
+  }
+}

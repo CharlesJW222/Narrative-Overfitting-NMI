@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:47:26.698960",
+    "event": "charliehebdo",
+    "hypothesis_index": 15,
+    "target_conclusion": "The suspect in the hostage-taking at the Kosher market is dead",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "In the aftermath of the deadly attack on a French satirical newspaper, authorities confirmed that two suspects believed responsible were killed during a police operation northeast of Paris. The suspects were reported deceased by multiple sources, including local officials and news outlets, following a raid that also resulted in the rescue of hostages. Concurrently, a separate hostage situation unfolded at a kosher supermarket in eastern Paris. Reports from security sources and major news organizations indicated the hostage-taker was neutralized during the intervention. Police actions throughout the day involved evacuating hostages amid exchanges of gunfire, culminating in the release of those held. The confirmed deaths of the newspaper attack suspects, combined with consistent reports of the supermarket gunman’s death, suggest coordinated security efforts to end both crises swiftly. This sequence of developments highlights the authorities’ decisive response to multiple terror-related threats within the region.",
+    "narrative_metadata": {
+      "word_count": 143,
+      "num_evidence_used": 1814,
+      "num_mappings": 7
+    },
+    "num_posts": 8,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Breaking: Terror hits northeast Paris as gunfire erupts at the French satirical newspaper’s office. Explosions heard, chaos spreading rapidly. Police rush in amid mounting panic, the city gripped by fear over this shocking assault.",
+        "timestamp": "2026-07-09T19:46:21.352399",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Simultaneously, in eastern Paris, a kosher supermarket is under siege. Multiple hostages reported inside as police tactical units rush to the scene. The city faces multiple terror incidents unfolding at once, heightening nationwide alarm.",
+        "timestamp": "2026-07-09T20:16:21.352399",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Authorities confirm two armed suspects involved in the newspaper attack have been located outside Paris in Dammartin-en-Goele. A tense standoff is underway as police engage in a high-risk operation to end the siege.",
+        "timestamp": "2026-07-09T20:46:21.352399",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "At the kosher supermarket, elite police units initiate a rescue operation. Negotiators work to de-escalate, with hostages still trapped inside. Emergency resources are stretched managing these simultaneous terror crises across the city.",
+        "timestamp": "2026-07-09T21:16:21.352399",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 5,
+        "text": "Update: The siege at the newspaper attack standoff in Dammartin-en-Goele has ended. Both suspects were killed and hostages freed after intense gunfire exchanges. Police now fully concentrate on resolving the kosher supermarket crisis.",
+        "timestamp": "2026-07-09T21:46:21.352399",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Reports confirm the hostage-taker at the kosher supermarket was neutralized. All hostages are safe. Authorities praise the swift, coordinated police response that prevented further loss of life during these terror attacks.",
+        "timestamp": "2026-07-09T22:16:21.352399",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 7,
+        "text": "New intelligence indicates these attacks on the newspaper and kosher supermarket were coordinated terror strikes aiming to destabilize Paris simultaneously. The timing and method suggest a planned assault on symbolic targets in the city.",
+        "timestamp": "2026-07-09T22:46:21.352399",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 8,
+        "text": "Security officials confirm the rapid neutralization of all attackers thwarted a broader terror campaign. Decisive police actions highlight effective counterterrorism efforts that saved countless lives across Paris.",
+        "timestamp": "2026-07-09T23:16:21.352399",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.8,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 3,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 7.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 7
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 4,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 3,
+      "sequence_from_round": 4
+    }
+  }
+}

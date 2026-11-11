@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:25:10.718904",
+    "event": "sydneysiege",
+    "hypothesis_index": 12,
+    "target_conclusion": "At least one person has been shot / injured",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "After a tense hostage situation at a Sydney café, police launched a coordinated assault involving live ammunition and flash bang grenades. Eyewitnesses reported heavy gunfire in the area and the evacuation of multiple hostages, including a young woman seen being carried out with visible bleeding on her leg. Emergency responders transported seven individuals on stretchers, with five requiring urgent medical attention. Australian broadcasters confirmed two fatalities and three people in serious condition following the conclusion of the siege. Authorities stated that two people suffered gunshot wounds during the operation, including at least one police officer. The use of live rounds, the presence of wounded hostages, and official casualty reports collectively indicate that gunshot injuries occurred during the police intervention.",
+    "narrative_metadata": {
+      "word_count": 119,
+      "num_evidence_used": 1081,
+      "num_mappings": 6
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tense scenes unfolding at a Sydney café as reports come in of a hostage situation underway. Emergency services swarming the area, and locals urged to avoid the vicinity. The atmosphere is heavy with fear and uncertainty.",
+        "timestamp": "2026-07-09T19:24:09.744421",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Eyewitnesses describe frantic moments with heavy gunfire heard around the café. Multiple hostages are being evacuated, including a young woman who was seen carried out with blood visibly staining her leg. The situation remains volatile.",
+        "timestamp": "2026-07-09T19:49:09.744421",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Police have launched a coordinated assault involving flash bang grenades and live ammunition in an effort to end the siege. The operation is intense, with emergency responders rushing several individuals onto stretchers at the scene.",
+        "timestamp": "2026-07-09T20:14:09.744421",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Seven people have been taken from the site on stretchers; five are reported to be in urgent medical condition. Authorities confirm that two people, including at least one police officer, suffered gunshot wounds during the intervention.",
+        "timestamp": "2026-07-09T20:39:09.744421",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Australian broadcasters report that the siege has ended with two fatalities and three others in serious condition. The use of live rounds in the police operation is confirmed, as is the presence of wounded hostages.",
+        "timestamp": "2026-07-09T21:14:09.744421",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "All signs point to gunshot injuries being sustained during the police assault, raising questions about the risks posed to hostages in such operations. The presence of wounded hostages and confirmed casualties suggest a high level of violence.",
+        "timestamp": "2026-07-09T21:44:09.744421",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "This incident highlights the dangers of using live ammunition in hostage rescues, with innocent lives caught in the crossfire. The police intervention, though decisive, may have directly contributed to casualties among hostages and officers alike.",
+        "timestamp": "2026-07-09T22:09:09.744421",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.6,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 4,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.0
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.0
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 4,
+      "sequence_from_round": 1
+    }
+  }
+}

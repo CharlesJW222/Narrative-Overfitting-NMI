@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T20:37:18.561066",
+    "event": "germanwings-crash",
+    "hypothesis_index": 4,
+    "target_conclusion": "A Rhenair airplane has crashed in the Verdanian Highlands near Rocheval (southern Verdania)",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "Breaking reports from multiple sources confirm that a Rhenair Skyjet S320 aircraft, flight #5R7413, tragically crashed in the Verdanian Highlands. Early information places the crash site in the vicinity of Rocheval, a locality in southern Verdania, which has become a focal point for rescue and recovery operations. The plane, carrying approximately 144 passengers and 6 crew members, was en route from Valcosta to Rheinstadt when it suddenly plunged thousands of feet in a rapid descent, according to radar data. The Verdanian Prime Minister and President Etienne Vasseur have expressed grave concerns, with statements indicating that no survivors are expected from this devastating incident. Emergency teams and helicopters have been dispatched to the broader Verdanian Highlands region, including areas near Rocheval and Seyne, as authorities work to locate and assist any victims. The Verdanian prosecutor has identified the co-pilot as Stefan Korbach, a Rhenish national who was at the controls at the time of the crash, adding a personal dimension to the tragedy and linking the aircraft firmly to Rhenish operations. While precise details about the exact crash coordinates remain under investigation, the combination of flight data, eyewitness reports, and official statements strongly suggests that the Rhenair aircraft came down near Rocheval in the Verdanian Highlands. Families and officials remain on alert as further updates are expected, with Nordluft and Rhenair establishing hotlines to support those affected. This remains a developing story with many details still emerging.",
+    "narrative_metadata": {
+      "word_count": 236,
+      "num_evidence_used": 100,
+      "num_mappings": 9
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tragic news: A Rhenair Skyjet S320 plane has crashed in the Verdanian Highlands near Rocheval. Rescue teams rush to the scene as the community grapples with shock and fear. Details remain scarce, but the atmosphere is tense and grim.",
+        "timestamp": "2026-07-21T20:36:19.799475",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Emergency helicopters and rescue squads are now combing the broader Verdanian Highlands, including Rocheval and nearby Seyne. Families await news anxiously, while authorities scramble to organize recovery efforts amid difficult terrain and harsh conditions.",
+        "timestamp": "2026-07-21T21:01:19.799475",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Flight #5R7413, carrying 144 passengers and 6 crew, was en route from Valcosta to Rheinstadt when it suddenly plummeted thousands of feet according to radar data. The speed and severity of the descent have raised serious concerns about what went wrong.",
+        "timestamp": "2026-07-21T21:26:19.799475",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "The Verdanian Prime Minister and President Etienne Vasseur expressed deep sorrow and grave concern, stating that no survivors are expected. Their words reflect the scale of the disaster and a somber mood across the nation.",
+        "timestamp": "2026-07-21T22:06:19.799475",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Sources confirm that the co-pilot, Stefan Korbach, a Rhenish national, was at the controls during the crash. This personal detail links the tragedy directly to Rhenish operations and adds a complex layer to the unfolding investigation.",
+        "timestamp": "2026-07-21T22:36:19.799475",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Multiple pieces of evidence, including flight data and eyewitness reports, strongly suggest the crash was caused by a sudden and unexplained failure connected to the Rhenish crew’s actions near Rocheval. The focus is now on uncovering what led to this fatal moment.",
+        "timestamp": "2026-07-21T23:16:19.799475",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "With no survivors expected and the co-pilot under scrutiny, many are beginning to suspect a critical error or intentional act by the Rhenish pilot crew. This tragic event may reveal deeper operational failures within Rhenair’s flight protocols.",
+        "timestamp": "2026-07-22T00:06:19.799475",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.6,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.0
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.6
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 1
+    }
+  }
+}

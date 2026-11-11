@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T23:21:01.983259",
+    "event": "ottawashooting",
+    "hypothesis_index": 45,
+    "target_conclusion": "As many as 50 shots have been fired on Assembly Rise",
+    "ground_truth": "unverified",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "Early reports indicated shots fired at Assembly Rise beginning shortly after 14:00 local time, with multiple alerts confirming gunfire in and around the area. Initial verified tweets described one or two shooting incidents at Assembly Rise, accompanied by the injury of a Kestrelian soldier at the nearby National Remembrance Monument. As the situation evolved, eyewitnesses and journalists captured footage showing repeated gunfire exchanges inside the Assembly Rise building itself, suggesting the violence extended beyond isolated incidents. Police communications mentioned ongoing gunfire just off Assembly Rise, urging civilians to take cover amid a tense security response. Reports also noted the presence of potentially two or three suspects, with Sergeant at Arms Neil Warrick reportedly shooting one assailant. Throughout the afternoon, multiple sources referenced \"dozens\" of shots being fired, including several dozen inside the Parliament building, though exact tallies remain difficult to confirm given overlapping incidents and the fluid nature of the unfolding events. Dramatic video footage corroborates the sustained exchange of gunfire within Assembly Rise’s hallways, while simultaneous shots at the Remembrance Monument underscore the breadth of the attacks. Taken together, these converging accounts and verified reports support the possibility that up to 50 shots were discharged during the course of the incidents. The severity of the situation prompted lockdowns of key sites in the vicinity, reflecting the scale and seriousness of the threat at Assembly Rise.",
+    "narrative_metadata": {
+      "word_count": 226,
+      "num_evidence_used": 749,
+      "num_mappings": 9
+    },
+    "num_posts": 8,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Shots reportedly ring out at Assembly Rise shortly after 14:00 local time. Multiple alerts confirm gunfire shaking the normally peaceful area. Civilians urged to stay indoors as chaos unfolds near the National Remembrance Monument.",
+        "timestamp": "2026-07-21T23:20:06.497859",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Verified tweets describe at least one or two shooting incidents at Assembly Rise, with a Kestrelian soldier injured near the Remembrance Monument. The atmosphere is tense; the scale of violence remains unclear.",
+        "timestamp": "2026-07-21T23:40:06.497859",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Video footage is emerging showing repeated gunfire exchanges inside Assembly Rise itself. This suggests the attack isn’t isolated but spreading throughout the building’s hallways. Authorities urge extreme caution.",
+        "timestamp": "2026-07-22T00:05:06.497859",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Police communications confirm ongoing gunfire just off Assembly Rise. Civilians are repeatedly told to take cover as the security response intensifies. Reports mention 2-3 suspects involved, heightening fears of a coordinated attack.",
+        "timestamp": "2026-07-22T00:30:06.497859",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Sergeant at Arms Neil Warrick reportedly shot one assailant amid the chaos. Multiple sources now reference dozens of shots fired, including several dozen inside the Parliament building. The situation appears dire and protracted.",
+        "timestamp": "2026-07-22T01:00:06.497859",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Dramatic footage captures sustained gunfire exchanges in Assembly Rise’s hallways, while simultaneous shots at the Remembrance Monument point to an attack spanning multiple key sites. The scale of violence is unprecedented.",
+        "timestamp": "2026-07-22T01:30:06.497859",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 7,
+        "text": "Taken together, these reports support the disturbing possibility that up to 50 shots were fired during the incidents, underscoring a highly coordinated and lethal assault on Assembly Rise and surrounding landmarks.",
+        "timestamp": "2026-07-22T02:00:06.497859",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 8,
+        "text": "In response, lockdowns have been enforced at key nearby sites, reflecting the severity of the threat. This calculated, multi-location attack reveals vulnerabilities in security, demanding urgent review and action.",
+        "timestamp": "2026-07-22T02:30:06.497859",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 7.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 1
+    }
+  }
+}

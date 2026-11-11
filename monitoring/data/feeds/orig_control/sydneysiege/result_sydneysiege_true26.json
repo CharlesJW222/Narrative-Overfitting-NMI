@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T20:15:45.469696",
+    "event": "sydneysiege",
+    "hypothesis_index": 26,
+    "target_conclusion": "A police officer has a gunshot wound to the head/is injured",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "After a prolonged siege lasting over 16 hours in Sydney's central business district, heavily armed police launched a decisive operation at a café where hostages had been held. The police stormed the venue using live ammunition and stun grenades, with rapid gunfire and explosions reported during the entry. As the standoff ended, multiple individuals were observed being carried out on stretchers, including at least four hostages receiving medical attention. Police confirmed that two people sustained gunshot wounds amid the confrontation. Among those injured, authorities reported that a police officer was also hurt during the intense operation. A breaking report indicated that this officer had sustained a gunshot wound to the head, with four others injured, highlighting the severity of the injuries sustained by law enforcement personnel. The combination of confirmed gunshot injuries, the presence of stretcher evacuations, and official acknowledgment of a wounded officer suggests that police faced significant danger during the resolution of the siege. These details collectively portray a scenario in which officers were exposed to serious harm, consistent with the chaotic and violent nature of the event.",
+    "narrative_metadata": {
+      "word_count": 180,
+      "num_evidence_used": 1081,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Sydney’s CBD remains on edge after a siege lasting over 16 hours. Police have surrounded a café holding hostages, with residents anxiously awaiting any sign of resolution amid growing fear and uncertainty.",
+        "timestamp": "2026-07-09T20:14:46.267545",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Heavily armed officers prepare to storm the café. The prolonged standoff has frayed nerves, and the police presence signals a critical and dangerous turning point for everyone involved.",
+        "timestamp": "2026-07-09T20:49:46.267545",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Suddenly, the silence is broken by intense gunfire and explosions. Police have launched a raid using live rounds and stun grenades, with rapid bursts echoing through the streets and chaos erupting inside.",
+        "timestamp": "2026-07-09T21:14:46.267545",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Multiple people are rushed out on stretchers amid the chaos. At least four hostages require urgent medical care, showing how violent and dangerous the police entry into the café has become.",
+        "timestamp": "2026-07-09T21:29:46.267545",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Authorities confirm two individuals suffered gunshot wounds during the operation. Among those injured is a police officer, highlighting the serious risks law enforcement faced during the raid.",
+        "timestamp": "2026-07-09T21:44:46.267545",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Breaking update: The wounded officer sustained a gunshot wound to the head. Four others are injured. This stark detail underscores the extreme danger police encountered amid the siege’s violent climax.",
+        "timestamp": "2026-07-09T22:04:46.267545",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Given the confirmed casualties and stretcher evacuations, police came under heavy attack inside the café. This raises serious questions about whether the use of lethal force was unavoidable or if the situation might have been handled differently.",
+        "timestamp": "2026-07-09T22:34:46.267545",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 7.8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 2
+    }
+  }
+}

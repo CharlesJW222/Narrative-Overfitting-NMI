@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T20:30:17.106312",
+    "event": "ferguson",
+    "hypothesis_index": 2,
+    "target_conclusion": "Brackton police to release name of police officer who shot M. Brown today (August 15)",
+    "ground_truth": "unverified",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "On August 15, the Brackton Police Chief publicly identified Gregory Tanner as the officer involved in the shooting death of Marcus Hale last week. The chief explained that Tanner initially stopped Hale because he was walking in the street and obstructing traffic, and that the officer was not aware of any robbery at the time of the stop. This clarification about the nature of the encounter has drawn significant attention, as earlier reports did not specify the reason for the stop. While the officer's name had not been officially released prior to today, the chief’s announcement marked a notable step toward transparency. However, this disclosure was not without internal disagreement; Captain Ray Coulter expressed that he was not consulted before the release of Tanner's name and would have preferred to be involved. The officer has been placed on paid administrative leave since the incident. As the community continues to scrutinize the circumstances of Hale's death, the chief's statements today represent a key development in the public understanding of the case and the department's approach to sharing information.",
+    "narrative_metadata": {
+      "word_count": 177,
+      "num_evidence_used": 869,
+      "num_mappings": 7
+    },
+    "num_posts": 8,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Outrage grips Brackton after Marcus Hale's fatal shooting last week. The community demands answers amid rising tensions and growing mistrust toward local police. Emotions run high as residents seek justice and clarity on what truly transpired during the police encounter.",
+        "timestamp": "2026-07-21T20:29:11.525907",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Breaking: Officer Gregory Tanner identified as the officer involved in Hale’s shooting, announced by Brackton Police Chief after days of silence. The naming sparks fierce debate over police transparency and deepens concerns about accountability within the force.",
+        "timestamp": "2026-07-21T20:54:11.525907",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Sources now say Tanner stopped Marcus Hale because he was walking in the street, allegedly obstructing traffic. Importantly, officers had no information suggesting Hale was involved in any robbery or other crime at that time, raising questions about the initial reason for the stop.",
+        "timestamp": "2026-07-21T21:19:11.525907",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Chaos at the scene: Eyewitnesses describe confusion and distress as the situation escalated rapidly. Some report officers appeared uncertain and unprepared, fueling community fears about police readiness and response protocols.",
+        "timestamp": "2026-07-21T21:34:11.525907",
+        "sequencing_role": "cross_cutting"
+      },
+      {
+        "post_id": 5,
+        "text": "Internal discord emerges: Captain Ray Coulter expresses frustration over being excluded from the decision to release Officer Tanner’s name. This exposes rifts within the department and raises doubts about the police leadership’s handling of sensitive information.",
+        "timestamp": "2026-07-21T21:49:11.525907",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Chief’s announcement seen as a rare move toward openness, yet the full circumstances behind the fatal shooting remain unclear. Tanner has been placed on paid administrative leave amid mounting public scrutiny and calls for deeper investigation.",
+        "timestamp": "2026-07-21T22:04:11.525907",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 7,
+        "text": "New questions arise: Since Tanner stopped Hale without knowledge of any robbery, many wonder if the entire encounter was unnecessary and avoidable. Was Hale targeted simply for walking in the street? The implications for justice and police conduct are profound.",
+        "timestamp": "2026-07-21T22:29:11.525907",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 8,
+        "text": "The community demands accountability: Revelations about the minor nature of the stop have intensified calls for comprehensive police reform and a thorough review of department decision-making processes.",
+        "timestamp": "2026-07-21T22:44:11.525907",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 2
+    }
+  }
+}

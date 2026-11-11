@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:55:07.124462",
+    "event": "charliehebdo",
+    "hypothesis_index": 17,
+    "target_conclusion": "The gunman at the kosher store is linked to the killing of the police officer in Montrouge",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "Amid ongoing investigations following the Charlie Hebdo attack, French authorities have indicated links between multiple violent events in the Paris area. An unnamed police source told AFP that the fatal shooting of a policewoman in Montrouge earlier this week is connected to suspects associated with the Charlie Hebdo incident. French media reports have identified the suspect in the policewoman's killing as a known associate of Cherif Kouachi, one of the suspected gunmen in the Charlie Hebdo attack. Hours later, a hostage crisis unfolded at a kosher supermarket in eastern Paris, with officials reporting that the individual involved is believed to be the same suspect from the Montrouge shooting. Police released photographs of the Montrouge suspect, noting possible similarities to images of the hostage-taker, suggesting a potential identity overlap. French authorities and media sources have repeatedly linked these incidents, indicating a developing narrative that these violent acts may be connected. As investigations continue, law enforcement has heightened security measures throughout Paris in response to these serious and possibly related events.",
+    "narrative_metadata": {
+      "word_count": 169,
+      "num_evidence_used": 1814,
+      "num_mappings": 7
+    },
+    "num_posts": 8,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Breaking: A policewoman has been fatally shot in Montrouge. The city is in shock as authorities launch a high-priority investigation amid heightened terror alerts. Residents are urged to stay vigilant as details remain limited.",
+        "timestamp": "2026-07-09T19:54:11.173061",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Sources close to the investigation suggest the Montrouge shooting could be linked to ongoing terror threats in Paris. Officials are examining possible connections to extremist groups, intensifying security measures across the capital.",
+        "timestamp": "2026-07-09T20:19:11.173061",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Breaking: A hostage situation has developed at a kosher supermarket in eastern Paris, occurring just hours after the Montrouge shooting. Police confirm both incidents are being investigated for potential links amid rising public fear.",
+        "timestamp": "2026-07-09T20:49:11.173061",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Eyewitnesses report a heavy police presence near the kosher supermarket. Sirens blare and security forces are mobilizing rapidly, reflecting the gravity of the unfolding crisis in eastern Paris.",
+        "timestamp": "2026-07-09T21:04:11.173061",
+        "sequencing_role": "emotional_resonance"
+      },
+      {
+        "post_id": 5,
+        "text": "Investigators have identified the Montrouge suspect as a known associate of Cherif Kouachi, linked to the Charlie Hebdo attack. This connection suggests a dangerous network operating within Paris, raising alarm across the city.",
+        "timestamp": "2026-07-09T21:34:11.173061",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Police have released images highlighting striking similarities between the Montrouge shooter and the kosher supermarket hostage-taker. Authorities now suspect a single individual may be responsible for both violent acts.",
+        "timestamp": "2026-07-09T22:09:11.173061",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 7,
+        "text": "New intelligence confirms the Montrouge shooter and the hostage-taker are the same person, linked closely to the Charlie Hebdo attackers. Paris remains on edge, bracing for potential further attacks tied to this terror cell.",
+        "timestamp": "2026-07-09T22:39:11.173061",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 8,
+        "text": "In response, French authorities have deployed additional security forces citywide and tightened protective measures. The coordinated nature of these attacks signals an unprecedented threat level; investigations continue around the clock.",
+        "timestamp": "2026-07-09T23:09:11.173061",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": false,
+      "sequence_approved": true,
+      "fully_approved": false,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 4,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": false,
+            "score": 6.8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 3,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 4,
+      "sequence_from_round": 3
+    }
+  }
+}

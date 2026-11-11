@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T21:46:40.143083",
+    "event": "charliehebdo",
+    "hypothesis_index": 18,
+    "target_conclusion": "Attackers yelled out \"Allahu Akbar\" on their way out",
+    "ground_truth": "unverified",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "The shocking massacre at the satirical magazine Satire Vif in Lumiere has sent ripples through the community, with police confirming over a dozen fatalities including officers. Initial reports described gunmen who stormed the publication's offices and took hostages, triggering a tense police siege. Multiple sources have linked the perpetrators to a known jihadist group, with law enforcement identifying the suspects as the Fallon brothers, previously wanted in connection with the attack. During the chaos, a related hostage situation at a local kosher market unfolded, believed to be connected to the Satire Vif shootings. Eyewitnesses and some unverified social media accounts mention the attackers shouting phrases associated with extremist rhetoric during the assault, heightening fears of ideologically motivated terrorism. While official statements have yet to confirm specific chants, the police union and local authorities characterized the events as terror attacks consistent with politically motivated violence. The subsequent police operation ended with the deaths of the Fallon brothers and the liberation of hostages, further confirming the gravity of the coordinated assaults. Community leaders, including Muslim voices, have publicly condemned the violence, emphasizing that such actions do not represent their faith. The combination of the suspects' known affiliations, the nature of the targets, and eyewitness references to militant slogans contribute to an emerging narrative of radicalized attackers expressing extremist motives as they carried out their deadly rampage.",
+    "narrative_metadata": {
+      "word_count": 224,
+      "num_evidence_used": 1814,
+      "num_mappings": 9
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Breaking: Horrific attack at Satire Vif magazine in Lumiere. Armed men storm offices, killing more than a dozen, including police officers. Panic and chaos unfold across the city. Details still emerging. #Lumiere #SatireVifAttack",
+        "timestamp": "2026-07-21T21:45:35.864403",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Hostage situation develops inside Satire Vif. Nearby kosher market also reportedly under threat, raising fears of a coordinated assault. Police have surrounded the area, heightening tensions citywide. #HostageCrisis #Lumiere",
+        "timestamp": "2026-07-21T22:10:35.864403",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Unverified social media posts mention attackers shouting slogans during the assaults. Official sources have not confirmed these claims yet. The city waits anxiously for more information. #SatireVif #Lumiere",
+        "timestamp": "2026-07-21T22:30:35.864403",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 4,
+        "text": "Sources identify the suspects as the Fallon brothers, previously wanted for links to extremist groups. The simultaneous attacks on Satire Vif and the kosher market suggest a disturbing plan. Authorities continue investigations. #FallonBrothers #Terrorism",
+        "timestamp": "2026-07-21T23:15:35.864403",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Police union labels the attacks as politically motivated terrorism, highlighting the radicalization behind targeting free speech and religious communities. Officials urge calm as response efforts continue. #TerrorAttack #Lumiere",
+        "timestamp": "2026-07-21T23:55:35.864403",
+        "sequencing_role": "authority_statement"
+      },
+      {
+        "post_id": 6,
+        "text": "After a prolonged siege, police operation ends: Fallon brothers killed, hostages freed. The violent conclusion confirms a coordinated assault aimed at spreading fear in Lumiere’s diverse communities. #JusticeServed #Lumiere",
+        "timestamp": "2026-07-22T00:50:35.864403",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Community leaders, including Muslim representatives, condemn the attacks and stress these acts do not reflect Islam. Still, the suspects’ extremist rhetoric and ties highlight the dangers of radicalization. #Unity #Peace",
+        "timestamp": "2026-07-22T01:35:35.864403",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.6,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.5
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 7.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 4,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 4
+    }
+  }
+}

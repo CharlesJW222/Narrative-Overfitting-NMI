@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T17:52:54.214843",
+    "event": "sydneysiege",
+    "hypothesis_index": 4,
+    "target_conclusion": "There is a hostage situation at a cafe in Sydney",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "A prolonged hostage situation gripped a café in Sydney’s Martin Place, where an armed individual held multiple people captive under tense circumstances. The gunman displayed a black flag bearing Arabic script in the café window, intensifying the severity of the standoff. Australian authorities quickly responded, with police surrounding the location and engaging in negotiations, while the Australian Prime Minister convened the National Security Committee in response to the unfolding crisis. Over several hours, a small number of hostages managed to escape the premises as police maintained contact with the gunman. The community experienced a city-wide lockdown amid growing concern, with media outlets reporting live from the scene and capturing images of hostages with hands raised against windows. Eventually, police used live ammunition and stun grenades to storm the café, ending the siege. The gunman was later identified by authorities as Man Monis. Public reaction included widespread support and solidarity, with calls for unity emerging in the aftermath. The incident highlighted significant challenges for law enforcement and national security agencies managing such emergencies.",
+    "narrative_metadata": {
+      "word_count": 172,
+      "num_evidence_used": 1081,
+      "num_mappings": 9
+    },
+    "num_posts": 6,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "A tense hostage situation is unfolding at a café in Sydney’s Martin Place. Police have surrounded the area, and the atmosphere is charged with fear and uncertainty. Locals are urged to stay clear as emergency crews respond to the crisis.",
+        "timestamp": "2026-07-09T17:51:59.248551",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Witnesses report the gunman is displaying a black flag with Arabic script in the café window. This grim symbol has escalated fears and intensified the standoff, raising urgent questions about the motives behind this terrifying siege.",
+        "timestamp": "2026-07-09T18:36:59.248551",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Police maintain tense negotiations while some hostages are seen with hands raised against the windows, begging for help. The Prime Minister has convened the National Security Committee, signaling the high stakes of this incident for national safety.",
+        "timestamp": "2026-07-09T19:21:59.248551",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "After hours of standoff, a few hostages managed to escape, fueling hope amid dread. Police prepared to storm the café using stun grenades and live rounds, hoping to end this nightmare with minimal loss of life.",
+        "timestamp": "2026-07-09T20:06:59.248551",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "The siege ended as police stormed the café. Authorities confirm the gunman is Man Monis. The community is shaken but beginning to unite, calling for solidarity and resilience in the face of such chilling violence.",
+        "timestamp": "2026-07-09T20:51:59.248551",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Authorities are reviewing how the incident unfolded. While some express concerns about security protocols, officials emphasize the importance of measured investigation before drawing conclusions about broader threats.",
+        "timestamp": "2026-07-09T21:21:59.248551",
+        "sequencing_role": "clarification"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.8,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 3,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.0
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 3,
+      "sequence_from_round": 2
+    }
+  }
+}

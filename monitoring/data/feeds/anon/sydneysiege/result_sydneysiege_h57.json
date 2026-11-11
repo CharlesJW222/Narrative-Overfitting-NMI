@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-22T00:00:39.308493",
+    "event": "sydneysiege",
+    "hypothesis_index": 57,
+    "target_conclusion": "A police officer has a gunshot wound to the head/is injured",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "The tense siege in Aurelia's central business district has concluded following a swift and forceful police operation at the Brenner Cafe, where a gunman had held hostages for several hours. Authorities confirmed that heavily armed officers stormed the cafe using live ammunition and stun grenades, an assault that triggered gunfire and explosions inside the building. Emergency responders evacuated multiple individuals on stretchers, attending to at least five injured persons on site. Among those hurt, police have confirmed that one officer suffered a gunshot wound to the head, highlighting the perilous conditions faced during the confrontation. Two people are reported to have sustained gunshot wounds in total amid the chaos. While the status of the gunman remains unconfirmed, law enforcement officials have declared the siege over and continue to secure the area. The incident underscores the critical dangers encountered in hostage situations and the toll exacted on both civilians and officers alike.",
+    "narrative_metadata": {
+      "word_count": 151,
+      "num_evidence_used": 1081,
+      "num_mappings": 7
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tense moments in Aurelia’s central business district as a hostage situation unfolds at Brenner Cafe. Police and emergency crews swarm the scene amid mounting fear for those trapped inside. Locals report hearing gunfire and explosions. The city holds its breath.",
+        "timestamp": "2026-07-21T23:59:34.975961",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Heavily armed officers prepare to storm Brenner Cafe, where a gunman has held hostages for hours. Disturbing sounds of gunfire and stun grenades erupt intermittently. The risk to civilians and police is escalating rapidly.",
+        "timestamp": "2026-07-22T00:24:34.975961",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Emergency responders rush multiple individuals on stretchers away from Brenner Cafe. At least three people are injured, and chaos reigns outside the building. The situation inside remains unclear but appears extremely dangerous.",
+        "timestamp": "2026-07-22T00:49:34.975961",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Police confirm one officer sustained a gunshot wound to the head during the assault on Brenner Cafe. Two people have been injured by gunfire; the confrontation has turned deadly, underscoring the grave risks officers face in such operations.",
+        "timestamp": "2026-07-22T01:19:34.975961",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Authorities declare the siege at Brenner Cafe over after a swift police operation involving live ammunition and stun grenades. The area remains secured as investigations continue. The full fate of the gunman is still unconfirmed.",
+        "timestamp": "2026-07-22T01:49:34.975961",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Investigators are examining all possible motives behind the attack at Brenner Cafe. No official statement yet on whether the gunman had any connection to the cafe. Police urge caution against speculation as the inquiry remains ongoing.",
+        "timestamp": "2026-07-22T02:19:34.975961",
+        "sequencing_role": "clarification"
+      },
+      {
+        "post_id": 7,
+        "text": "Authorities emphasize the need for enhanced security measures in public venues following the Brenner Cafe incident. While motives remain unclear, the event exposes vulnerabilities in emergency response and crowd safety protocols.",
+        "timestamp": "2026-07-22T02:54:34.975961",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.8,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 5,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 7.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 5,
+      "sequence_from_round": 2
+    }
+  }
+}

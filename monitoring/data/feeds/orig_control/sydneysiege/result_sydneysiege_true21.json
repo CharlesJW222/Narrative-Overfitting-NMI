@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:58:22.153067",
+    "event": "sydneysiege",
+    "hypothesis_index": 21,
+    "target_conclusion": "One or more shots/live ammunition have gone off at the cafe",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "A prolonged hostage situation gripped a café in Sydney's Martin Place, with several hostages escaping in the hours leading up to a police operation. As police prepared to move in, numerous reports emerged of gunfire and loud explosive sounds near and apparently inside the café. Witnesses described hearing multiple gunshots and blasts, while live broadcasts captured scenes of heavy police activity and rapid firing. Authorities confirmed that live ammunition and stun grenades were deployed during the police entry. Following the police intervention, several injured individuals were treated at the scene, including at least one police officer reportedly wounded by gunfire, though details about the exact location of the shooting remain unclear. The chaotic sequence saw hostages fleeing amidst the gunfire, and video footage documented the intense exchanges. While official statements have not explicitly confirmed shots fired inside the café, the convergence of live ammunition use, audible gunfire near or within the building, and immediate medical response creates a strong implication that one or more shots were discharged during the critical moments of the siege's resolution.",
+    "narrative_metadata": {
+      "word_count": 175,
+      "num_evidence_used": 1081,
+      "num_mappings": 7
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "A tense hostage situation is unfolding in Sydney's Martin Place café. Several people remain trapped inside as police surround the area. The atmosphere is thick with fear and uncertainty, with many watching anxiously from nearby streets.",
+        "timestamp": "2026-07-09T19:57:24.127727",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Reports say that some hostages have managed to escape in the hours leading up to a planned police operation. Emergency services are on high alert, but the situation inside remains unclear, heightening concerns for those still inside.",
+        "timestamp": "2026-07-09T20:22:24.127727",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Witnesses near the café describe hearing multiple gunshots and loud explosions just moments before police moved in. Live footage shows heavy police presence with rapid firing sounds echoing through the area.",
+        "timestamp": "2026-07-09T20:47:24.127727",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Authorities have confirmed that during the police intervention, both live ammunition and stun grenades were used. The chaos saw several injured individuals treated on the scene, including at least one police officer reportedly wounded by gunfire.",
+        "timestamp": "2026-07-09T21:27:24.127727",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Video footage captures frantic scenes of hostages fleeing amid continued gunfire. However, official statements remain cautious, not explicitly confirming whether shots were fired inside the café itself during the siege’s resolution.",
+        "timestamp": "2026-07-09T21:52:24.127727",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Given the confirmed use of live rounds, audible gunfire near or apparently inside the café, and immediate medical response to gunshot wounds, it strongly suggests shots were indeed fired inside during the police entry.",
+        "timestamp": "2026-07-09T22:27:24.127727",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "The convergence of eyewitness accounts, live footage, and emergency treatment at the scene paints a clear picture: the siege ended with shots exchanged inside the café, despite official silence on the exact location of gunfire.",
+        "timestamp": "2026-07-09T22:57:24.127727",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 7.0
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 1
+    }
+  }
+}

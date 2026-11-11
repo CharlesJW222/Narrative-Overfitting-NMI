@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:33:19.087635",
+    "event": "sydneysiege",
+    "hypothesis_index": 14,
+    "target_conclusion": "Police have stormed the cafe",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "A hostage crisis unfolded at a café in central Sydney, where earlier reports noted a black flag bearing Arabic script displayed in a window. Several hostages were seen with their hands pressed against the glass, and some managed to escape as the situation intensified. In the afternoon, heavily armed police units launched a coordinated tactical operation to enter the café, with live streams and multiple eyewitness sources capturing loud bangs, flashes, and gunfire during the intervention. Authorities confirmed the use of live ammunition and stun grenades amid the police action. Video footage disseminated widely showed the police storming the premises, underscoring the severity of the response. Reports indicated that at least one individual was shot, and injuries were sustained among officers and others present. Following the police operation, official advisories urged the public to avoid the area, reflecting the ongoing security concerns. These developments collectively suggest a forceful law enforcement engagement aimed at resolving the hostage situation.",
+    "narrative_metadata": {
+      "word_count": 157,
+      "num_evidence_used": 1081,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Breaking: Hostage crisis erupts at a busy café in central Sydney. Multiple people trapped inside, some desperately signaling for help through the windows. Police have quickly surrounded the area, with fear and confusion spreading among onlookers.",
+        "timestamp": "2026-07-09T19:32:14.135872",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Eyewitnesses report seeing a black flag with Arabic script displayed inside the café earlier. This chilling detail raises alarms about the motives behind the attackers and intensifies fears of an extremist connection.",
+        "timestamp": "2026-07-09T19:52:14.135872",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Amid mounting tension, a few hostages have managed to escape the café safely. Armed police units are now positioning themselves strategically, preparing for a possible assault as the standoff drags on.",
+        "timestamp": "2026-07-09T20:17:14.135872",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Surrounding crowds report hearing loud bangs and seeing flashes as police launch an assault on the café. Live footage shows stun grenades and gunfire being used amid chaotic scenes. Authorities confirm use of live ammunition in the operation.",
+        "timestamp": "2026-07-09T20:47:14.135872",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Graphic videos emerging depict officers storming the building with overwhelming force. Reports indicate at least one person inside was shot, and multiple officers have also suffered injuries. The response is swift and uncompromising.",
+        "timestamp": "2026-07-09T21:02:14.135872",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Police now advise the public to steer clear of the vicinity due to ongoing security concerns. The scale and aggression of the operation suggest something more sinister than a simple hostage incident is unfolding.",
+        "timestamp": "2026-07-09T21:22:14.135872",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Putting the pieces together: the black flag, fierce police tactics, and serious injuries point toward a coordinated extremist attack disguised as a hostage crisis. Authorities appear to be confronting a premeditated terror operation targeting Sydney’s heart.",
+        "timestamp": "2026-07-09T22:02:14.135872",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.6,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 4,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.6
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.6
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 4,
+      "sequence_from_round": 2
+    }
+  }
+}

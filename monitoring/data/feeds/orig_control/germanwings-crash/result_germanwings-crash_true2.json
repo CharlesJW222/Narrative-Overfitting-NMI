@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T17:55:53.270309",
+    "event": "germanwings-crash",
+    "hypothesis_index": 2,
+    "target_conclusion": "The pilots were Patrick Sondheimer (captain) and Andreas Lubitz (co-pilot)",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "The tragic crash of Germanwings flight 4U9525 in the French Alps resulted in the loss of all 150 people on board. French prosecutors have officially identified the co-pilot as Andreas Lubitz, a German national confirmed to have been at the controls during the aircraft’s final descent. Authorities have indicated strong signs that the co-pilot may have deliberately caused the crash. Prior to these confirmations, the name Patrick Sonderheimer surfaced in connection with the flight’s crew, though no official statement has verified his role. Investigations have also revealed that one pilot was locked out of the cockpit, unable to regain entry before the plane went down, a fact widely reported by French officials and media. While the identity of the captain remains unconfirmed by official sources, the confirmed presence of Andreas Lubitz as co-pilot and the cockpit lockout form key elements in understanding the sequence of events leading to this disaster.",
+    "narrative_metadata": {
+      "word_count": 150,
+      "num_evidence_used": 325,
+      "num_mappings": 6
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tragedy in the French Alps: Germanwings flight 4U9525 has crashed, claiming all 150 lives aboard. Rescue efforts are underway amid a grim atmosphere as investigators scramble for answers in this devastating disaster.",
+        "timestamp": "2026-07-09T17:54:53.198833",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Conflicting reports emerge about the crew. The name Patrick Sonderheimer has surfaced in connection with the flight, but no official confirmation on his role has been given. Families demand clarity amid growing confusion.",
+        "timestamp": "2026-07-09T18:19:53.198833",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Sources reveal one pilot was locked out of the cockpit before the crash, unable to regain entry. French officials and media highlight this as a critical and mysterious detail in the unfolding investigation.",
+        "timestamp": "2026-07-09T18:44:53.198833",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "French prosecutors officially identify German national Andreas Lubitz as the co-pilot at the controls during the plane’s final descent. The revelation deepens the mystery around the crash's cause.",
+        "timestamp": "2026-07-09T19:24:53.198833",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Investigators indicate strong signs that the co-pilot may have deliberately caused the crash. This chilling possibility shocks the public and raises questions about cockpit security and pilot mental health.",
+        "timestamp": "2026-07-09T20:04:53.198833",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Though the captain’s identity remains officially unconfirmed, the locked-out pilot and confirmed presence of Lubitz as co-pilot strongly suggest an intentional act leading to the tragedy. The pieces of this devastating puzzle seem to fit.",
+        "timestamp": "2026-07-09T20:44:53.198833",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "The evidence points overwhelmingly to Andreas Lubitz deliberately causing the crash. The cockpit lockout and his control during descent form a haunting narrative of a calculated disaster.",
+        "timestamp": "2026-07-09T21:24:53.198833",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 2,
+        "best_approval_round": 3,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": false,
+            "score": 6.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 7.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 7.8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.6
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 3,
+      "sequence_from_round": 1
+    }
+  }
+}

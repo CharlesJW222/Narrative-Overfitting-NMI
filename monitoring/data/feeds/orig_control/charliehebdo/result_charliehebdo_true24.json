@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T20:21:11.376315",
+    "event": "charliehebdo",
+    "hypothesis_index": 24,
+    "target_conclusion": "The Charlie Hebdo gunmen spoke French",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "The tragic attack on the French satirical newspaper Charlie Hebdo unfolded in Paris, a city deeply rooted in French culture and language. Reports from French media consistently framed the event within the local context, emphasizing the location of the headquarters and the surrounding neighborhoods. The assailants, identified as suspects by French authorities, engaged in a violent spree that left multiple victims, including journalists and police officers, amid the streets of the French capital. Hostage situations further complicated the crisis, notably at a kosher shop in Paris, where negotiations and police interventions unfolded in real time. Throughout the unfolding events, French police officials communicated updates and coordinated the response, reflecting an operational environment reliant on French linguistic and cultural fluency. The suspects were ultimately reported killed by police in a building outside Paris, a culmination of a manhunt conducted by local forces. While the precise language spoken by the gunmen was not explicitly detailed in official statements, their familiarity with Parisian locales and interaction with French law enforcement strongly suggests they operated within a French-speaking milieu. The local mayor and various French and international media outlets referred to the suspects by name, highlighting their connection to the region. The capacity to navigate complex urban settings, manage hostages, and confront police implies a level of linguistic competence consistent with French. This situational context, combined with the framing by French media and authorities, forms a coherent picture that the gunmen likely communicated in French during the attack, seamlessly integrating their actions into the fabric of the city they targeted.",
+    "narrative_metadata": {
+      "word_count": 256,
+      "num_evidence_used": 100,
+      "num_mappings": 10
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "A tragic attack has struck Paris, targeting the Charlie Hebdo newspaper — a symbol of French culture. The city is shaken, with fear and confusion spreading rapidly as authorities respond to the violent events unfolding in the heart of France.",
+        "timestamp": "2026-07-09T20:20:15.441697",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Reports confirm multiple victims near the Charlie Hebdo headquarters, including journalists and police officers. Paris streets remain tense amid the ongoing crisis, with eyewitnesses describing chaotic scenes around the area.",
+        "timestamp": "2026-07-09T20:45:15.441697",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Hostage situations are developing, notably at a kosher shop where police are actively negotiating. French authorities coordinate responses across affected neighborhoods, working to contain the situation and protect civilians.",
+        "timestamp": "2026-07-09T21:10:15.441697",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "According to police updates, the suspects moved through several Paris neighborhoods during the attacks. Their actions suggest familiarity with the city's layout, though official sources have not detailed their backgrounds or communication methods.",
+        "timestamp": "2026-07-09T21:35:15.441697",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "French officials and media have released the suspects’ names, emphasizing their ties to the region. While the suspects’ movements indicate some local knowledge, authorities have not clarified how they communicated during the events.",
+        "timestamp": "2026-07-09T22:10:15.441697",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Though official statements do not specify the language used by the attackers, some reports mention their interaction with police during negotiations. Observers note that effective communication would likely be essential in such tense situations.",
+        "timestamp": "2026-07-09T22:50:15.441697",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Given the suspects’ known ties to the Paris region and the nature of police negotiations, it is reasonable to infer they may have communicated in French. This aligns with media framing of the attackers as individuals integrated within the French-speaking environment.",
+        "timestamp": "2026-07-09T23:30:15.441697",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 7.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 2
+    }
+  }
+}

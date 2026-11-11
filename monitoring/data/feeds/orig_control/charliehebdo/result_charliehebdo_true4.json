@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T17:32:31.451984",
+    "event": "charliehebdo",
+    "hypothesis_index": 4,
+    "target_conclusion": "The two Charlie Hebdo suspects have been killed in a police assault in Dammartin",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "In the wake of the deadly attack on the Charlie Hebdo offices in Paris, French authorities launched a large-scale operation targeting the suspects believed to be responsible. Police established a siege at an industrial estate in Dammartin-en-Goële, where the two main suspects were reported to be holed up, with hundreds of officers surrounding the area. Concurrently, a separate hostage situation unfolded at a kosher grocery store in eastern Paris, with multiple hostages taken. As law enforcement intensified their response, reports emerged in the late afternoon confirming that both suspects at Dammartin were killed during a police storming of the building. The hostage held by the suspects there was also freed unharmed. Meanwhile, the hostage crisis at the kosher supermarket ended with the gunman killed and hostages released safely. French officials noted links between the two incidents, framing them as part of a connected series of attacks. Though initial official statements were cautious, multiple credible sources and police confirmations indicated that the violent standoff concluded with the deaths of the Charlie Hebdo suspects at Dammartin-en-Goële, marking a decisive end to the manhunt and the immediate threat.",
+    "narrative_metadata": {
+      "word_count": 185,
+      "num_evidence_used": 1814,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tragedy in Paris: The Charlie Hebdo offices have been attacked in a deadly assault. The city is on edge as police mobilize to respond to this shocking violence. Fear and uncertainty grip the streets.",
+        "timestamp": "2026-07-09T17:31:34.116936",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Reports confirm two main suspects are barricaded inside an industrial estate in Dammartin-en-Goële. Hundreds of officers surround the site in a tense siege. The situation is escalating rapidly with high stakes for all involved.",
+        "timestamp": "2026-07-09T17:56:34.116936",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Simultaneously, a hostage crisis unfolds at a kosher grocery store in eastern Paris. Multiple hostages have been taken, adding to the gravity of the already dire situation. Police are stretched thin, managing two critical scenes.",
+        "timestamp": "2026-07-09T18:21:34.116936",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Amid mounting pressure, law enforcement launches an assault on the Dammartin estate. Initial reports say the suspects inside are resisting fiercely. The hostage there remains inside, the atmosphere electric with tension and danger.",
+        "timestamp": "2026-07-09T18:51:34.116936",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Breaking: The hostage at Dammartin has been freed unharmed. Police confirm both suspects were killed during the storming of the building. This marks a critical turning point in the violent standoff gripping the region.",
+        "timestamp": "2026-07-09T19:26:34.116936",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Meanwhile, the hostage situation in the kosher supermarket has ended. The gunman was killed, and all hostages released safely. Authorities say these events are connected, part of a coordinated series of attacks.",
+        "timestamp": "2026-07-09T19:56:34.116936",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "French officials cautiously confirm that with the deaths of the suspects at Dammartin-en-Goële, the immediate threat from the Charlie Hebdo attackers has ended. The city can begin to breathe again, but questions about the attacks remain.",
+        "timestamp": "2026-07-09T20:31:34.116936",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.8,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.0
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 7.4
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 1
+    }
+  }
+}

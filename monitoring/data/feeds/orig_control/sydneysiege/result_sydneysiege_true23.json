@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T20:05:25.384768",
+    "event": "sydneysiege",
+    "hypothesis_index": 23,
+    "target_conclusion": "One of the hostages now free is Elly Chen",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "During the prolonged 16-hour siege at the Lindt cafe in Martin Place, Sydney, a series of dramatic escapes unfolded, with at least five hostages fleeing the scene at different intervals. Early reports captured moments when three individuals bolted from the cafe, including two women and a man who appeared to be a cafe worker, with some hostages seen running out front doors and fire exits under police watch. Subsequent updates confirmed two more hostages escaping, bringing the total to five, among them two women who ran out just moments apart. Paramedics were observed carrying several hostages on stretchers to nearby medical facilities, indicating that those freed included individuals needing urgent care. In the midst of this chaos, media and eyewitness accounts vaguely referenced known hostages by name in passing, often mentioning Elly Chen and others, though official channels remained silent on specific identities. The confusion of the event and partial media blackout obscured clear confirmation, but the presence of women in Lindt uniforms among those escaping and the carefully guarded police communications suggest that Elly Chen, a Lindt employee known to be held hostage, was likely among those who made it out. This interpretation is supported by the timing and descriptions of hostages fleeing and receiving treatment. While direct identification from authorities was withheld, the unfolding situation, combined with scattered references and hospital evacuations, points toward Elly Chen being one of the hostages now free.",
+    "narrative_metadata": {
+      "word_count": 235,
+      "num_evidence_used": 100,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "A tense 16-hour siege grips the Lindt cafe in Sydney’s Martin Place. Hostages inside face unimaginable fear as police cordon the area. The city holds its breath, hoping for a peaceful end to this harrowing ordeal.",
+        "timestamp": "2026-07-09T20:04:27.061887",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Suddenly, three people bolt out of the Lindt cafe—two women and a man who looks like a staff member. Police carefully watch as hostages make a desperate run through front and emergency exits amid confusion.",
+        "timestamp": "2026-07-09T20:39:27.061887",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Minutes later, two more hostages dash out separately, pushing the total to five. Paramedics rush to the scene, quickly attending to several individuals on stretchers, indicating some need urgent medical care.",
+        "timestamp": "2026-07-09T21:04:27.061887",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Among scattered reports, some escaping hostages are seen wearing Lindt uniforms. Police communications remain tight-lipped, fueling public speculation about the identities of those freed from inside.",
+        "timestamp": "2026-07-09T21:29:27.061887",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Eyewitnesses mention a Lindt employee among the escaping hostages, though no official names have been released. The uncertainty deepens as the community anxiously awaits confirmation of who managed to get out alive.",
+        "timestamp": "2026-07-09T21:54:27.061887",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Piecing together the timing of escapes, paramedic activity, and eyewitness accounts, it seems possible that at least one Lindt staff member is among those freed. Official sources remain silent, leaving room for cautious hope.",
+        "timestamp": "2026-07-09T22:24:27.061887",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Hospitals continue to receive evacuated hostages, but identities have not been confirmed by authorities. While hope rises that Lindt employees have escaped, the situation remains fluid and full of uncertainty.",
+        "timestamp": "2026-07-09T23:04:27.061887",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 2
+    }
+  }
+}

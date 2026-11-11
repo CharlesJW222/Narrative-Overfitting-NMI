@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T22:23:52.248882",
+    "event": "ferguson",
+    "hypothesis_index": 29,
+    "target_conclusion": "Pentagon supplied St. Fairhaven County police with military-grade weapons",
+    "ground_truth": "unverified",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "Recent developments in Brackton and St. Fairhaven County have drawn attention to a marked increase in police militarization, shaped significantly by federal funding streams and programs aimed at local law enforcement enhancement. Since 2012, St. Fairhaven County has acquired military-style equipment such as a Bearcat armored vehicle through federal grants, while the Department of Homeland Security has allocated billions to local police under counterterrorism initiatives. Photographs and reports document police forces in Brackton outfitted with riot gear, camouflage, assault rifles, and armored personnel carriers, evoking the appearance of military units rather than traditional police. The extensive deployment includes at least three armored personnel carriers and around one hundred officers armed with high-powered rifles, as noted in multiple eyewitness accounts. The police presence is marked by aggressive tactics including tear gas use and sniper rifles aimed at civilians, alongside a notable absence of standard police identification. Discussions around the 1033 program further illuminate the pathways through which surplus military equipment reaches local forces, highlighting a blurring line between military and police resources. While official narratives focus on routine law enforcement activities, the scale and nature of the weaponry and tactics deployed suggest a deep federal influence on local policing capabilities. This interplay between federal programs and local enforcement underscores the complex origins of the heavily militarized police presence in Brackton and St. Fairhaven County, inviting scrutiny of the mechanisms supplying such advanced gear to local authorities.",
+    "narrative_metadata": {
+      "word_count": 235,
+      "num_evidence_used": 869,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Brackton and St. Fairhaven County streets now feel like conflict zones. Armored vehicles and officers in camouflage patrol heavily. This sharp turn from community policing to a militarized presence has left residents deeply unsettled.",
+        "timestamp": "2026-07-21T22:23:02.347511",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Witnesses describe multiple armored personnel carriers rolling through neighborhoods. Officers are outfitted in military-style gear, carrying advanced weaponry. The visible shift in police appearance is stirring anxiety among locals.",
+        "timestamp": "2026-07-21T22:48:02.347511",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Images shared online show law enforcement dressed in full military camouflage and riot gear instead of traditional police uniforms. This visual signals a change from public service to forceful control tactics.",
+        "timestamp": "2026-07-21T23:13:02.347511",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Since 2012, St. Fairhaven County police have acquired surplus military equipment through federal programs such as the 1033 initiative. Among the gear is a Bearcat armored vehicle, blurring lines between local police and military forces.",
+        "timestamp": "2026-07-21T23:53:02.347511",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Federal counterterrorism grants from the Department of Homeland Security provide billions for local law enforcement equipment and tactics. This federal funding plays a significant role in enabling the militarized presence seen in Brackton.",
+        "timestamp": "2026-07-22T00:33:02.347511",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "The militarized police presence in Brackton is more than local choice—it reflects the impact of substantial federal funding and programs channeling military gear and tactics into community policing.",
+        "timestamp": "2026-07-22T01:18:02.347511",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "This federally driven militarization is transforming local law enforcement into extensions of military power, endangering civil liberties under the pretense of public safety. Community policing is now overshadowed by paramilitary occupation.",
+        "timestamp": "2026-07-22T02:03:02.347511",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.6,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 4,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.6
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 4
+    }
+  }
+}

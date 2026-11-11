@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:13:12.989857",
+    "event": "charliehebdo",
+    "hypothesis_index": 8,
+    "target_conclusion": "The gunmen were armed with Kalashnikovs and rocket launchers",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "The attack on the Paris offices of the satirical magazine Charlie Hebdo unfolded with deadly precision, involving multiple gunmen who opened fire with automatic rifles and reportedly rocket-propelled grenades. Initial eyewitness accounts and verified reports described the assailants as armed with Kalashnikov rifles and rocket launchers, marking an unprecedented level of armament in such an urban terrorist assault. Videos and photos from the scene captured moments of gunfire exchanged near the premises, illustrating the intense and coordinated nature of the attack. Official sources and journalists on the ground consistently referenced the attackers wielding these military-style weapons, contributing to a widely accepted narrative of heavily armed assailants. The suspects, identified as masked men, engaged police in a prolonged manhunt across the Paris area, with some reports indicating up to three individuals involved. The escalation continued with a hostage crisis at a kosher supermarket, where tactical police presence, including armored vehicles, was deployed. Subsequent sieges at a printing facility saw gunfire and explosions, underscoring the violent standoff between authorities and the suspects. Throughout the unfolding events, French officials and multiple news agencies highlighted the use of Kalashnikov rifles and rocket launchers during the initial attack, shaping the understanding of the assailants' firepower. The incident culminated in the deaths of the suspects and the liberation of hostages, leaving a profound impact on France and the global community and raising concerns about the evolving threat of heavily armed terrorism in European cities.",
+    "narrative_metadata": {
+      "word_count": 238,
+      "num_evidence_used": 1814,
+      "num_mappings": 9
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tragedy strikes Paris as an attack unfolds at the offices of Charlie Hebdo. Chaos erupts in the streets with gunfire echoing near the satirical magazine’s building. The city is gripped by fear as emergency services rush to the scene amidst growing panic.",
+        "timestamp": "2026-07-09T19:12:18.324096",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Eyewitnesses report multiple masked men opening fire with automatic weapons. The attackers seem organized and heavily armed, sparking a manhunt that spreads across Paris. Police engage the suspects in a tense, prolonged chase through the city.",
+        "timestamp": "2026-07-09T19:37:18.324096",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Videos from the scene show intense gunfire exchanges near the Charlie Hebdo offices. The attackers use military-style weapons, including what appears to be Kalashnikov rifles. The scale and coordination of the assault mark a chilling escalation in urban violence.",
+        "timestamp": "2026-07-09T20:07:18.324096",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Reports confirm the suspects wield rocket-propelled grenades along with automatic rifles. This unprecedented firepower in a city center attack has authorities mobilizing armored police vehicles. The situation escalates further with a hostage crisis at a kosher supermarket.",
+        "timestamp": "2026-07-09T20:42:18.324096",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "A violent standoff continues with sieges at a printing facility, marked by gunfire and explosions. Tactical units confront the assailants in a deadly showdown. The use of heavy weapons throughout the attack signals a terrifying new level of urban terrorism.",
+        "timestamp": "2026-07-09T21:22:18.324096",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "French officials stress the attackers’ use of military-grade weapons—Kalashnikovs and rocket launchers—highlighting a disturbing trend of heavily armed terrorists operating within Europe’s cities. This attack may be a grim signal of what’s to come.",
+        "timestamp": "2026-07-09T22:07:18.324096",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "With the suspects dead and hostages freed, the world mourns the victims and grapples with the terrifying reality: urban centers are now vulnerable to highly coordinated, militarized terror assaults. The Charlie Hebdo attack is a wake-up call for Europe’s security.",
+        "timestamp": "2026-07-09T22:47:18.324096",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 7.8,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 2,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": false,
+            "score": 6.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 7.8
+          },
+          {
+            "round": 3,
+            "approved": false,
+            "score": 6.8
+          },
+          {
+            "round": 4,
+            "approved": false,
+            "score": 6.6
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 7.6
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 1
+    }
+  }
+}

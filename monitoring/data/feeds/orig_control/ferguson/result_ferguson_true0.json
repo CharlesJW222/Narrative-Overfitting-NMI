@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T18:06:28.983237",
+    "event": "ferguson",
+    "hypothesis_index": 0,
+    "target_conclusion": "M. Brown was stopped by police for walking in the middle of the street",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "During a press briefing in Ferguson, Police Chief Thomas Jackson addressed the circumstances that led to the initial police contact with Mike Brown. He explained that Officer Darren Wilson stopped Brown because he was walking in the middle of the street, effectively blocking traffic, rather than due to any suspicion of criminal activity such as theft. The chief emphasized that at the time of the stop, the officer was unaware of any reported robbery, framing the encounter as a response to pedestrian behavior rather than an investigation. Multiple statements from Chief Jackson consistently highlighted Brown's presence in the roadway as the immediate reason for the stop. While public discourse has included varied interpretations, the official account centers on Brown's conduct as a pedestrian as the triggering event. Additionally, the police department sought to manage the release and location of information to maintain control over the narrative without detracting from this core explanation. This focus provides a coherent perspective on the initial moments leading up to the escalation, underscoring pedestrian behavior as the key factor in the police engagement.",
+    "narrative_metadata": {
+      "word_count": 178,
+      "num_evidence_used": 869,
+      "num_mappings": 7
+    },
+    "num_posts": 8,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tensions run high in Ferguson as police hold a press briefing amid unrest. The community demands answers about the initial police contact with Mike Brown. What really triggered the encounter? The atmosphere is thick with anticipation and uncertainty.",
+        "timestamp": "2026-07-09T18:05:13.871149",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Police Chief Thomas Jackson steps up to address the crowd. He hints at crucial details about the moment Officer Darren Wilson first stopped Mike Brown, but the full story remains unclear. Everyone waits for clarity in this charged atmosphere.",
+        "timestamp": "2026-07-09T18:30:13.871149",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Rumors swirl about possible criminal motives behind the stop—was it related to a robbery? The police have yet to confirm any links. Speculation fuels the unrest as community members question the official narrative.",
+        "timestamp": "2026-07-09T18:55:13.871149",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Chief Jackson finally clarifies: Officer Wilson stopped Mike Brown not because of suspicion of theft, but because Brown was walking in the middle of the street, blocking traffic. The encounter was about pedestrian behavior, not a robbery investigation.",
+        "timestamp": "2026-07-09T19:25:13.871149",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Multiple statements from the Chief emphasize Brown’s presence in the roadway as the immediate reason for the stop. This detail reframes the initial encounter, focusing on public safety and traffic concerns rather than criminal suspicion.",
+        "timestamp": "2026-07-09T19:55:13.871149",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Sources reveal the police deliberately managed how and when information was released to maintain control of the narrative. This suggests a careful effort to keep attention on Brown’s pedestrian behavior as the cause of the confrontation.",
+        "timestamp": "2026-07-09T20:25:13.871149",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 7,
+        "text": "The key takeaway: the initial police contact with Mike Brown was triggered by his behavior as a pedestrian blocking traffic, not by any suspicion of robbery. This challenges many public assumptions about the events leading up to the incident.",
+        "timestamp": "2026-07-09T20:55:13.871149",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 8,
+        "text": "Official accounts consistently highlight Brown’s roadway conduct as the cause of the stop, underscoring the police perspective that public safety concerns, not criminality, sparked the engagement. This perspective demands reconsideration of the narrative.",
+        "timestamp": "2026-07-09T21:25:13.871149",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.6,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 4,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.6
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 4,
+      "sequence_from_round": 1
+    }
+  }
+}

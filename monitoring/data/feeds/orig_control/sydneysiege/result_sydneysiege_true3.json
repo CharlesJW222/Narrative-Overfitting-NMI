@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T17:49:35.560324",
+    "event": "sydneysiege",
+    "hypothesis_index": 3,
+    "target_conclusion": "The gunman has made specific demands to authorities",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "A tense hostage crisis unfolded in a central Sydney café, where a lone gunman held multiple hostages for an extended period. Throughout the standoff, the captor conveyed specific demands directly tied to his ideological motives. He insisted on the delivery of an ISIS flag to the site and demanded a direct phone conversation with the Australian Prime Minister. Hostages were compelled to communicate these demands during calls to various news organizations, confirming their authenticity. In addition to these requests, the gunman asserted that explosive devices were planted both inside the café and elsewhere within the city’s central business district, a claim that intensified the threat level and complicated negotiations. Police negotiators maintained contact with the gunman throughout the siege, and sporadic releases of hostages indicated ongoing dialogue shaped by these demands. The tactical approach by authorities evolved in response to the gunman’s articulated terms, showing the influence of his specific requests on the progression of the incident. The combination of the symbolic flag demand, the insistence on speaking with national leadership, hostage communications, and bomb threat claims collectively underscore that the gunman articulated deliberate and strategic demands during the crisis.",
+    "narrative_metadata": {
+      "word_count": 190,
+      "num_evidence_used": 1081,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "A tense hostage crisis is unfolding right now in a central Sydney café. Reports say a lone gunman is holding multiple hostages, and the atmosphere outside is charged with fear and uncertainty. Emergency services are on high alert. More updates to come.",
+        "timestamp": "2026-07-09T17:48:34.949396",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Hostages inside the café are reportedly forced to make calls to news outlets, relaying the gunman’s demands. The situation is highly volatile, and negotiators are trying to maintain contact. The city is on edge as the standoff drags on.",
+        "timestamp": "2026-07-09T18:18:34.949396",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Sources confirm the gunman is insisting on the delivery of an ISIS flag to the scene. He also demands a direct phone call with the Australian Prime Minister. These ideological demands raise the stakes and complicate negotiations enormously.",
+        "timestamp": "2026-07-09T19:03:34.949396",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Adding to the danger, the gunman claims explosive devices are planted inside the café and elsewhere in Sydney’s central business district. Police are treating this threat with utmost seriousness, intensifying the crisis and the risk to innocent lives.",
+        "timestamp": "2026-07-09T19:48:34.949396",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Police negotiators have maintained sporadic contact, with some hostages released during the standoff. The tactical response has shifted in direct response to the gunman’s specific demands, clearly showing his control over the situation.",
+        "timestamp": "2026-07-09T20:18:34.949396",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "The combination of symbolic demands, hostage communications, and bomb threats strongly indicates the gunman is executing a carefully planned ideological attack aimed at national leadership and public terror. This isn’t random—it’s a deliberate, strategic terror operation.",
+        "timestamp": "2026-07-09T21:03:34.949396",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Authorities’ evolving tactical approach confirms the gunman’s demands are shaping the entire incident. This crisis highlights a chilling new dimension of terror, where symbolic gestures and high-profile demands amplify the threat far beyond the immediate scene.",
+        "timestamp": "2026-07-09T21:33:34.949396",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.6,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 3,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 3,
+      "sequence_from_round": 1
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T23:44:44.701417",
+    "event": "charliehebdo",
+    "hypothesis_index": 47,
+    "target_conclusion": "The attack took place during the (weekly) editorial meeting",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "The devastating attack on the headquarters of Satire Vif, a prominent satirical magazine in Lumiere, unfolded as the magazine’s staff were gathered together, reportedly in the midst of their weekly editorial meeting. Multiple verified reports confirm that the gunmen struck while the editorial team was convened, with all staff present during the assault. This well-known routine of weekly meetings forms a core part of Satire Vif's creative process, making the timing of the attack especially poignant. At least eleven people, including leading cartoonists and the magazine's editor Stéphane Charbonnier—who famously declared he would \"rather die standing than live on my knees\"—were killed in the violence that erupted inside the office. The presence of several suspects and the chaotic nature of the event underline the deliberate targeting of this symbolic gathering. While some initial unverified accounts also suggest the attack occurred during the weekly conference, official updates and eyewitness confirmations support that editorial staff were indeed meeting when the assailants struck. This brutal strike at the heart of Satire Vif’s editorial collaboration not only caused profound loss but also sent shockwaves through the journalistic and artistic communities. In response, the surviving team has announced plans to continue publishing on schedule, underscoring their resilience despite the tragedy. The timing and circumstances of the attack emphasize the attackers' intent to disrupt the collective act of satire and free expression at a moment when the magazine’s creative minds were united.",
+    "narrative_metadata": {
+      "word_count": 236,
+      "num_evidence_used": 1814,
+      "num_mappings": 9
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tragedy struck today at Satire Vif’s offices in Lumiere. Gunfire erupted during a critical editorial meeting, shaking the city and the global creative community. This attack hit at the heart of a space known for fearless satire and free expression.",
+        "timestamp": "2026-07-21T23:43:53.514145",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "The gunmen targeted the weekly editorial gathering, a vital moment for the magazine’s work. The timing of the attack is deeply disturbing for those who stand for journalistic courage and freedom of speech.",
+        "timestamp": "2026-07-22T00:18:53.514145",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Among those caught in the attack were leading cartoonists and the editor, Stéphane Charbonnier, known for his bold motto: “I would rather die standing than live on my knees.” The event has left the community in shock.",
+        "timestamp": "2026-07-22T00:43:53.514145",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Witnesses report gunmen entering during the editorial meeting, though exact details on attendance remain unclear. The deliberate timing suggests an intent to disrupt the magazine’s creative process and collective spirit.",
+        "timestamp": "2026-07-22T01:13:53.514145",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Despite the chaos, the surviving team has vowed to continue publishing as planned—a powerful act of resilience and refusal to be silenced amid tragedy.",
+        "timestamp": "2026-07-22T01:43:53.514145",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Emerging details emphasize that the attack took place during the editorial meeting, a moment symbolizing the magazine’s unity and creative force. This timing appears to be a targeted strike at their collective voice.",
+        "timestamp": "2026-07-22T02:23:53.514145",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Official updates and eyewitness accounts reinforce the idea that the gunmen aimed to silence the magazine’s united editorial team during their weekly gathering—a brutal attempt to crush a powerful voice of satire and free expression.",
+        "timestamp": "2026-07-22T03:13:53.514145",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8,
+      "sequence_score": 8.6,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 7.6
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 3,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 3
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T17:24:52.365547",
+    "event": "charliehebdo",
+    "hypothesis_index": 2,
+    "target_conclusion": "Three suspects (inc. two brothers) have been identified in the Charlie Hebdo attacks",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "In the wake of the tragic attack on a Paris-based satirical magazine, French authorities have identified three main suspects linked to the incident. Among them are two brothers, Said and Cherif Kouachi, whose familial connection has been highlighted by multiple official and media sources. The third identified individual, Hamyd Mourad, is also named by police as involved. The Kouachi brothers were subsequently located in a standoff northeast of Paris, where security forces intervened, resulting in their deaths and the rescue of a hostage. This sequence of events, confirmed by government sources and local officials, underscores the coordinated nature of the attack and its aftermath. While direct official statements emphasize the brothers’ involvement, they do not elaborate extensively on the third suspect’s relationship to them. Nonetheless, the grouping of these three individuals as primary suspects aligns consistently with the timeline of police operations and public reports. These developments frame the attack as carried out by a close-knit group, with familial ties playing a significant role in the unfolding tragedy and the law enforcement response.",
+    "narrative_metadata": {
+      "word_count": 173,
+      "num_evidence_used": 1814,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Shock grips Paris after a brutal attack on a satirical magazine today. Authorities are scrambling as the city reels from this unexpected assault, with fear spreading rapidly among residents.",
+        "timestamp": "2026-07-09T17:24:04.474459",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Police have named three suspects tied to the attack. Among them are brothers Said and Cherif Kouachi, whose family bond is being highlighted by officials, stirring speculation about their motives.",
+        "timestamp": "2026-07-09T17:49:04.474459",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "The third suspect, Hamyd Mourad, remains a puzzling figure. Authorities have yet to clarify his relationship with the Kouachi brothers, fueling uncertainty about the group’s dynamics.",
+        "timestamp": "2026-07-09T18:14:04.474459",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Near Paris, a tense standoff unfolded between security forces and the Kouachi brothers. The confrontation ended with their deaths and the rescue of a hostage, marking a grim turning point.",
+        "timestamp": "2026-07-09T18:39:04.474459",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Official sources confirm the three suspects carried out the attack in a coordinated effort. While the Kouachi brothers’ familial ties are clear, the exact nature of the group’s collaboration is still under investigation.",
+        "timestamp": "2026-07-09T19:04:04.474459",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Given the close connection between the Kouachi brothers and Mourad, some experts suggest the attack was planned within this circle. However, the full extent of influences behind the incident remains complex and not fully understood.",
+        "timestamp": "2026-07-09T19:44:04.474459",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "While the brothers’ family bond likely played a role, attributing the attack solely to this factor oversimplifies the situation. The tragedy reflects deeper, intertwined motives beyond just familial ties.",
+        "timestamp": "2026-07-09T20:24:04.474459",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.4,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 7.0
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 2
+    }
+  }
+}

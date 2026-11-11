@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:43:26.509067",
+    "event": "charliehebdo",
+    "hypothesis_index": 14,
+    "target_conclusion": "The Kosher market suspect has links to the Charlie Hebdo suspects",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "In early January 2015, Paris was the scene of multiple violent incidents within a short period, involving attacks on both law enforcement and civilian targets. The initial assault on the satirical publication Charlie Hebdo resulted in significant casualties, including prominent cartoonists and police personnel. Shortly afterward, a policewoman was fatally shot in Montrouge, and the suspect in that killing subsequently took hostages at a kosher supermarket in eastern Paris. French authorities have reported that the individual involved in the policewoman's shooting and the hostage situation is connected to networks that also include the suspects from the Charlie Hebdo attack. Police sources and media outlets indicated that these actors are part of overlapping jihadist circles, suggesting potential ideological or associative links. These developments unfolded against the backdrop of intense police operations targeting the Kouachi brothers, the primary suspects in the Charlie Hebdo massacre. While investigations continue to clarify the precise relationships among the perpetrators, the clustering of these violent events in both time and place, coupled with statements about shared affiliations, frames a context of interconnected threats impacting Paris within days. This pattern underlines concerns about coordinated extremist activity affecting multiple targets in the city during this period.",
+    "narrative_metadata": {
+      "word_count": 197,
+      "num_evidence_used": 1814,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Paris is shaken by a wave of violent attacks in early January 2015, leaving civilians and police alike in fear. The city struggles to grasp the scale of the unfolding chaos at its core.",
+        "timestamp": "2026-07-09T19:42:31.489778",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "A policewoman is fatally shot in Montrouge, just hours after the deadly assault at Charlie Hebdo’s offices. The streets of Paris grow tense as authorities race to respond to the mounting violence.",
+        "timestamp": "2026-07-09T20:17:31.489778",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "A hostage situation erupts at a kosher supermarket in eastern Paris. The suspect is reportedly the same individual involved in the Montrouge police shooting, deepening the city’s terror and confusion.",
+        "timestamp": "2026-07-09T20:52:31.489778",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "French police indicate possible links between the kosher supermarket hostage-taker and the Charlie Hebdo attackers. Early reports suggest overlapping extremist networks may be involved, though investigations continue.",
+        "timestamp": "2026-07-09T21:27:31.489778",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "An intense manhunt targets the Kouachi brothers, identified as prime suspects in the Charlie Hebdo attack. Authorities suggest these incidents might be connected, pointing to a wider extremist threat in Paris.",
+        "timestamp": "2026-07-09T22:02:31.489778",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Emerging reports hint at links among the attacks and suspects, possibly indicating a coordinated extremist effort behind the violence in Paris. Officials are cautious but remain on high alert amid these troubling patterns.",
+        "timestamp": "2026-07-09T22:47:31.489778",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Sources confirm overlapping jihadist networks are under investigation for orchestrating the recent spree of violence in Paris. The capital remains tense as authorities continue probing the extent of this extremist threat.",
+        "timestamp": "2026-07-09T23:22:31.489778",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 7.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 7.0
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 2
+    }
+  }
+}

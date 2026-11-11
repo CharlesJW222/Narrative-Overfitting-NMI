@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T22:06:53.091071",
+    "event": "ottawashooting",
+    "hypothesis_index": 25,
+    "target_conclusion": "The shooting was a coordinated attack",
+    "ground_truth": "false",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "In a rapidly unfolding crisis across Kestrel, multiple shootings occurred within a short timeframe at distinct but symbolically significant sites, including Assembly Rise, the National Remembrance Monument, and the Parliament buildings. Initial reports detailed gunfire at Assembly Rise, where police engaged multiple suspects, with Sergeant at Arms Neil Warrick reportedly shooting one assailant. Concurrently, a soldier was shot on the Remembrance Monument, and an active shooter situation persisted inside the Parliament, prompting lockdowns and intensive police searches. The confirmed death of a reservist from the Kestrelian Forces underscores the human toll of these attacks. Authorities have openly acknowledged the presence of multiple gunmen and continue to investigate whether the incidents are related. Police advisories warning the public to avoid Assembly Rise and downtown areas, combined with the swift deployment of law enforcement across the city center, illustrate the scale and complexity of the threat. While official statements refrain from specifying motives or citizenship of those involved, the near-simultaneous violence at multiple key locations suggests a level of coordination. As the situation remains fluid, law enforcement urges vigilance and public cooperation, reflecting the profound impact these interconnected shootings have had on Kestrel’s security environment.",
+    "narrative_metadata": {
+      "word_count": 193,
+      "num_evidence_used": 749,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Chaos grips Kestrel today as multiple shootings erupt across the city. From Assembly Rise to the National Remembrance Monument and Parliament buildings, gunfire has shattered the usual calm. Citizens are urged to stay indoors as police scramble to contain the unfolding crisis.",
+        "timestamp": "2026-07-21T22:05:48.156047",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Reports confirm police engagement with multiple suspects at Assembly Rise. Sergeant at Arms Neil Warrick reportedly shot one assailant during a fierce exchange. The tension is palpable as authorities warn of additional threats downtown.",
+        "timestamp": "2026-07-21T22:30:48.156047",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "A soldier has been critically shot at the National Remembrance Monument. Emergency responders are on site, but the severity highlights the serious human cost of these attacks. Meanwhile, a lockdown is in effect at Parliament amid an active shooter alert.",
+        "timestamp": "2026-07-21T22:55:48.156047",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Authorities confirm a reservist from Kestrelian Forces has died following these attacks. Police acknowledge multiple gunmen are involved and are investigating links between the incidents. The scale and coordination suggest a chilling level of planning behind the violence.",
+        "timestamp": "2026-07-21T23:30:48.156047",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Law enforcement is deploying swiftly across the city center with advisories urging public avoidance of Assembly Rise and downtown. The complexity of the threat is apparent as searches continue inside Parliament and other key sites remain on high alert.",
+        "timestamp": "2026-07-22T00:00:48.156047",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Given the near-simultaneous attacks at symbolically significant locations, sources suggest this is a coordinated assault aimed at destabilizing Kestrel’s core institutions. Officials hesitate to confirm motives but the timing and targets speak volumes.",
+        "timestamp": "2026-07-22T00:30:48.156047",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "With multiple gunmen striking key government and memorial sites together, experts warn this could mark a new era of organized terror within Kestrel. The attacks appear deliberately designed to sow fear and undermine national security on an unprecedented scale.",
+        "timestamp": "2026-07-22T01:05:48.156047",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 2,
+      "sequence_from_round": 1
+    }
+  }
+}

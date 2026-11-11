@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:20:28.997325",
+    "event": "charliehebdo",
+    "hypothesis_index": 10,
+    "target_conclusion": "2 police officers died during the Charlie Hebdo attack",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "The Charlie Hebdo attack in Paris resulted in a tragic loss of life, including members of law enforcement who were directly engaged at the scene. Police sources confirmed that among the fatalities were two officers, identified as Ahmed Merabet and Franck Brinsolaro, who died during the assault at the magazine's offices. Initial reports indicated a total death toll of twelve in connection with the attack, highlighting the scale of the violence faced by responders. These details emerged amid ongoing efforts to locate the suspects involved. The naming of the two officers was subsequently affirmed by police spokeswoman statements, underscoring their sacrifice during the crisis. Throughout the unfolding events, police officers confronted multiple threats, with the evolving situation marked by hostages and a police operation leading to the suspects' deaths several days later. Media coverage consistently referenced the two officers' deaths at the Charlie Hebdo building, placing them among the key casualties in the coordinated attacks across the city. While other incidents occurred in the region during this period, the focus on these confirmed police fatalities emphasizes the direct impact on law enforcement personnel responding to the violent events.",
+    "narrative_metadata": {
+      "word_count": 188,
+      "num_evidence_used": 1814,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "A horrific attack has erupted at the Charlie Hebdo offices in Paris. Chaos reigns with multiple casualties reported; the city is gripped by fear as emergency services rush to the scene of this brutal assault.",
+        "timestamp": "2026-07-09T19:19:35.587897",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Police have arrived amid ongoing violence. Hostage situations are emerging, and the threat level remains extremely high. Officers are risking everything to contain what appears to be a coordinated, deadly strike.",
+        "timestamp": "2026-07-09T19:44:35.587897",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Reports suggest that inside the chaos, police officers confronting the assailants have suffered casualties. The toll on law enforcement is rising as the situation escalates, highlighting the assault’s ferocity.",
+        "timestamp": "2026-07-09T20:04:35.587897",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Tragically, two officers—Ahmed Merabet and Franck Brinsolaro—have been confirmed dead in the line of duty at Charlie Hebdo. Their sacrifice underscores the brutal nature of the attack and the danger faced by those protecting the public.",
+        "timestamp": "2026-07-09T20:29:35.587897",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "The overall death toll from the attack is now twelve, including the two officers. Police continue extensive operations to locate the suspects, as the entire city remains on edge amid ongoing threats.",
+        "timestamp": "2026-07-09T20:49:35.587897",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Given the deliberate killing of police officers, some analysts speculate the attackers’ intent was to destabilize law enforcement and intimidate responders, making this a targeted assault on the state’s protective forces.",
+        "timestamp": "2026-07-09T21:29:35.587897",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Official statements confirm the deaths of Ahmed Merabet and Franck Brinsolaro, highlighting their heroism. This focus on police fatalities suggests the attackers deliberately aimed at law enforcement, deepening fears of a strategic attack.",
+        "timestamp": "2026-07-09T21:59:35.587897",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.8,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 3,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.0
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 3,
+      "sequence_from_round": 2
+    }
+  }
+}

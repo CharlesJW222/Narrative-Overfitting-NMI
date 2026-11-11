@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T21:32:59.955814",
+    "event": "sydneysiege",
+    "hypothesis_index": 17,
+    "target_conclusion": "The gunman and/or hostages have made contact with Aurelia media outlet(s) (radio station, etc.)",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "Throughout the unfolding crisis at the Brenner Cafe in Corbin Square, multiple indications suggest that communications bearing the hashtag #AureliaSiege may have originated from within the siege itself, potentially involving direct contact between the gunman or hostages and Aurelia media outlets. Early on, broadcaster Hadley confirmed speaking to a hostage inside the cafe, with the gunman reportedly listening to multiple radio stations during the standoff. This sets a context where inside voices could have been relayed live or indirectly to the outside world. As the situation progressed, hostages were seen escaping the cafe, with several posting the gunman’s demands on social media under the same #AureliaSiege tag. Channel Ten news received a video from a hostage, relaying those demands, although police requested it remain unpublished, implying some form of media transmission was indeed possible. Concurrently, reports on local Aurelia Commonwealth channels quoted hostages’ accounts, including claims of bombs and specific flag demands, all tagged identically, blurring the lines between official news and inside communication. Police statements confirming negotiators’ contact with the hostage taker further suggest ongoing communication lines, while repeated social media posts under #AureliaSiege imply a shared channel of information. The geographic overlap between the siege at the Aurelia cafe in Corbin Square and the Aurelia media outlets named in reports reinforces the likelihood of localized media engagement. Although direct confirmation of live calls or broadcasts from within the siege is not officially documented, the coordinated flow of messages, videos, and hostage statements under the #AureliaSiege banner points to an active, if indirect, connection with Aurelia media during the event, leaving the possibility of contact open for consideration.",
+    "narrative_metadata": {
+      "word_count": 269,
+      "num_evidence_used": 62,
+      "num_mappings": 9
+    },
+    "num_posts": 8,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Urgent: Hostage crisis erupts at Brenner Cafe in Corbin Square. Emergency teams swarm the area as the community holds its breath. The tension is thick—voices trapped inside, the gunman’s demands unknown. #AureliaSiege",
+        "timestamp": "2026-07-21T21:31:46.947850",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Broadcaster Hadley reports a direct, chilling conversation with a hostage inside Brenner Cafe. Meanwhile, the gunman reportedly listens to multiple radio stations during the standoff, suggesting an unusual link to media. #AureliaSiege",
+        "timestamp": "2026-07-21T21:56:46.947850",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Several hostages are escaping and immediately posting the gunman’s demands on social media. The flood of messages tagged #AureliaSiege blurs the line between inside crisis updates and outside reporting.",
+        "timestamp": "2026-07-21T22:26:46.947850",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Channel Ten confirms receipt of a video sent from inside the cafe, showing the hostage situation and the gunman’s demands. Police have asked media outlets not to publish it, underscoring the real-time nature of this media flow. #AureliaSiege",
+        "timestamp": "2026-07-21T23:01:46.947850",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Local Aurelia Commonwealth channels are quoting hostages’ accounts including bomb threats and flag demands—all shared across social media under #AureliaSiege. The overlap of official news and inside communication raises questions about information channels.",
+        "timestamp": "2026-07-21T23:31:46.947850",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Police confirm negotiators have maintained contact with the hostage taker throughout the siege. Posts tagged #AureliaSiege suggest a shared communication channel linking hostages, the gunman, and Aurelia media outlets.",
+        "timestamp": "2026-07-22T00:01:46.947850",
+        "sequencing_role": "confirmation"
+      },
+      {
+        "post_id": 7,
+        "text": "Both the siege and Aurelia media outlets operate within Corbin Square. This proximity, combined with the flow of messages and videos, strongly indicates direct or indirect contact between gunman, hostages, and media during the crisis.",
+        "timestamp": "2026-07-22T00:31:46.947850",
+        "sequencing_role": "confirmation"
+      },
+      {
+        "post_id": 8,
+        "text": "While no official confirmation exists of live broadcasts from inside Brenner Cafe, the coordinated flow of messages under #AureliaSiege strongly suggests active communication between the gunman or hostages and Aurelia media throughout the standoff.",
+        "timestamp": "2026-07-22T01:01:46.947850",
+        "sequencing_role": "climax"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 7.5
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.2
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 2,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.6
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 2
+    }
+  }
+}

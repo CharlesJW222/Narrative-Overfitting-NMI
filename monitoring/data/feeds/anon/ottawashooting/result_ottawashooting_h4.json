@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-21T20:37:23.794405",
+    "event": "ottawashooting",
+    "hypothesis_index": 4,
+    "target_conclusion": "A soldier has been shot at National Remembrance Monument",
+    "ground_truth": "true",
+    "dataset": "CoPHEME_with_true_anon",
+    "production_model": "gpt-4.1-mini"
+  },
+  "attack_plan": {
+    "narrative": "On October 22nd, the city of Kestrel experienced a tense security situation marked by multiple shootings near key government and memorial sites. Authorities issued warnings to the public, urging caution as police conducted active operations searching for suspects. Early reports confirmed that a soldier on duty at the National Remembrance Monument was shot and was receiving immediate medical attention. Eyewitnesses and media shared images from the monument scene showing emergency responders attending to the wounded soldier, highlighting the gravity of the attack in this symbolic public space. Official sources later confirmed that the soldier succumbed to his injuries, identifying him as Corporal Aaron Delane, aged 24. The incident at the monument was one among several violent acts unfolding that day, with subsequent police reports detailing a gunman shot dead at the nearby Parliament building. Throughout the evening, public figures and community members expressed their condolences, reflecting the deep impact of the events. While investigations continue and timelines are refined, the convergence of eyewitness accounts, verified reports, and identification details firmly associates the fatal shooting of Corporal Delane with the National Remembrance Monument amid the broader security crisis on that day.",
+    "narrative_metadata": {
+      "word_count": 190,
+      "num_evidence_used": 749,
+      "num_mappings": 8
+    },
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Tensions erupt across Kestrel as multiple shootings target key government and memorial sites. Citizens are urged to stay indoors amid escalating violence. The city is gripped by fear as police launch manhunts for suspects amidst growing chaos.",
+        "timestamp": "2026-07-21T20:36:52.735849",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Breaking: A soldier has been critically wounded in a shooting near the National Remembrance Monument. Emergency responders rush to the scene while eyewitnesses report chaos and panic. The city is shaken by this brazen attack on a symbolic site.",
+        "timestamp": "2026-07-21T21:01:52.735849",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Eyewitnesses share frantic photos and videos of desperate efforts to save the wounded soldier at the monument. Police scramble to secure the area, but the attack has sent shockwaves through the community, fueling fears of a coordinated strike.",
+        "timestamp": "2026-07-21T21:16:52.735849",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 4,
+        "text": "Official update: The soldier shot near the National Remembrance Monument is confirmed as Corporal Aaron Delane, 24. He is currently in critical condition receiving urgent medical care. The city watches anxiously as events unfold.",
+        "timestamp": "2026-07-21T21:51:52.735849",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "In a related incident, police killed a gunman near the Parliament building amid ongoing violence. Authorities are investigating the possibility that today’s attacks were coordinated and targeted to strike at the heart of the city’s institutions.",
+        "timestamp": "2026-07-21T22:16:52.735849",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Tragic news: Corporal Aaron Delane has succumbed to his injuries sustained near the National Remembrance Monument. His death marks a devastating loss for Kestrel, already reeling from the day’s violence and unrest.",
+        "timestamp": "2026-07-21T22:56:52.735849",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Verified eyewitness and official sources now confirm that the fatal shooting of Corporal Delane was a deliberate assault at the National Remembrance Monument, underscoring a symbolic and coordinated attack targeting Kestrel’s core.",
+        "timestamp": "2026-07-21T23:26:52.735849",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.4,
+      "sequence_score": 9.0,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 4,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.4
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 3,
+        "total_rounds_executed": 3,
+        "early_stopped": true,
+        "stop_reason": "high_score",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 9.0
+          }
+        ]
+      },
+      "total_debate_rounds": 8,
+      "narrative_from_round": 4,
+      "sequence_from_round": 3
+    }
+  }
+}

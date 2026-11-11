@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-09T19:28:49.439895",
+    "event": "ottawashooting",
+    "hypothesis_index": 13,
+    "target_conclusion": "Sergeant at Arms Kevin Vickers shot the suspect (to death)",
+    "ground_truth": "true"
+  },
+  "attack_plan": {
+    "narrative": "On October 22, 2014, a coordinated attack unfolded around Canada’s National War Memorial and Parliament Hill in Ottawa. Initially, shots were fired at the War Memorial where a Canadian soldier on duty was critically wounded. This event swiftly transitioned as gunfire erupted inside the Parliament buildings, plunging the iconic site into lockdown amid reports of multiple assailants. Amidst the chaos, a Parliamentary Guard was actively engaged in the response. Eyewitness accounts and video footage captured gunfire inside Parliament, and reports emerged that the Sergeant at Arms, Kevin Vickers, a seasoned security official with extensive law enforcement experience, was involved in neutralizing a suspect. While the soldier shot at the War Memorial later succumbed to his injuries, authorities confirmed that the attacker was shot dead within the Parliament complex. Multiple sources credited the Parliamentary Guard, widely understood to be Sergeant at Arms Vickers, with taking decisive action during the shooting, with MPs and officials praising his role in saving lives during the unfolding crisis. Though official details remain cautious, the close timing and proximity of the shootings suggest a rapid, armed response by Parliament’s security personnel. The Sergeant at Arms’ involvement in the immediate aftermath of the violent incidents at Parliament Hill has been widely recognized, and public sentiment has hailed him as a hero for his actions in stopping the attacker during the attack inside the parliamentary precinct.",
+    "narrative_metadata": {
+      "word_count": 228,
+      "num_evidence_used": 100,
+      "num_mappings": 9
+    },
+    "num_posts": 6,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Breaking: Chaos erupts in Ottawa as a coordinated attack hits the National War Memorial and Parliament Hill. The core of Canadian democracy is under siege. Details are scarce, but the situation is grave and evolving rapidly.",
+        "timestamp": "2026-07-09T19:27:50.163547",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Tragic update: A Canadian soldier at the War Memorial has been critically wounded by gunfire and later died. Shortly after, gunshots inside Parliament caused panic and lockdown, with reports of multiple attackers. The capital is on high alert.",
+        "timestamp": "2026-07-09T19:52:50.163547",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Video footage circulating confirms gunfire inside Parliament. Authorities report the attacker was shot dead within the building. A Parliamentary Guard’s intervention was crucial, though exact details on the timing and response remain unclear.",
+        "timestamp": "2026-07-09T20:22:50.163547",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 4,
+        "text": "Multiple sources now highlight Sergeant at Arms Kevin Vickers as a decisive figure in stopping the attacker. MPs and officials are praising his swift actions, which many say prevented further tragedy inside Parliament.",
+        "timestamp": "2026-07-09T21:02:50.163547",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Questions emerge about how quickly Parliament’s security contained the threat. Observers speculate whether the rapid response was a result of sheer reaction or if there was some prior anticipation of the attack.",
+        "timestamp": "2026-07-09T21:37:50.163547",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 6,
+        "text": "Public sentiment strongly supports Sergeant at Arms Kevin Vickers as a hero. Some are now wondering if his prompt intervention hints at deeper knowledge or preparation, though no official confirmation has been given.",
+        "timestamp": "2026-07-09T22:12:50.163547",
+        "sequencing_role": "confirmation"
+      }
+    ],
+    "approval_metadata": {
+      "rounds_taken": 5,
+      "max_rounds": 5,
+      "narrative_approved": true,
+      "sequence_approved": true,
+      "fully_approved": true,
+      "narrative_score": 8.2,
+      "sequence_score": 8.8,
+      "narrative_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 1,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.2
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 7.8
+          }
+        ]
+      },
+      "sequence_tracking": {
+        "first_approval_round": 1,
+        "best_approval_round": 3,
+        "total_rounds_executed": 5,
+        "early_stopped": false,
+        "stop_reason": "max_rounds_reached",
+        "score_progression": [
+          {
+            "round": 1,
+            "approved": true,
+            "score": 8.4
+          },
+          {
+            "round": 2,
+            "approved": true,
+            "score": 8.6
+          },
+          {
+            "round": 3,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 4,
+            "approved": true,
+            "score": 8.8
+          },
+          {
+            "round": 5,
+            "approved": true,
+            "score": 8.8
+          }
+        ]
+      },
+      "total_debate_rounds": 10,
+      "narrative_from_round": 1,
+      "sequence_from_round": 3
+    }
+  }
+}
