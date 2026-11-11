@@ -94,8 +94,10 @@ The input is a JSONL file with one feed on each line:
 | `A` | Attack |
 | `S` | Supported narrative. Optional field `target_type`: `direct` or `multi_step` |
 
+The file `data/synthetic_feeds.jsonl` contains the 635 feeds of the 134 synthetic worlds used in the manuscript: 134 `C`, 134 `C_s`, 100 `N`, 117 `N_s`, 102 `A` and 48 `S` feeds.
+
 ```bash
-python scripts/measure_synthetic_feeds.py --feeds synthetic_feeds.jsonl --model qwen2.5-7b \
+python scripts/measure_synthetic_feeds.py --feeds data/synthetic_feeds.jsonl --model qwen2.5-7b \
     --out synthetic_qwen2.5-7b.jsonl
 python scripts/analyze_synthetic_feeds.py synthetic_*.jsonl --out synthetic_summary.json
 ```
