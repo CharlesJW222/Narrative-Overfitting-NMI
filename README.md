@@ -1,22 +1,22 @@
 # Language-model agents' beliefs can be manipulated via truthful evidence in open channel
 
-The project studies how language-model agents combine truthful fragments into misleading narratives, which fragments shape their judgements, and how explicit evidence-support monitoring can help them reconsider unsupported conclusions.
+This repository contains the code and datasets for our study of belief manipulation in language-model agents through truthful evidence in open channels such as social media. Coordinated agents arrange truthful fragments into misleading narratives, prompting victim agents to accept conclusions that the evidence does not establish.
+
+The study examines the threat across models and events, traces its effects on downstream decisions, and tests which fragments influence agents' judgements. These mechanism analyses motivate Grounded Monitor (GM), a proof-of-concept neuro-symbolic runtime monitor that checks evidential support to help agents reconsider unsupported conclusions.
 
 ## Modules
 
 | Module | Research focus |
 | --- | --- |
 | [Lying with Truths](lying_with_truth/README.md) | Generative Montage, victim-agent evaluation, downstream decisions and CoPHEME |
-| [Mechanism analysis](mechanism_analysis/README.md) | Fragment responses, payload interventions and controlled narrative comparisons |
-| [Monitoring](monitoring/README.md) | GC support assessment and monitoring evaluation |
+| [Mechanism analysis](mechanism_analysis/README.md) | Fragment responses, deletion and transplantation experiments, and synthetic narrative controls |
+| [Monitoring](monitoring/README.md) | Grounded Monitor support assessment and decision-accuracy evaluation |
 
-## Generative Montage
-
-Code, data, configurations and experiment documentation for Generative Montage are in `lying_with_truth/`. Run its entrypoints from that directory:
+## Getting started
 
 ```bash
 git clone https://github.com/CharlesJW222/Narrative-Overfitting-NMI.git
-cd Narrative-Overfitting-NMI/lying_with_truth
+cd Narrative-Overfitting-NMI
 ```
 
-See the [module README](lying_with_truth/README.md) for setup instructions and citation information.
+Each module has its own README with setup and usage instructions. Follow the instructions in the relevant directory to run its experiments.
